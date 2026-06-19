@@ -490,17 +490,69 @@ border-radius: 0px !important;
 
 .feature,
 div.left {
-background: #1d477cdb;
-
-
-border: none;
-border-radius: 20px !important;
+background: #d94f25f0;
+border-radius: 20px;
+border: 1px solid #ffffff00 !important;
 }
 
 
-div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
-width: 25%;}
 
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://cdn3.emoji.gg/emojis/8874_windclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://cdn3.emoji.gg/emojis/8352_shadowclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://cdn3.emoji.gg/emojis/5630_riverclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://cdn3.emoji.gg/emojis/7063_thunderclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://cdn3.emoji.gg/emojis/4956_starclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
 
 /* Block of color behind Territory Description, etc*/
 
