@@ -1,89 +1,42 @@
 /* FONT (From Google Fonts) */
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 
 
-
-
 /* BACKGROUND */
-
-
 
 body {
 background: url('https://img.freepik.com/free-vector/colorful-donuts-seamless-pattern_1308-174489.jpg?semt=ais_hybrid&w=740&q=80') center center fixed;
 background-size: 30%;
 background-repeat: repeat;
-font-family: "Delius Swash Caps", cursive; !important
+font-family: "Delius Swash Caps", cursive !important;
     color: #4E1E1A !important;
 }
 
 
-
-
-
-
-
-
-body {
-    color: #4E1E1A;
-}
-
-
-
-
-
-
-
-
 /* Right Side Panel Background */
-
-
 
 
 .container.main {
 background: #f0b491;
 border-style: none !important;
 border-radius: 20px !important;
-box-shadow: none;
-
-
 }
-
-
-
 
 /* Left Side Panel Background */
 
 
-
-
 .col-md-9 {
 background: #ffffff00;
-border-right: none;
 border-radius: 20px !important;
 }
-
-
-
 
 .col-md-3 .panel {
     color: #94fff8;
 }
 
 
-
-
-
-
-
-
 /* Top + Navigation Bars */
-
-
-
 
 .topbar {
 background-color: #4E1E1A;
@@ -93,13 +46,6 @@ color: #ffffff;
 border-radius: 20px;
 }
 
-
-
-
-
-
-
-
 .navbar {
 background: #4E1E1A;
 border-radius: 20px;
@@ -107,22 +53,12 @@ background-image: url("https://png.pngtree.com/png-vector/20250519/ourmid/pngtre
 }
 
 
-
-
-
-
-
-
 /* Navigation Bar Text & Background */
-
-
 
 
 .navbar li a {
 color: #fbc9d6 !important;
 }
-
-
 
 
 .navbar li a:hover {
@@ -135,18 +71,7 @@ text-shadow: #f28ea4d9 3px 3px 15px;
 }
 
 
-
-
-
-
-
-
 /* Home & Den Banner, Left Side Panel */
-
-
-
-
-
 
 
 
@@ -156,15 +81,9 @@ border-style: none;
 border-radius: 20px;
 }
 
-
-
-
 .breadcrumb .active {
 color: #86F5EE;
 }
-
-
-
 
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
@@ -172,11 +91,6 @@ color: #86F5EE;
 right: 20%
 }
 }
-
-
-
-
-
 
 
 
@@ -188,11 +102,6 @@ right: 20%
 
 
 
-
-
-
-
-
 @media only screen and (max-width: 767px) {
 .breadcrumb::after {
 right: 22%
@@ -201,17 +110,7 @@ right: 22%
 
 
 
-
-
-
-
-
 /* Bookmark / Switch Acc Button */
-
-
-
-
-
 
 
 
@@ -223,94 +122,48 @@ color: 	#86F5EE !important;
 }
 
 
-
-
-
-
-
-
 button.button, button.button:hover {
 background: #AF7052;
 border-style: none !important;
 border-radius: 10px;
-color: 	#86F5EE !important
+color: 	#86F5EE !important;
 }
 
 
-
-
-
-
-
-
 /* Alerts (adjust later) */
-
-
-
-
-
-
 
 
 .alert,
 .alert-warning,
 .alert-danger {
 background: #e94f4ade !important;
-border: none;
 color: #890704;
 border-radius: 20px !important;
 }
 
 
-
-
-
-
-
-
 /* Big Den Header + Second Den Header + Sidebar Headers */
-
-
-
-
-
-
 
 
 h1 {
 color: #f33d82;
 font-size: 40px;
 text-align: center;
-font-family: "Delius Swash Caps", cursive; !important
-text-decoration: none;
+font-family: "Delius Swash Caps", cursive !important;
 }
-
-
 
 
 h2 {
 color: #f46081;
 font-size: 20px;
 text-align: center;
-text-decoration: none;
 }
-
-
-
-
-
-
 
 
 h3 {
 color: #589b25 !important;
 font-size: 18px !important;
 }
-
-
-
-
-
 
 
 
@@ -322,11 +175,6 @@ border-radius: 0px !important;
 
 
 
-
-
-
-
-
 .panel {
 background-color: #4E1E1A !important;
 background-image: url("https://png.pngtree.com/png-vector/20250519/ourmid/pngtree-confetti-sprinkle-pattern-png-png-image_16323275.png") !important;
@@ -335,16 +183,7 @@ box-shadow: none !important;
 border-radius: 10px !important;
 background-size: 60% !important;
 background-repeat: repeat !important;
-
-
 }
-
-
-
-
-
-
-
 
 
 
@@ -353,11 +192,6 @@ background-repeat: repeat !important;
 background: #F0B491;
 border-radius: 10px !important;
 }
-
-
-
-
-
 
 
 
@@ -383,19 +217,10 @@ background-image: linear-gradient(to right, #E94F4A , #F6B3C5);
 border-radius: 25px !important;
 }
 
-
-
-
 .progress:nth-child(5) .progress-bar {
 background-image: linear-gradient(to right, #E94F4A , #F6B3C5);
 border-radius: 25px !important;
 }
-
-
-
-
-
-
 
 
 /* Bar Text */
@@ -404,15 +229,7 @@ color: #4E1E1A !important;
 }
 
 
-
-
-
-
-
-
 /* Adds little icons on energ / achievements / etc boxes */
-
-
 
 
 .col-xs-6 h3 .floatright {
@@ -426,8 +243,6 @@ transform: scaleX(-1);
 }
 
 
-
-
 div.col-xs-5> a:nth-child(1) > h3 > div {
 content: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca85e662-0202-410f-af2d-fd5a1209efca/d9px2cb-a56cfb27-1fba-4573-ba9a-57d714cefc8e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9jYTg1ZTY2Mi0wMjAyLTQxMGYtYWYyZC1mZDVhMTIwOWVmY2EvZDlweDJjYi1hNTZjZmIyNy0xZmJhLTQ1NzMtYmE5YS01N2Q3MTRjZWZjOGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rCq0nm7lLbp4_lIcRc81rzNYpsTfVSycGFQ8HpUnUNQ");
 position: absolute;
@@ -439,11 +254,6 @@ transform: scaleX(-1);
 
 
 
-
-
-
-
-
 div.col-xs-5> a:nth-child(3) > h3 > div {
 content: url("none");
 position: absolute;
@@ -452,22 +262,13 @@ top: -120px !important;
 z-index: 320;
 }
 
-
-
-
 /* Comments Box (wip / rarely use) */
-
-
-
 
 #commentBox {
 background: #f6b3c5e3 !important;
 border-radius: 20px !important;
 border-color: #F28EA4 !important;
 }
-
-
-
 
 div.comment:nth-child(even) {background: #86f5eef0 !important;
 border-bottom: 0px;
@@ -479,33 +280,18 @@ border-bottom: 0px;
 font-weight: normal;
 color: #377d04;}
 
-
-
 div#makeComment {background: #ffffff00 !important;
 border-radius: 20px;
 }
 
-
-
-
 input#comment {background: #f6b3c5e3 !important;
 color: #4E1E1A !important;}
-
-
-
 
 small.text-muted {color: #c33e5b;}
 small.text-muted a {color: #fafafa;}
 
 
-
-
 input[type="button"].bad {background: #e94f4ad6 !important;}
-
-
-
-
-
 
 
 
@@ -515,14 +301,10 @@ height: 5px;
 }
 
 
-
-
 #commentBox::-webkit-scrollbar-track {
 background: #af7052bf;
 border-radius: 20px;  
 }
-
-
 
 
 #commentBox::-webkit-scrollbar-thumb {
@@ -531,15 +313,7 @@ border-radius: 10px;
 }
 
 
-
-
-
-
-
-
 /* Chat CSS overrides */
-
-
 
 
 .s-chat-message:nth-child(even) {
@@ -547,29 +321,19 @@ background: #86f5eef0;
 color: #038d84 !important;
 }
 
-
-
-
 .s-chat-message:nth-child(odd) {
 background: #96d965e6;
 color: #377d04 !important;
 }
 
-
-
-
 .s-chat-message_timestamp /* Timestamps */ {
-	color: 	#E94F4A!important;
+	color: 	#E94F4A !important;
 }
-
-
 
 
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #ffffff !important;
 }
-
-
 
 
 #fra_chatContainer .channelMenu .channelSwitcher {
@@ -664,11 +428,6 @@ border-radius: 30px;
 
 
 
-
-
-
-
-
 /* Lion Info Panel Headers */
 
 
@@ -698,22 +457,7 @@ border-radius: 15px;
 
 
 
-
-
-
-
-
-
-
-
-
 /* Color inside lion info panel box */
-
-
-
-
-
-
 
 
 .inner-table .left {
@@ -724,12 +468,6 @@ border-radius: 20px !important;
 }
 
 
-
-
-
-
-
-
 .inner-table .right {
 background: none;
 border-radius: 0px !important;
@@ -738,20 +476,9 @@ text-align: center;
 
 
 
-
-
-
-
-
 td.right {
 border-radius: 0px !important;
 }
-
-
-
-
-
-
 
 
 .right_odd {
@@ -759,19 +486,7 @@ background: none !important;
 }
 
 
-
-
-
-
-
-
 /* Changes color behind Unsorted, Caves, etc */
-
-
-
-
-
-
 
 
 .cave-grid,
@@ -781,10 +496,6 @@ border: solid !important;
 border-width: 0px !important;
 border-radius: 20px !important;
 }
-
-
-
-
 
 
 
@@ -806,16 +517,7 @@ border-color: none !important;
 
 
 
-
-
-
-
 /* Dynasty, Beetle Book, etc */
-
-
-
-
-
 
 
 
@@ -827,11 +529,8 @@ border: 1px solid #a5674a !important;
 }
 
 
-
-
 div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
 width: 20%;}
-
 
 
 
@@ -888,17 +587,7 @@ background-repeat: no-repeat !important;
 
 
 
-
-
-
-
-
 /* Block of color behind Territory Description, etc*/
-
-
-
-
-
 
 
 
@@ -906,12 +595,6 @@ background-repeat: no-repeat !important;
 background: none;
 border-radius: 0px;
 }
-
-
-
-
-
-
 
 
 input,
@@ -927,13 +610,7 @@ text-shadow: none !important
 
 
 
-
-
-
-
-
 /* Copyright, Terms of Service, CoC, etc. */
-
 
 
 
@@ -943,32 +620,14 @@ text-shadow: none !important;
 }
 
 
-
-
-
-
-
-
 /* Links */
-
-
-
-
-
 
 
 
 a:link,
 a:visited {
 color: #ffffff !important;
-
-
 }
-
-
-
-
-
 
 
 
@@ -978,17 +637,7 @@ color: #d7aa21 !important;
 
 
 
-
-
-
-
-
 /* Scroll Bar Width, Backgound, Thumb */
-
-
-
-
-
 
 
 
@@ -999,32 +648,16 @@ border-radius: 10px;
 
 
 
-
-
-
-
-
 ::-webkit-scrollbar-track {
 background: #af7052bf;
 border-radius: 10px;
 }
 
 
-
-
-
-
-
-
 ::-webkit-scrollbar-thumb {
 background: #4e1e1a99;
 border-radius: 10px;
 }
-
-
-
-
-
 
 
 
@@ -1039,20 +672,9 @@ opacity: 1;
 
 
 
-
-
-
-
-
 table#player img {
 opacity: 0;
 }
-
-
-
-
-
-
 
 
 .table#player hr {
@@ -1061,17 +683,7 @@ border-top-color: #00000000;
 
 
 
-
-
-
-
-
 /* Shape of Lion + User Avatar */
-
-
-
-
-
 
 
 
@@ -1084,7 +696,6 @@ div#lion_image {
 
 
 
-
 table#player img {
 border-radius: 20% !important;
 overflow: hidden;
@@ -1092,17 +703,7 @@ overflow: hidden;
 
 
 
-
-
-
-
-
 /* Logo Replacer */
-
-
-
-
-
 
 
 
@@ -1111,14 +712,7 @@ content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e3b2b47
 }
 
 
-
-
-
-
-
-
 /* Cave + Mounds Pics */
-
 
 
 
@@ -1127,20 +721,9 @@ img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
 }
 
 
-
-
-
-
-
-
 img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
     content: url('https://i.postimg.cc/rybQ2Dcq/photo-1604672857367-a0d662dfd7f2.avif') !important;
 }
-
-
-
-
-
 
 
 
@@ -1149,17 +732,9 @@ img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
 }
 
 
-
-
-
-
-
-
 img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
    content: url('https://i.postimg.cc/LXJQjLRj/istockphoto-534053642-612x612.jpg') !important;
 }
-
-
 
 
 .mound-grid img {
@@ -1171,25 +746,9 @@ padding-top: 80px;
 padding-right: 130px;
 }
 
-
-
-
-
-
-
-
 .mound-grid img {
   border-radius: 20%;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1209,7 +768,6 @@ pointer-events:none;
 
 
 
-
 .breadcrumb::after {
 content: "CSS Katie (#106445) & Hok-Z (#41458) / Edits doge fruit (#45943)";
 color: #ffffffd1;
@@ -1218,9 +776,6 @@ font-size: 10px;
 right: 3%;
 z-index: 100;
 }
-
-
-
 
 
 
@@ -1254,6 +809,96 @@ border-radius: 10px !important;
 }
 
 
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: #86f5eeeb;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #86f5eeeb;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #86f5eeeb;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+#block::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+ }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #86f5eeeb;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #86f5eeeb;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
 
 
 
@@ -1261,12 +906,6 @@ border-radius: 10px !important;
 
 
 /* Boxes show on mobile */
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 767px) {
