@@ -1,0 +1,929 @@
+/* FONT (From Google Fonts) */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+
+
+/* BACKGROUND */
+
+
+
+
+body {
+background: url('https://4kwallpapers.com/images/wallpapers/red-dead-redemption-3840x2160-10624.png') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Love Ya Like A Sister", cursive; !important
+    color: #fafafa !important;
+}
+
+
+
+
+body {
+    color: #1b0002;
+}
+
+
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #9a0710ad;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: 2px 2px 10px 2px #ffa902;
+
+}
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+
+.col-md-3 .panel {
+    color: #ffcf55;
+}
+
+
+
+
+/* Top + Navigation Bars */
+
+
+.topbar {
+background: linear-gradient(180deg, #0c0002, #ffffff00);
+border-style: none;
+color: #ffcf55;
+border-radius: 20px;
+}
+
+
+
+
+.navbar {
+background: linear-gradient(180deg, #0c0002, #ffffff00);
+border-radius: 20px;
+}
+
+
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #ffa902 !important;
+}
+
+
+.navbar li a:hover {
+background: none !important;
+color: #fafafa !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: #ffa902a3 3px 3px 15px;
+}
+
+
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+
+
+.breadcrumb {
+background: #490206a1 !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+.breadcrumb .active {
+color: #ff9299;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+
+
+/* Bookmark / Switch Acc Button */
+
+
+
+
+input.floatright, input.floatright:hover {
+background: #490206 !important;
+border-style: none !important;
+border-radius: 10px;
+color: 	#ffa902 !important;
+}
+
+
+
+
+button.button, button.button:hover {
+background: #490206;
+border-style: none !important;
+border-radius: 10px;
+color: 	#ffa902 !important
+}
+
+
+
+
+/* Alerts (adjust later) */
+
+
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+background: #0c0002bf !important;
+border: none;
+color: #ffdb96;
+border-radius: 20px !important;
+}
+
+
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+
+
+h1 {
+color: #4d0005;
+font-size: 40px;
+text-align: center;
+font-family: "Love Ya Like A Sister", cursive; !important
+text-decoration: none;
+}
+
+
+h2 {
+color: #490206;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+}
+
+
+
+
+h3 {
+color: #ffdb96 !important;
+font-size: 18px !important;
+}
+
+
+
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+.sidebar {
+border: 0px solid #490206 !important;
+border-radius: 0px !important;
+}
+
+
+
+
+.panel {
+background-image: url(https://wallpapercg.com/media/ts_orig/17930.webp) !important;
+border: 1px solid #490206 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+
+}
+
+
+
+
+
+/* Bar Background */
+.progress {
+background: #ffdb96;
+border-radius: 10px !important;
+}
+
+
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background-image: linear-gradient(to right, #490206 , #c90511);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background-image: linear-gradient(to right, #490206 , #c90511);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background-image: linear-gradient(to right, #490206 , #c90511);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background-image: linear-gradient(to right, #490206 , #c90511);
+border-radius: 25px !important;
+}
+
+
+.progress:nth-child(5) .progress-bar {
+background-image: linear-gradient(to right, #490206 , #c90511);
+border-radius: 25px !important;
+}
+
+
+
+
+/* Bar Text */
+.progress div {
+color: #e1be03 !important;
+}
+
+
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/rpCMLvKJ/red-dead-redemption-PNG64.png') !important;
+position: absolute !important;
+top: 25% !important;
+left: -25% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+}
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("none");
+position: absolute;
+left: 45%;
+top: -5px !important;
+z-index: 3435;
+transform: scaleX(-1);
+}
+
+
+
+
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("https://i.postimg.cc/W10hhYdf/Running-Horse-Silhouette-PNG-Transparent-Clip-Art-Image-(2).png");
+position: absolute;
+left: 65%;
+top: -120px !important;
+z-index: 320;
+}
+
+
+/* Comments Box (wip / rarely use) */
+
+
+#commentBox {
+background: #87020aa6 !important;
+border-radius: 20px !important;
+border-color: #84040b !important;
+}
+
+
+div.comment {background: #fefefe00 !important;
+border-bottom: 0px;
+font-weight: normal;
+color: #ffcf55;}
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 20px;
+}
+
+
+input#comment {background: #87020aa6 !important;
+color: #ffcf55 !important;}
+
+
+small.text-muted {color: #f36069;}
+small.text-muted a {color: #fafafa;}
+
+
+input[type="button"].bad {background: #4c0000 !important;}
+
+
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+
+#commentBox::-webkit-scrollbar-track {
+background: #ffcf55cc;
+border-radius: 20px;  
+}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #650207e8;
+border-radius: 10px; 
+}
+
+
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #ffa902b5;
+color: #490206 !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #ffd88ddb;
+color: #490206 !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#c90511 !important;
+}
+
+
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #9b6600 !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #490206;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #fae5a8;
+color: #c90511;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #fae5a8;
+color: #c90511;
+}
+
+
+#fra_chatContainer label {
+color: #490206;
+}
+
+
+.s-chat-popout {
+background: #490206;
+}
+
+
+.s-chat-message_claim {
+background: #d0000d;
+border-bottom: 1px none #ffffff;
+color: #ffffff;
+}
+
+
+.s-chat-message__trivia {
+background-color: #d0000d !important;
+border-bottom-color: #ffffff !important;
+color: #ffffff !important;
+}
+
+
+.s-chat-message__trivia a {
+color: #d0000d !important;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #490206!important;
+        color: 	#ff4f5a !important;
+	border: none !important;
+}
+
+
+/* Lion Info Table Panel */
+
+
+
+
+.table {
+background: #650006ba;
+background-image: url(nnone); !important;
+background-attachment: fixed;
+border: solid #84040b !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 30px;
+}
+
+
+
+
+/* Lion Info Panel Headers */
+
+
+.table .top, .table th {
+background-color: #490206;
+background-image: url("none");
+padding: 8px 20px;
+background-attachment: fixed;
+font-size: 15px;
+font-weight: normal;
+border-radius: 20px;
+}
+
+
+.table .bottom {
+text-align: center;
+background-color: #490206;
+background-image: url(none");
+color: #ffffff;
+border-radius: 15px;
+}
+
+
+
+
+
+
+/* Color inside lion info panel box */
+
+
+
+
+.inner-table .left {
+background: #39010494 !important;
+color: #ed9d02 !important;
+text-align: center;
+border-radius: 20px !important;
+}
+
+
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+
+
+
+td.right {
+border-radius: 0px !important;
+}
+
+
+
+
+.right_odd {
+background: none !important;
+}
+
+
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+
+
+.cave-grid,
+.mound-grid {
+background: #39010494;
+border: solid !important;
+border-width: 0px !important;
+border-radius: 20px !important;
+}
+
+
+
+
+/* Feed All Play All */
+
+
+.feature {
+background: #39010494 !important;
+color: 	#ffa902 !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+
+
+.feature,
+div.left {
+background: #39010494;
+border-radius: 20px;
+border: 1px solid #4902069e !important;
+}
+
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://www.svgheart.com/wp-content/uploads/2025/03/cowboy-hat-02_608-430-min.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://images.vexels.com/media/users/3/288687/isolated/preview/3263ae5994e45d2a4154037f5cfaec34-pistol-silhouette-wild-west.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 70% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://images.vexels.com/media/users/3/245592/isolated/preview/e54da100b72f9cd319c986a8dbb0321c-single-cowboy-boot-cut-out.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 40% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://www.pngarts.com/files/8/Silhouette-Black-Horse-PNG-Image.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://images.vexels.com/media/users/3/200673/isolated/preview/14f6bb004b6684867f2300b2812e7acb-knife-hunter-silhouette.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 80% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+
+
+input,
+select,
+textarea {
+background: #c9051161 !important;
+border: none !important;
+border-radius: 20px !important;
+color: #fafafa !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+color: #fafafa !important;
+text-shadow: none !important;
+}
+
+
+
+
+/* Links */
+
+
+
+
+a:link,
+a:visited {
+color: #f5d496 !important;
+
+}
+
+
+
+
+a:hover {
+color: #ffffff !important;
+}
+
+
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+
+::-webkit-scrollbar-track {
+background: #ffcf55cc;
+border-radius: 10px;
+}
+
+
+
+
+::-webkit-scrollbar-thumb {
+background: #650207e8;
+border-radius: 10px;
+}
+
+
+
+
+/* Lion Icon + Avatar Opacity */
+
+
+div#lion_image {
+opacity: 1;
+}
+
+
+
+
+table#player img {
+opacity: 0;
+}
+
+
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+
+
+
+/* Shape of Lion + User Avatar */
+
+
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+
+
+/* Logo Replacer */
+
+
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/sXWSyYk5/red-dead-redemption-PNG20.png');
+}
+
+
+
+
+/* Cave + Mounds Pics */
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://i.postimg.cc/5Nsms31K/img.jpg') !important;
+}
+
+
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://images8.alphacoders.com/359/thumb-1920-359222.jpg') !important;
+}
+
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://wallpapercat.com/w/full/3/a/0/661-3840x2160-desktop-4k-red-dead-redemption-wallpaper-photo.jpg') !important;
+}
+
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://i.postimg.cc/8zCZGYtL/red-dead-redemption-2560x1440-10815.jpg') !important;
+}
+
+
+.mound-grid img {
+background: url("https://i.postimg.cc/Sx8JnSZf/red-dead-redemption-2-full-hd-a242sno6kwo4mr52.jpg");
+background-size: cover;
+width: 0;
+height: 0;
+padding-top: 80px;
+padding-right: 130px;
+}
+
+
+
+
+.mound-grid img {
+  border-radius: 20%;
+}
+
+
+
+
+
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7f69a0b6-e8ff-43a0-8b23-0094b917323c/dey1kbp-f7997552-528a-4607-a03f-69c5c7b2b4e1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi83ZjY5YTBiNi1lOGZmLTQzYTAtOGIyMy0wMDk0YjkxNzMyM2MvZGV5MWticC1mNzk5NzU1Mi01MjhhLTQ2MDctYTAzZi02OWM1YzdiMmI0ZTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hgOA2qx4Ur1Mq2Q3bRsRLJRGFBig1dxR1y4y-eirDPA');
+background-size: cover;
+position: fixed;
+display: block;
+height:350px;
+width:300px;
+right: 0px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+.breadcrumb::after {
+content: "CSS Katie (#106445) & Hok-Z (#41458) / Edits doge fruit (#45943)";
+color: #ffffffb3;
+position: absolute;
+font-size: 9px;
+right: 3%;
+z-index: 100;
+}
+
+
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffa902a1;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #ffa90296;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+
+
+/* Boxes show on mobile */
+
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}

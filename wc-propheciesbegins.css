@@ -1,0 +1,748 @@
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://64.media.tumblr.com/50ffb1d8efd05ca24a0a8ce9383d4b27/63bba7122c726bc4-16/s1280x1920/96aa1c6dd058e870ceaaf85ed04240aea0a18582.pnj') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Inria Serif", seriff;
+color: #070a1a;
+}
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #4e7ea99c;
+border-style: none !important;
+box-shadow: none;
+border-radius: 20px;
+}
+
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 0px;
+}
+
+
+
+/* Top + Navigation Bars */
+
+
+.topbar {
+background: linear-gradient(180deg, #12183A, #ffffff00);
+border-style: none;
+border-top: none;
+color: #65C2EC;
+border-radius: 20px;
+}
+
+
+.navbar {
+background: linear-gradient(180deg, #12183A, #ffffff00);
+border-bottom: none;
+border-radius: 20px;
+}
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #65C2EC !important;
+}
+
+
+.navbar li a:hover {
+background: #ffffff00 !important;
+transform: scale(1.4);
+transition: all 0.3s ease-in-out 0.1s;
+color: #FFFDFE !important;
+border-radius: 20px;
+}
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+.breadcrumb {
+background: #1d477cc7 !important;
+border-style: none;
+border-radius: 15px;
+}
+
+
+.breadcrumb .active {
+color: #65C2EC;
+}
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+/* Bookmark / Switch Acc Button */
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #FEFDFE;
+	border: 1px solid #ffffff00;
+    background: #082E61;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 20px;
+}
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #FEFDFE;
+	border: 1px solid #ffffff00;
+    background: #082E61;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 20px;
+}
+
+/* Alerts (adjust later) */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+background: #f49472e6 !important;
+border: none;
+color: #FEFDFE;
+border-radius: 20px !important;
+}
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+h1 {
+color: #FEFDFE;
+font-size: 35px;
+text-align: center;
+font-family: "Cinzel", serif;
+font-weight: 700;
+text-decoration: none;
+}
+
+
+h2 {
+color: #FEFDFE;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+}
+
+
+h3 {
+color: #FEFDFE !important;
+font-size: 15px !important;
+}
+
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+.sidebar {
+background-image: url(none); !important;
+border: 0px !important;
+border-radius: 5px !important;
+}
+
+
+.panel {
+background: none !important;
+border: 1px solid #1d477cd9 !important;
+box-shadow: none !important;
+border-radius: 15px !important;
+}
+
+
+/* Bar Background */
+.progress {
+background: #7dd0f6db;
+border-radius: 10px !important;
+}
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background-image: linear-gradient(to right, #93485F , #f49472);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background-image: linear-gradient(to right, #93485F , #F49472);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background-image: linear-gradient(to right, #93485F , #F49472);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background-image: linear-gradient(to right, #93485F , #F49472);
+border-radius: 25px !important;
+}
+
+.progress:nth-child(5) .progress-bar {
+background-image: linear-gradient(to right, #93485F , #F49472);
+border-radius: 25px !important;
+}
+
+
+/* Bar Text */
+.progress div {
+color: #FEFDFE !important;
+}
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/RVLh5tbQ/Lionheart-TPB-1.webp') !important;
+position: absolute !important;
+top: -25% !important;
+left: 40% !important;
+z-index: 1 !important;
+margin-bottom: -50px;
+width: 180px;
+height: 100px;
+}
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.postimg.cc/C1qbsTq4/TPB-2-Event-Firepaw.webp");
+position: absolute;
+left: 75%;
+top: -90px !important;
+z-index: 1;
+transform: scaleX(-1);
+width: 150px;
+height: 150px;
+}
+
+
+
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("https://i.postimg.cc/1ztfKzBM/Yellowfang-TPB-1.webp");
+position: absolute;
+left: 50%;
+top: 160px !important;
+z-index: 1;
+width: 150px;
+height: 150px;
+}
+
+
+/* Comments Box */
+
+
+#commentBox {
+background: #65c2ecbd;
+border: 0px solid #ffffff !important;}
+
+
+div.comment {background: #79cbf0 !important;
+border-bottom: 0px solid #ffffff;
+font-weight: bold;
+color: #12183A;}
+
+
+div#makeComment {background: #65c2ecbd !important;
+border: 0px #ffffff solid;
+border-radius: 20px;}
+
+
+input#comment {background: #79cbf0 !important;
+color: #12183A !important;}
+
+
+small.text-muted {color: #a06f30;}
+small.text-muted a {color: #ffffff;}
+
+
+input[type="button"].bad {background: #93485F !important;}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;}
+
+
+#commentBox::-webkit-scrollbar-track {
+background: #4E7EA9;}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #082E61;
+border: 0px solid #fff;}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #90d1eed9;
+color: #082E61 !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #65c2ecd9;
+color: #082E61 !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #FEFDFE !important;
+}
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #FEFDFE !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #082E61;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #6088b9;
+color: #f0f4f9;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #6088b9;
+color: #f0f4f9;
+}
+
+
+#fra_chatContainer label {
+color: #93485F;
+}
+
+
+.s-chat-popout {
+background: #93485F;
+}
+
+
+.s-chat-message_claim {
+background: #FDCF94;
+color: #8d6532;
+}
+
+
+.s-chat-message__trivia {
+background-color: #FDCF94 !important;
+color: #8d6532 !important;
+}
+
+
+.s-chat-message__trivia a {
+color: #93485F !important;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #93485F!important;
+        color: #12183A !important;
+	border: none !important;
+}
+
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: #8ad5f7d6;
+border: solid !important;
+border-width: 0px !important;
+border-collapse: separate;
+border-radius: 20px;
+}
+
+
+/* Lion Info Panel Headers */
+
+
+.top,
+.bottom,
+th {
+background: #1d477cdb  !important;
+border-radius: 20px !important;
+}
+
+
+td.bottom a {
+text-decoration: none !important;
+}
+
+
+/* Color inside lion info panel box */
+
+
+.inner-table .left {
+background: #4e7ea9cf !important;
+color: #FEFDFE !important;
+text-align: center !important;
+border-radius: 20px !important;
+}
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+}
+
+
+td.right {
+border-radius: 0px !important;
+}
+
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+.cave-grid,
+.mound-grid {
+background: #1d477cdb;
+border: solid !important;
+border-width: 0px !important;
+border-radius: 20px !important;
+}
+
+
+/* Feed All Play All */
+
+
+.feature {
+background: #0268a5e3 !important;
+color: #FEFDFE !important;
+border: none !important;
+border-radius: 0px !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: #1d477cdb;
+
+
+border: none;
+border-radius: 20px !important;
+}
+
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 25%;}
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+.table .left a {
+	background: #ffffff00;
+}
+
+
+input,
+select,
+textarea {
+background: #f7d8b1c7 !important;
+border: none !important;
+border-radius: 20px !important;
+color: #082E61 !important;
+box-shadow: none !important;
+text-shadow: none !important;
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+color: #e8e8e8 !important;
+text-shadow: none !important;
+}
+
+
+/* Links */
+
+
+a:link,
+a:visited {
+color: #122489 !important;
+}
+
+
+a:hover {
+color: #FEFDFE !important;
+}
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px
+}
+
+
+::-webkit-scrollbar-track {
+background: #4E7EA9
+}
+
+
+::-webkit-scrollbar-thumb {
+background: #082E61;
+border-radius: 10px
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+
+div#lion_image {
+opacity: 1
+}
+
+
+table#player img {
+opacity: 0
+}
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 60% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/GtfTVNC7/TPB-2-Event-Rusty.webp');
+height: 125px;
+}
+
+
+/* Cave + Mounds Pics */
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://i.postimg.cc/ZKyW0wmg/TPB-1-Bluestar-Template.webp') !important;
+    height: 220px;
+}
+
+
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://i.postimg.cc/vBcVhbRY/TPB-1-Tigerstar-Template.webp') !important;
+    height: 220px;
+}
+
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://i.postimg.cc/JzkY6CLb/TPB-1-Spottedleaf-Template.webp') !important;
+    height: 220px;
+}
+
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://i.postimg.cc/0yzjhZWh/TPB-1-Template-(1).webp') !important;
+    height: 220px;
+}
+
+
+.mound-grid img {
+background: url("https://i.postimg.cc/KzxZc5Np/TPB-1-Ravenpaw-Template.webp");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-size: cover !important;
+}
+
+
+/* pagedoll */
+.container.main::after {
+content: "";
+background-image: url('https://i.postimg.cc/NGyr3sKD/Spottedleaf-TPB-1.webp');
+background-size: cover;
+position: fixed;
+display: block;
+height:300px;
+width:300px;
+right: 0px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+.container.main::before {
+content: "";
+background-image: url('https://i.postimg.cc/7LDWRtX0/TPB-2-Event-Fire-Gray-Raven.webp');
+background-size: cover;
+position: fixed;
+display: block;
+height: 250px;
+width: 250px;
+left: 0px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+.breadcrumb::after {
+content: "CSS by doge fruit (#45943)";
+color: #ffffff8a;
+position: absolute;
+font-size: 10.7px;
+right: 10%; /* (This may need adjusting) */
+z-index: 100
+}
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #a3e5fdd9;
+transition: width 3s, height 3s; /* Adding transitions for smooth animation */
+border-radius: 20px;
+scrollbar-color: none;
+scrollbar-width: none;
+}
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}

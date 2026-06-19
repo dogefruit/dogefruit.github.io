@@ -1,0 +1,892 @@
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Quicksand&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://i.postimg.cc/GtLnGGch/spacebgg.jpg') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Quicksand", sans-serif !important;
+color: #ffffff !important;
+}
+
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #4d7eb978;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: none;
+}
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+
+.col-md-3 .panel {
+    color: #ffffff;
+}
+
+
+
+/* Top + Navigation Bars */
+
+
+.topbar {
+background: linear-gradient(180deg, #1D366C, #595C8E);
+border-style: none;
+color: #ffffff;
+border-radius: 20px;
+}
+
+
+.navbar {
+background: linear-gradient(180deg, #1D366C, #595C8E);
+border-radius: 20px;
+font-family: "Audiowide", sans-serif;
+}
+
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #D57173 !important;
+}
+
+
+.navbar li a:hover {
+background: none !important;
+color: #ECC0C9 !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: #FAEADB 3px 3px 15px;
+}
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+
+.breadcrumb {
+background: #9f8cb9b5 !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+.breadcrumb .active {
+color: #FAEADB;
+}
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+
+
+
+/* Bookmark / Switch Acc Button */
+
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #ffffff;
+	border: 0px solid #ffffff;
+    background: #1D366C;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #ffffff;
+	border: 0px solid #ffffff;
+    background: #0E0403;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+
+/* Alerts (adjust later) */
+
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+background: #a24851db !important;
+border: none;
+color: #FAEADB;
+border-radius: 20px !important;
+}
+
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+
+h1 {
+color: #0E0403;
+font-size: 40px;
+text-align: center;
+font-family: "Audiowide", sans-serif !important;
+text-decoration: none;
+}
+
+
+
+h2 {
+color: #0E0403;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: "Audiowide", sans-serif !important;
+}
+
+
+
+h3 {
+color: #ddd1ff!important;
+font-size: 18px !important;
+font-family: "Audiowide", sans-serif !important;
+}
+
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+
+.panel {
+background: linear-gradient(180deg, #1D366C, #595C8E) !important;
+border: 1px solid #9f8cb985 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+
+/* Bar Background */
+.progress {
+background: #FAEADB;
+border-radius: 10px !important;
+}
+
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background-image: linear-gradient(to right, #9F8CB9 , #ECC0C9);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background-image: linear-gradient(to right, #9F8CB9 , #ECC0C9);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background-image: linear-gradient(to right, #9F8CB9 , #ECC0C9);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background-image: linear-gradient(to right, #9F8CB9 , #ECC0C9);
+border-radius: 25px !important;
+}
+
+.progress:nth-child(5) .progress-bar {
+background-image: linear-gradient(to right, #9F8CB9 , #ECC0C9);
+border-radius: 25px !important;
+}
+
+
+/* Bar Text */
+.progress div {
+color: #0E0403 !important;
+}
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://static.lioden.com/images/explorenew/celestial/pulsarcerapter.png') !important;
+position: absolute !important;
+top: 5% !important;
+left: -10% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(1);
+}
+
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://static.lioden.com/images/explorenew/celestial/veilhippocampus.png");
+position: absolute;
+left: 1%;
+top: 5px !important;
+z-index: 1;
+transform: scaleX(-1);
+}
+
+
+
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("none");
+position: absolute;
+left: 65%;
+top: -120px !important;
+z-index: 320;
+}
+
+
+/* Comments Box (wip / rarely use) */
+
+
+
+#commentBox {
+background: linear-gradient(180deg, #1D366C, #595C8E) !important;
+border-radius: 20px !important;
+border-color: #9f8cb985 !important;
+}
+
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #ffffff;}
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 20px;
+}
+
+
+input#comment {background: linear-gradient(180deg, #1D366C, #595C8E) !important;
+color: #ffffff !important;}
+
+
+
+
+small.text-muted {color: #ECC0C9;}
+small.text-muted a {color: #fafafa;}
+
+
+
+
+input[type="button"].bad {background: #a24851d9 !important;}
+
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+
+#commentBox::-webkit-scrollbar-track {
+background: #ecc0c9de;
+border-radius: 20px;  
+}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #4d7eb9e8;
+border-radius: 10px; 
+}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #4d7eb9e3;
+color: #ffffff !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #9f8cb9e0;
+color: #ffffff !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#ECC0C9 !important;
+}
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #1D366C;
+}
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #9cc2ef;
+color: #595C8E;
+}
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #9cc2ef;
+color: #595C8E;
+}
+
+
+#fra_chatContainer label {
+color: #1D366C;
+}
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+.s-chat-message_claim {
+background: #A24851;
+border-bottom: 1px none #ffffff;
+color: #ffffff;
+}
+
+
+.s-chat-message__trivia {
+background-color: #A24851 !important;
+border-bottom-color: #ffffff !important;
+color: #ffffff !important;
+}
+
+
+.s-chat-message__trivia a {
+color: #A24851 !important;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #ECC0C9!important;
+        color: 	#D57173 !important;
+	border: none !important;
+}
+
+
+/* Lion Info Table Panel */
+
+
+
+
+.table {
+background: linear-gradient(180deg, #1D366C, #595C8E) !important;
+background-image: url(none); !important;
+background-attachment: fixed;
+border: solid #9f8cb985 !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 30px;
+}
+
+
+
+/* Lion Info Panel Headers */
+
+
+
+
+.table .top, .table th {
+background-color: #ffffff;
+background-image: url("https://st.depositphotos.com/64905624/60967/i/450/depositphotos_609673726-stock-photo-seamless-space-texture-background-stars.jpg");
+padding: 8px 20px;
+background-attachment: fixed;
+font-size: 15px;
+font-weight: normal;
+border-radius: 20px;
+font-family: "Audiowide", sans-serif;
+}
+
+
+
+
+.table .bottom {
+text-align: center;
+background-color: #ffffff;
+background-image: url('https://st.depositphotos.com/64905624/60967/i/450/depositphotos_609673726-stock-photo-seamless-space-texture-background-stars.jpg');
+color: #ffffff;
+background-attachment: fixed;
+border-radius: 15px;
+font-family: "Audiowide", sans-serif;
+}
+
+
+
+/* Color inside lion info panel box */
+
+
+
+.inner-table .left {
+background: #4d7eb9b5 !important;
+color: #ECC0C9 !important;
+text-align: center;
+border-radius: 20px !important;
+font-family: "Audiowide", sans-serif;
+font-size: 12px;
+}
+
+
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+
+
+td.right {
+border-radius: 0px !important;
+}
+
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(180deg, #1D366C, #595C8E);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 20px !important;
+}
+
+
+/* Feed All Play All */
+
+
+
+
+.feature {
+background: linear-gradient(180deg, #1D366C, #595C8E) !important;
+color: 	#ffffff !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #1D366C, #595C8E);
+border-radius: 20px;
+border: 1px solid #9f8cb985 !important;
+}
+
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://static.lioden.com/images/items/Other/gemmorganite.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://static.lioden.com/images/items/Other/gempietersite.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://static.lioden.com/images/items/Other/gem_starruby.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://static.lioden.com/images/items/Other/gemcelestite.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://static.lioden.com/images/items/Other/gem_howlite.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+
+input,
+select,
+textarea {
+background: #71a2dc9e !important;
+border: none !important;
+border-radius: 20px !important;
+color: #ffffff !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+color: #ffffff !important;
+text-shadow: none !important;
+}
+
+
+
+/* Links */
+
+
+a:link,
+a:visited {
+color: #a4c8f4 !important;
+}
+
+
+a:hover {
+color: #ffffff !important;
+}
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-track {
+background: #ecc0c9de;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background: #4d7eb9e8;
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+
+div#lion_image {
+opacity: 1;
+}
+
+
+
+table#player img {
+opacity: 0;
+}
+
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+
+/* Shape of Lion + User Avatar */
+
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+/* Logo Replacer */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/yNMpTvxv/sleepingpegasus.png');
+}
+
+
+/* Cave + Mounds Pics */
+
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://i.postimg.cc/P5x6nNR2/1.png') !important;
+}
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://i.postimg.cc/ZRBRGP8R/11.png') !important;
+}
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://i.postimg.cc/g2g2rtst/14.png') !important;
+}
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://i.postimg.cc/WbMDp7Qj/13.png') !important;
+}
+
+.mound-grid img {
+background: url("https://i.postimg.cc/ZnzTXGYc/26.png");
+background-size: cover;
+width: 0;
+height: 0;
+padding-top: 80px;
+padding-right: 130px;
+}
+
+
+.mound-grid img {
+  border-radius: 20%;
+}
+
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://static.lioden.com/images/explorenew/celestial/lostpegasusfoal.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 350px;
+width: 400px;
+right: -2px;
+bottom: 0rem;
+z-index: 1;
+pointer-events:none;
+}
+
+
+.breadcrumb::after {
+content: "CSS by doge fruit (#45943)";
+color: #ffffffd1;
+position: absolute;
+font-size: 10px;
+right: 3%;
+z-index: 100;
+}
+
+
+.credit {
+    content: "Edits by: doge fruit (#45943) // Base by: Katie (#106445) & Hok-Z (#41458)";
+	background: #87b6eeed;
+	color: #FFFFFD;
+	padding: 1em;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 0px;
+	bottom: 0px;
+	width: 110px;
+	height: 35px;
+	opacity: 0.6;
+    overflow: hidden;
+    scrollbar-width: none;
+    transition: width 1.5s, height 1.5s;
+}
+
+.credit:hover {
+width: 110px;
+height: 100px;
+overflow: hidden;
+word-wrap: break-word;
+overflow: scroll;
+transition: width 1.5s, height 1.5s;
+}
+
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #87b6ee;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #87b6eeed;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+
+/* Boxes show on mobile */
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
