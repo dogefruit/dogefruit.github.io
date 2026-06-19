@@ -1,0 +1,1261 @@
+/* FONT (From Google Fonts) */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://images.unsplash.com/photo-1580687774725-4e23db308efc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Fuzzy Bubbles", sans-serif; !important
+    color: #F9D295 !important;
+}
+
+
+
+
+body {
+    color: #F9D295;
+}
+
+
+
+
+
+
+
+
+/* Right Side Panel Background */
+
+
+
+
+.container.main {
+background: #462c0b94;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: none;
+
+
+}
+
+
+
+
+/* Left Side Panel Background */
+
+
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+
+
+
+.col-md-3 .panel {
+    color: #F9D295;
+}
+
+
+
+
+
+
+
+
+/* Top + Navigation Bars */
+
+
+
+
+.topbar {
+background-color: #493114;
+background-image: url("none");
+border-style: none;
+color: #F9D295;
+border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+.navbar {
+background: #493114;
+border-radius: 20px;
+background-image: url("none");
+}
+
+
+
+
+
+
+
+
+/* Navigation Bar Text & Background */
+
+
+
+
+.navbar li a {
+color: #A06D2C !important;
+}
+
+
+
+
+.navbar li a:hover {
+background: none !important;
+color: #F9D295 !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: #FFE8A4 3px 3px 15px;
+}
+
+
+
+
+
+
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+
+
+
+
+
+
+.breadcrumb {
+background: #f9d295ad !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+
+
+.breadcrumb .active {
+color: #493114;
+}
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+
+
+
+
+
+
+/* Bookmark / Switch Acc Button */
+
+
+
+
+
+
+
+
+input.floatright, input.floatright:hover {
+background: #A06D2C !important;
+border-style: none !important;
+border-radius: 10px;
+color: 	#2A1803 !important;
+}
+
+
+
+
+
+
+
+
+button.button, button.button:hover {
+background: #A06D2C;
+border-style: none !important;
+border-radius: 10px;
+color: 	#2A1803 !important
+}
+
+
+
+
+
+
+
+
+/* Alerts (adjust later) */
+
+
+
+
+
+
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+background: #ffe9c6e3 !important;
+border: none;
+color: #A06D2C;
+border-radius: 20px !important;
+}
+
+
+
+
+
+
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+
+
+
+
+
+
+h1 {
+color: #2A1803;
+font-size: 40px;
+text-align: center;
+font-family: "Fuzzy Bubbles", sans-serif; !important
+text-decoration: none;
+}
+
+
+
+
+h2 {
+color: #3b2205;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+h3 {
+color: #FFE8A4 !important;
+font-size: 18px !important;
+}
+
+
+
+
+
+
+
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+
+
+
+
+
+
+
+.panel {
+background-color: #a06d2cd4 !important;
+background-image: url("none") !important;
+border: 1px solid #462c0b69 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+background-size: 60% !important;
+background-repeat: repeat !important;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Bar Background */
+.progress {
+background: #F9D295;
+border-radius: 10px !important;
+}
+
+
+
+
+
+
+
+
+/* Individual Bar Colors */
+
+
+
+
+.progress:nth-child(1) .progress-bar {
+background-image: linear-gradient(to right, #493114 , #ffc207);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background-image: linear-gradient(to right, #493114 , #ffc207);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background-image: linear-gradient(to right, #493114 , #ffc207);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background-image: linear-gradient(to right, #493114 , #ffc207);
+border-radius: 25px !important;
+}
+
+
+
+
+.progress:nth-child(5) .progress-bar {
+background-image: linear-gradient(to right, #493114 , #ffc207);
+border-radius: 25px !important;
+}
+
+
+
+
+
+
+
+
+/* Bar Text */
+.progress div {
+color: #2A1803 !important;
+}
+
+
+
+
+
+
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+
+
+.col-xs-6 h3 .floatright {
+content: url('none');
+top: 43% !important;
+left: -75% !important;
+z-index: -1 !important;
+margin-bottom: -40px;
+transform: scaleX(-1);
+}
+
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://www.lioden.com/images/items/Other/gemopalsparkling.png");
+position: absolute;
+left: -25%;
+top: -325px !important;
+z-index: 3;
+transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("https://www.lioden.com/images/items/Other/gemnuumite.png");
+position: absolute;
+left: 75%;
+top: -45px !important;
+z-index: 320;
+}
+
+
+
+
+/* Comments Box (wip / rarely use) */
+
+
+
+
+#commentBox {
+background: #ffc20778 !important;
+border-radius: 20px !important;
+border-color: #8f6c00e6 !important;
+}
+
+
+
+
+div.comment {background: #d39941e0 !important;
+border-bottom: 0px;
+font-weight: normal;
+color: #2A1803;}
+
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 20px;
+}
+
+
+
+
+input#comment {background: #d39941e0 !important;
+color: #2A1803 !important;}
+
+
+
+
+small.text-muted {color: #94580c;}
+small.text-muted a {color: #ffffff;}
+
+
+
+
+input[type="button"].bad {background: #ca6014f0 !important;}
+
+
+
+
+
+
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+
+
+
+#commentBox::-webkit-scrollbar-track {
+background: #f9d295d1;
+border-radius: 20px;  
+}
+
+
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #493114e0;
+border-radius: 10px; 
+}
+
+
+
+
+
+
+
+
+/* Chat CSS overrides */
+
+
+
+
+.s-chat-message:nth-child(even) {
+background: #d39941e0;
+color: #5c3300 !important;
+}
+
+
+
+
+.s-chat-message:nth-child(odd) {
+background: #754100d1;
+color: #dda44ce0 !important;
+}
+
+
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#aa5213 !important;
+}
+
+
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #5c3300;
+}
+
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #F9D295;
+color: #A06D2C;
+}
+
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #F9D295;
+color: #A06D2C;
+}
+
+
+
+
+#fra_chatContainer label {
+color: #aa5213;
+}
+
+
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+
+
+.s-chat-message_claim {
+background: #aa5213;
+border-bottom: 1px none #ffffff;
+color: #ffffff;
+}
+
+
+
+
+.s-chat-message__trivia {
+background-color: #aa5213 !important;
+border-bottom-color: #ffffff !important;
+color: #ffffff !important;
+}
+
+
+
+
+.s-chat-message__trivia a {
+color: #aa5213 !important;
+}
+
+
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #493114!important;
+        color: 	#F9D295 !important;
+	border: none !important;
+}
+
+
+
+
+/* Lion Info Table Panel */
+
+
+
+
+
+
+
+
+.table {
+background: #a06d2cd9;
+background-image: url(none); !important;
+background-attachment: fixed;
+border: solid #7e531b00 !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+/* Lion Info Panel Headers */
+
+
+
+
+.table .top, .table th {
+background-color: #493114;
+background-image: url("no");
+padding: 8px 20px;
+background-attachment: none;
+font-size: 15px;
+font-weight: normal;
+border-radius: 20px;
+}
+
+
+
+
+.table .bottom {
+text-align: center;
+background-color: #493114;
+background-image: url('no');
+color: #ffffff;
+background-attachment: none;
+border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Color inside lion info panel box */
+
+
+
+
+
+
+
+
+.inner-table .left {
+background: #462c0ba1 !important;
+color: #291701 !important;
+text-align: center;
+border-radius: 20px !important;
+}
+
+
+
+
+
+
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+td.right {
+border-radius: 0px !important;
+}
+
+
+
+
+
+
+
+
+.right_odd {
+background: none !important;
+}
+
+
+
+
+
+
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+
+
+
+
+
+
+.cave-grid,
+.mound-grid {
+background: #2a1803de;
+border: solid !important;
+border-width: 0px !important;
+border-radius: 20px !important;
+}
+
+
+
+
+
+
+
+
+/* Feed All Play All */
+
+
+
+
+.feature {
+background: #2a1803de !important;
+color: 	#F9D295 !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+
+
+
+
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+
+
+
+
+
+
+.feature,
+div.left {
+background: #2a1803de;
+border-radius: 20px;
+border: 1px solid #2a1803de !important;
+}
+
+
+
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://www.lioden.com/images/items/Other/gemlabradorite.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 40% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://www.lioden.com/images/items/Other/gemopalrough.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 40% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://www.lioden.com/images/items/Other/gemmossagate.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 40% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://www.lioden.com/images/items/Other/gemcelestite.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 40% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://www.lioden.com/images/items/Other/gemfireopal.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 40% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+
+
+
+
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+
+
+
+
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+input,
+select,
+textarea {
+background: #f9d295bd !important;
+border: none !important;
+border-radius: 20px !important;
+color: #462C0B !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+color: #F9D295 !important;
+}
+
+
+
+
+/* Links */
+
+
+
+
+a:link,
+a:visited {
+color: #FFE8A4 !important;
+
+
+}
+
+
+
+
+
+
+
+
+a:hover {
+color: #f5cf5f !important;
+}
+
+
+
+
+
+
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+::-webkit-scrollbar-track {
+background: #f9d295d1;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+::-webkit-scrollbar-thumb {
+background: #493114e0;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* Lion Icon + Avatar Opacity */
+
+
+
+
+div#lion_image {
+opacity: 1;
+}
+
+
+
+
+
+
+
+
+table#player img {
+opacity: 0;
+}
+
+
+
+
+
+
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+
+
+
+
+
+
+
+/* Shape of Lion + User Avatar */
+
+
+
+
+
+
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/* Logo Replacer */
+
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/yNs71Rkq/ukuvezaday-250x150.png');
+}
+
+
+
+
+/* Cave + Mounds Pics */
+
+
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://static.lioden.com/images/npc/leaderboarddweller3.png') !important;
+}
+
+
+
+
+
+
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://static.lioden.com/images/npc/ldbdweller1.png') !important;
+}
+
+
+
+
+
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://static.lioden.com/images/npc/ldbdweller3.png') !important;
+}
+
+
+
+
+
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://static.lioden.com/images/npc/leaderboarddweller5.png') !important;
+}
+
+
+
+
+.mound-grid img {
+background: url("https://static.lioden.com/images/npc/leaderboarddweller1.png");
+background-size: cover;
+width: 0;
+height: 0;
+padding-top: 80px;
+padding-right: 130px;
+}
+
+
+
+
+
+
+
+
+.mound-grid img {
+  border-radius: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://i.postimg.cc/52NMDVrh/ukuveza.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 450px;
+width: 350px;
+right: 0px;
+bottom: -5rem;
+z-index: 1;
+pointer-events:none;
+}
+
+
+
+
+.breadcrumb::after {
+content: "CSS Katie (#106445) & Hok-Z (#41458) / Edits doge fruit (#45943)";
+color: #fff8d38f;
+position: absolute;
+font-size: 10px;
+right: 3%;
+z-index: 100;
+}
+
+
+
+
+
+
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #b37930e0;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #b37930e0;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+
+
+
+
+
+
+/* Boxes show on mobile */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
