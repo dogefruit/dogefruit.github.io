@@ -1,0 +1,1127 @@
+/* FONT (From Google Fonts) */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+
+/* BACKGROUND */
+
+
+
+body {
+background: url('https://64.media.tumblr.com/1acbcd0e54f2397f8649fbb12882f558/e8c573c797ed1786-6c/s2048x3072/f2bd346030f258224ecebca51490956c062fb9ca.pnj') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Inria Serif", seriff;
+color: #440C12;
+}
+
+
+
+/* Right Side Panel Background */
+
+
+
+.container.main {
+background: #f9c550d1;
+border-style: none !important;
+box-shadow: none;
+border-radius: 20px;
+}
+
+
+
+
+/* Left Side Panel Background */
+
+
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 0px;
+}
+
+
+
+
+
+
+/* Top + Navigation Bars */
+
+
+
+
+.topbar {
+background: linear-gradient(180deg, #D94F25, #ffffff00);
+border-style: none;
+border-top: none;
+color: #FEF49B;
+border-radius: 20px;
+}
+
+
+
+
+.navbar {
+background: linear-gradient(180deg, #D94F25, #ffffff00);
+border-bottom: none;
+border-radius: 20px;
+}
+
+
+
+
+/* Navigation Bar Text & Background */
+
+
+
+
+.navbar li a {
+color: #6B2B2B !important;
+}
+
+
+
+
+.navbar li a:hover {
+background: #ffffff00 !important;
+transform: scale(1.4);
+transition: all 0.3s ease-in-out 0.1s;
+color: #fff8bc !important;
+border-radius: 20px;
+}
+
+
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+
+
+.breadcrumb {
+background: #d94f259c !important;
+border-style: none;
+border-radius: 15px;
+}
+
+
+
+
+.breadcrumb .active {
+color: #FEEA72;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+
+
+/* Bookmark / Switch Acc Button */
+
+
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #fffad1;
+	border: 1px solid #ffffff00;
+    background: #F0812B;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 20px;
+}
+
+
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #fffad1;
+	border: 1px solid #ffffff00;
+    background: #F0812B;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 20px;
+}
+
+
+/* Alerts (adjust later) */
+
+
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+background: #c54456cf !important;
+border: none;
+color: #fffad1;
+border-radius: 20px !important;
+}
+
+
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+
+
+h1 {
+color: #a22525;
+font-size: 35px;
+text-align: center;
+font-family: "Cinzel", serif;
+font-weight: 700;
+text-decoration: none;
+}
+
+
+
+
+h2 {
+color: #a22525;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+}
+
+
+
+
+h3 {
+color: #a22525 !important;
+font-size: 15px !important;
+}
+
+
+
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+.sidebar {
+background-image: url(none); !important;
+border: 0px !important;
+border-radius: 5px !important;
+}
+
+
+
+
+.panel {
+background: none !important;
+border: 1px solid #d94f258a !important;
+box-shadow: none !important;
+border-radius: 15px !important;
+}
+
+
+
+
+/* Bar Background */
+.progress {
+background: #FEF49B;
+border-radius: 10px !important;
+}
+
+
+
+
+/* Individual Bar Colors */
+
+
+
+
+.progress:nth-child(1) .progress-bar {
+background-image: linear-gradient(to right, #8E376E , #C54456);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background-image: linear-gradient(to right, #8E376E , #C54456);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background-image: linear-gradient(to right, #8E376E , #C54456);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background-image: linear-gradient(to right, #8E376E , #C54456);
+border-radius: 25px !important;
+}
+
+
+.progress:nth-child(5) .progress-bar {
+background-image: linear-gradient(to right, #8E376E , #C54456);
+border-radius: 25px !important;
+}
+
+
+
+
+/* Bar Text */
+.progress div {
+color: #440C12 !important;
+}
+
+
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/dQzqbcfB/Patchpelt-TPB-2.webp') !important;
+position: absolute !important;
+top: 21% !important;
+left: 40% !important;
+z-index: 1 !important;
+margin-bottom: -50px;
+width: 180px;
+height: 120px;
+}
+
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.postimg.cc/y8m2pMq0/TPB-2-Event-Cloudkit.webp");
+position: absolute;
+left: 50%;
+top: -70px !important;
+z-index: 1;
+transform: scaleX(-1);
+width: 160px;
+height: 110px;
+}
+
+
+
+
+
+
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("https://i.postimg.cc/N0zhR1vq/Brackenfur-TPB-2.webp");
+position: absolute;
+left: 50%;
+top: 160px !important;
+z-index: 1;
+width: 120px;
+height: 150px;
+}
+
+
+/* Comments Box */
+
+
+
+
+#commentBox {
+background: #feea72cf;
+border: 0px solid #ffffff !important;}
+
+
+
+
+div.comment {background: #f6984f !important;
+border-bottom: 0px solid #ffffff;
+font-weight: bold;
+color: #440C12;}
+
+
+
+
+div#makeComment {background: #f6984f !important;
+border: 0px #ffffff solid;
+border-radius: 20px;}
+
+
+
+
+input#comment {background: #feea72cf !important;
+color: #440C12 !important;}
+
+
+
+
+small.text-muted {color: #C54456;}
+small.text-muted a {color: #ffffff;}
+
+
+
+
+input[type="button"].bad {background: #d71b35 !important;}
+
+
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;}
+
+
+
+
+#commentBox::-webkit-scrollbar-track {
+background: #f8f0a9;}
+
+
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #6B2B2B;
+border: 0px solid #fff;}
+
+
+/* Chat CSS overrides */
+
+
+
+
+.s-chat-message:nth-child(even) {
+background: #fef49be0;
+color: #6B2B2B !important;
+}
+
+
+
+
+.s-chat-message:nth-child(odd) {
+background: #ffa55fe6;
+color: #6B2B2B !important;
+}
+
+
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #d71b35 !important;
+}
+
+
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #6B2B2B;
+}
+
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #FEEA72;
+color: #6B2B2B;
+}
+
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #FEEA72;
+color: #6B2B2B;
+}
+
+
+
+
+#fra_chatContainer label {
+color: #ffffff;
+}
+
+
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+
+
+.s-chat-message_claim {
+background: #C54456;
+color: #FEF49B;
+}
+
+
+
+
+.s-chat-message__trivia {
+background-color: #C54456 !important;
+color: #FEF49B !important;
+}
+
+
+
+
+.s-chat-message__trivia a {
+color: #C54456 !important;
+}
+
+
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #8E376E!important;
+        color: #FEEA72 !important;
+	border: none !important;
+}
+
+
+
+
+/* Lion Info Table Panel */
+
+
+
+
+.table {
+background: #f0812bd6;
+border: solid !important;
+border-width: 0px !important;
+border-collapse: separate;
+border-radius: 20px;
+}
+
+
+
+
+/* Lion Info Panel Headers */
+
+
+
+
+.top,
+.bottom,
+th {
+background: #d94f25f0  !important;
+border-radius: 20px !important;
+}
+
+
+
+
+td.bottom a {
+text-decoration: none !important;
+}
+
+
+
+
+/* Color inside lion info panel box */
+
+
+
+
+.inner-table .left {
+background: #d94f25f0 !important;
+color: #f7f0ba !important;
+text-align: center !important;
+border-radius: 20px !important;
+}
+
+
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+}
+
+
+
+
+td.right {
+border-radius: 0px !important;
+}
+
+
+
+
+.right_odd {
+background: none !important;
+}
+
+
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+
+
+.cave-grid,
+.mound-grid {
+background: #d94f25f0;
+border: solid !important;
+border-width: 0px !important;
+border-radius: 20px !important;
+}
+
+
+
+
+/* Feed All Play All */
+
+
+
+
+.feature {
+background: #d94f25f0 !important;
+color: #f7f0ba !important;
+border: none !important;
+border-radius: 15px !important;
+}
+
+
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+
+
+.feature,
+div.left {
+background: #d94f25f0;
+border-radius: 20px;
+border: 1px solid #ffffff00 !important;
+}
+
+
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://cdn3.emoji.gg/emojis/8874_windclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://cdn3.emoji.gg/emojis/8352_shadowclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://cdn3.emoji.gg/emojis/5630_riverclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://cdn3.emoji.gg/emojis/7063_thunderclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://cdn3.emoji.gg/emojis/4956_starclan.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 30% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+
+
+.table .left a {
+	background: #ffffff00;
+}
+
+
+
+input,
+select,
+textarea {
+background: #f9e77be6 !important;
+border: none !important;
+border-radius: 20px !important;
+color: #440C12 !important;
+box-shadow: none !important;
+text-shadow: none !important;
+}
+
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+color: #FEF49B !important;
+text-shadow: none !important;
+}
+
+
+
+/* Links */
+
+
+
+a:link,
+a:visited {
+color: #360300 !important;
+}
+
+
+
+a:hover {
+color: #800700 !important;
+}
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+
+
+
+::-webkit-scrollbar-track {
+background: #f8f0a9;
+}
+
+
+
+
+::-webkit-scrollbar-thumb {
+background: #6B2B2B;
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+
+
+
+div#lion_image {
+opacity: 1;
+}
+
+
+
+
+table#player img {
+opacity: 0;
+}
+
+
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+
+
+
+/* Shape of Lion + User Avatar */
+
+
+
+
+div#lion_image {
+	border-radius: 60% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+/* Shape of Lion + User Avatar */
+
+
+
+
+div#lion_image {
+	border-radius: 60% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+
+
+/* LIODEN LOGO REPLACER */
+
+
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/j2DRWPqt/TPB-2-Event-Pike-Primrose.webp');
+height: 125px;
+}
+
+
+
+
+/* Cave + Mounds Pics */
+
+
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://i.postimg.cc/0jKq5vZN/TPB-2-Cloudtail-Template.webp') !important;
+    height: 220px;
+}
+
+
+
+
+
+
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://i.postimg.cc/1zYmyvP0/TPB-2-Silverstream-Template.webp') !important;
+    height: 220px;
+}
+
+
+
+
+
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://warriorcats.com/wp-content/uploads/2025/02/f2d08cfb944090261830c5eb10d7dcf71b1306a9.png') !important;
+    height: 220px;
+}
+
+
+
+
+
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://i.postimg.cc/NGRcns9j/TPB-2-Template.webp') !important;
+    height: 220px;
+}
+
+
+
+
+.mound-grid img {
+background: url("https://i.postimg.cc/Hn9FkLXw/TPB-1-Princess-Template.webp");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-size: cover !important;
+}
+
+
+
+
+/* pagedoll */
+.container.main::after {
+content: "";
+background-image: url('https://i.postimg.cc/fTj5pFj1/Whitestorm-TPB-2.webp');
+background-size: cover;
+position: fixed;
+display: block;
+height:430px;
+width:350px;
+right: 35px;
+bottom: 2rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+
+
+.container.main::before {
+content: "";
+background-image: url('https://i.postimg.cc/8kyLvS4z/Mudclaw-TPB-2.webp');
+background-size: cover;
+position: fixed;
+display: block;
+height: 350px;
+width: 220px;
+left: -1px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+transform: scaleX(-1)
+}
+
+
+
+
+.breadcrumb::after {
+content: "CSS by doge fruit (#45943)";
+color: #ffffffcf;
+position: absolute;
+font-size: 10.7px;
+right: 10%; /* (This may need adjusting) */
+z-index: 100
+}
+
+
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #ffdfa7e3;
+transition: width 3s, height 3s; /* Adding transitions for smooth animation */
+border-radius: 20px;
+scrollbar-color: none;
+scrollbar-width: none;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+.block {
+    background: #ffdfa7e3;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #ffdfa7e3;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #ffdfa7e3;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+#block::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+ }
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #ffdfa7e3;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #ffdfa7e3;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
+
+
