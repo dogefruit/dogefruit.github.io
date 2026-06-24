@@ -1,0 +1,930 @@
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url(https://fonts.bunny.net/css?family=abril-fatface:400);
+
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://i.postimg.cc/nhgpPWGQ/applkes.gif') center center fixed;
+background-size: 5%;
+background-repeat: repeat;
+font-family: "Nunito", sans-serif !important;
+    color: #586c33 !important;
+}
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #f9fdf3de;
+border-style: none !important;
+border-radius: 10px !important;
+box-shadow: none;
+}
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 10px !important;
+}
+
+
+.col-md-3 .panel {
+    color: #586c33;
+}
+
+
+/* Top + Navigation Bars */
+
+
+.topbar {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF);
+border-style: none;
+color: #586c33;
+border-radius: 10px;
+}
+
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #586c33;
+text-decoration: none;
+}
+.topbar a:hover {
+color: #93ae60;
+}
+
+
+.navbar {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF);
+border-radius: 10px;
+font-family: 'Abril Fatface', display;
+}
+
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #b9b288 !important;
+}
+
+
+.navbar li a:hover {
+background: none !important;
+color: #D3CEAE !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+}
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+.breadcrumb {
+background: #e7eddecf !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+.breadcrumb .active {
+color: #b9b288;
+}
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+/* Bookmark / Switch Acc Button */
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #586c33;
+	border: 0px solid #ffffff;
+    background: #b9b288;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #99b269;
+	border: 0px solid #ffffff;
+    background: #D3CEAE;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+/* Alerts (adjust later) */
+
+
+.alert-danger {
+text-align: left;
+background-color: #eda2a2ed;
+border-color: #ffffff00;
+color: #be6666;
+border-radius: 10px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #cbee8e;
+border-color: #ffffff00;
+color: #88a94d;
+border-radius: 10px !important;
+}
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+h1 {
+color: #87a158;
+font-size: 40px;
+text-align: center;
+font-family: 'Abril Fatface', display !important;
+text-decoration: none;
+}
+
+
+h2 {
+color: #87a158;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Abril Fatface', display !important;
+}
+
+
+h3 {
+color: #EDA2A2 !important;
+font-size: 18px !important;
+font-family: 'Abril Fatface', display !important;
+}
+
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+
+.panel {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF) !important;
+border: 1px solid #c8e09fd1 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+
+/* Bar Background */
+.progress {
+background: #E7EDDE;
+border-radius: 10px !important;
+}
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background: #c0e189;
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: #FBC3C3;
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: #c0e189;
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: #FBC3C3;
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: #c0e189;
+border-radius: 25px !important;
+}
+
+
+/* Bar Text */
+.progress div {
+color: #586c33 !important;
+}
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/FFDrcvKX/apapapapap.png') !important;
+position: absolute !important;
+top: 26% !important;
+left: -1% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(1);
+height: 20px;
+}
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.postimg.cc/FFDrcvKX/apapapapap.png");
+position: absolute;
+left: 90%;
+top: 15px !important;
+z-index: 1;
+transform: scaleX(-1);
+height: 20px;
+}
+
+
+/* Comments Box (wip / rarely use) */
+
+
+#commentBox {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF) !important;
+border-radius: 10px !important;
+border-color: #c8e09fd1 !important;
+}
+
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #586c33;}
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+
+input#comment {background: linear-gradient(180deg, #E4F6C4, #FFFFFF) !important;
+color: #586c33 !important;
+border-style: solid !important;
+border-width: 1px !important;
+border-color: #c8e09fd1 !important;
+}
+
+
+small.text-muted {color: #EDA2A2;}
+small.text-muted a {color: #be6666;}
+
+
+
+input[type="button"].bad {background: #be6666 !important;}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #FFFFFF;
+border-radius: 20px;  
+}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #d3ceae;
+border-radius: 10px; 
+}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #E4F6C4;
+color: #586c33 !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #FBC3C3;
+color: #be6666 !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#586c33 !important;
+}
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #ada46f;
+}
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #FBC3C3;
+color: #ada46f;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #FBC3C3;
+color: #ada46f;
+}
+
+
+#fra_chatContainer label {
+color: #586c33;
+}
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+.s-chat-message_claim {
+background: #F9FDF3;
+border-bottom: 1px none #ffffff;
+color: #EDA2A2;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #c4ba78 !important;
+        color: 	#E7EDDE !important;
+	border: none !important;
+}
+
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF) !important;
+border: solid #c8e09fd1 !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+
+/* Lion Info Panel Headers */
+
+
+.table .top, .table th {
+background-color: #c7df9e;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: 'Abril Fatface', display;
+}
+
+
+.table .bottom {
+text-align: center;
+background-color: #c7df9e;
+color: #ECF39E;
+border-radius: 10px;
+font-family: 'Abril Fatface', display;
+}
+
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #e86868;
+border-bottom: 10px solid #ffffff;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #EDA2A2;
+}
+
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #e86868;
+text-decoration: none;
+}
+
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #EDA2A2;
+}
+
+
+/* Color inside lion info panel box */
+
+
+.inner-table .left {
+background: #c7df9e !important;
+color: #586c33 !important;
+text-align: center;
+border-radius: 10px !important;
+font-family: "Nunito", sans-serif;
+font-size: 12px;
+}
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+
+/* Feed All Play All */
+
+
+
+.feature {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF) !important;
+color: 	#586c33 !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #E4F6C4, #FFFFFF);
+border-radius: 20px;
+border: 1px solid #c8e09fd1 !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://i.postimg.cc/8P59jJcw/dkiq4pg-ab5e300b-e00c-45e7-86f0-0694057d2a4f.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://i.postimg.cc/8P59jJcw/dkiq4pg-ab5e300b-e00c-45e7-86f0-0694057d2a4f.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://i.postimg.cc/8P59jJcw/dkiq4pg-ab5e300b-e00c-45e7-86f0-0694057d2a4f.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://i.postimg.cc/8P59jJcw/dkiq4pg-ab5e300b-e00c-45e7-86f0-0694057d2a4f.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://i.postimg.cc/8P59jJcw/dkiq4pg-ab5e300b-e00c-45e7-86f0-0694057d2a4f.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+input,
+select,
+textarea {
+background: #e7eddee0 !important;
+border: none !important;
+border-radius: 20px !important;
+color: #586c33 !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #586c33 !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #586c33 !important;
+border-bottom: 1px solid #ebffd3;
+}
+
+
+/* Links */
+
+
+a:link, a:visited, a:active {
+color: #586c33;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #93ae60;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-track {
+background: #f0ecd6;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background: #D3CEAE;
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+
+
+table#player img {
+opacity: 0;
+}
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+/* Logo Replacer */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/XqTfjzp0/dca7q37-9fa4d3c5-cd1c-4cd5-965e-864297edd753.png');
+height: 95px;
+}
+
+
+/* Cave + Mounds Pics */
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://applesandpeople.org.uk/wp-content/uploads/2022/07/2-malus-domestica-lausitzer.jpg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://applesandpeople.org.uk/wp-content/uploads/2022/07/3-malus-domestica-schoener-von-nordhausen-rosaceae.jpg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://image.jimcdn.com/app/cms/image/transf/none/path/s0c00d550fff4f92a/image/i1cd52ba28390ca1e/version/1665846970/image.jpg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://image.jimcdn.com/app/cms/image/transf/none/path/s0c00d550fff4f92a/image/id10aac070a33b561/version/1665846970/image.jpg') !important;
+    height: 220px;
+}
+
+
+
+
+.mound-grid img {
+background: url("https://www.publicdomainpictures.net/pictures/430000/nahled/vintage-clipart-apfel-illustration.png");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-size: 110% !important;
+border-radius: 12px;
+}
+
+
+.breadcrumb::after {
+content: "CSS by doge fruit (#45943)";
+color: #e98888f0;
+position: absolute;
+font-size: 12px;
+right: 3%;
+z-index: 100;
+}
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #f7a8a8d9;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: #f7a8a8d9;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #f7a8a8d9;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #f7a8a8d9;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+#block::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+ }
+
+
+#block::-webkit-scrollbar-track {
+background: transparent; 
+}
+
+
+#block::-webkit-scrollbar-thumb {
+background: transparent; 
+}
+
+
+#block::-webkit-scrollbar-thumb:hover {
+background: transparent; 
+}
+
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #f7a8a8d9;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #f7a8a8d9;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+#sidescrollers::-webkit-scrollbar {
+width: 0; 
+background: transparent; 
+}
+
+
+/* Boxes show on mobile */
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
