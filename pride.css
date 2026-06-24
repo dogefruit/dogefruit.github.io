@@ -474,9 +474,7 @@ font-family: 'Abril Fatface', display;
 }
 
 
-.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
-color: #646464;
-}
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {color: #646464;}
 
 .table .top a:hover, .table th a:hover {
 color: #646464;
