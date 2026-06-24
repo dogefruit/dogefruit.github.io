@@ -1,0 +1,982 @@
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url(https://fonts.bunny.net/css?family=abril-fatface:400);
+
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://64.media.tumblr.com/be08b4534607b0cee68957ccb99ff2ab/tumblr_otgj5n61xI1udszxdo1_500.pnj') center center fixed;
+background-size: 20%;
+background-repeat: repeat;
+font-family: "Nunito", sans-serif !important;
+    color: #999999 !important;
+}
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #fefefead;
+border-style: none !important;
+border-radius: 10px !important;
+box-shadow: none;
+}
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 10px !important;
+}
+
+
+.col-md-3 .panel {
+    color: #999999;
+}
+
+
+/* Top + Navigation Bars */
+
+
+.topbar {
+background: linear-gradient(80deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF);
+border-style: none;
+color: #ffffff;
+border-radius: 10px;
+}
+
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #999999;
+text-decoration: none;
+}
+.topbar a:hover {
+color: #797878;
+}
+
+
+.navbar {
+background: linear-gradient(80deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF);
+border-radius: 10px;
+font-family: 'Abril Fatface', display;
+}
+
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #999999 !important;
+}
+
+
+.navbar li a:hover {
+background: none !important;
+color: #797878 !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+}
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+.breadcrumb {
+background: linear-gradient(80deg, #ffadadb8, #ffd6a5c2, #caffbfcc, #9bf6ffbf, #bdb2ffb5); !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+.breadcrumb .active {
+color: #999999;
+}
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+/* Bookmark / Switch Acc Button */
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #999999;
+	border: 0px solid #ffffff;
+    background: #FFADAD;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #ffffff;
+	border: 0px solid #ffffff;
+    background: #FFD6A5;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+/* Alerts (adjust later) */
+
+
+.alert-danger {
+text-align: left;
+background-color: #FFD6A5;
+border-color: #ffffff00;
+color: #b7782d;
+border-radius: 10px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #9BF6FF;
+border-color: #ffffff00;
+color: #45979f;
+border-radius: 10px !important;
+}
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+h1 {
+color: #ffffff;
+font-size: 40px;
+text-align: center;
+font-family: 'Abril Fatface', display !important;
+text-decoration: none;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+h2 {
+color: #999999;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Abril Fatface', display !important;
+}
+
+
+h3 {
+color: #999999 !important;
+font-size: 18px !important;
+font-family: 'Abril Fatface', display !important;
+}
+
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+
+.panel {
+background: linear-gradient(80deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF) !important;
+border: 1px solid #ffffffd9 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+
+/* Bar Background */
+.progress {
+background: #FDFFB6;
+border-radius: 10px !important;
+}
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background: #9BF6FF;
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: #A0C4FF;
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: #BDB2FF;
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: #FFC6FF;
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: #FFADAD;
+border-radius: 25px !important;
+}
+
+
+/* Bar Text */
+.progress div {
+color: #646464 !important;
+}
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://static.lioden.com/images/explorenew/all/aroacelionessDAY.png') !important;
+position: absolute !important;
+top: 5% !important;
+left: 40% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(-1);
+height: 180px;
+}
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://static.lioden.com/images/explorenew/all/wlwday.png");
+position: absolute;
+left: 50%;
+top: -10px !important;
+z-index: 1;
+transform: scaleX(1);
+height: 180px;
+}
+
+
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("https://static.lioden.com/images/explorenew/all/shymaleday.png");
+position: absolute;
+left: 60%;
+top: 250px !important;
+z-index: 1;
+height: 180px;
+}
+
+
+
+/* Comments Box (wip / rarely use) */
+
+
+#commentBox {
+background: linear-gradient(90deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF) !important;
+border-radius: 10px !important;
+border-color: #ffffffd9 !important;
+}
+
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #646464;}
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+
+input#comment {background: linear-gradient(90deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF) !important;
+color: #646464 !important;
+border-style: solid !important;
+border-width: 1px !important;
+border-color: #ffffffd9 !important;
+}
+
+
+small.text-muted {color: #8baee8;}
+small.text-muted a {color: #9a8ee3;}
+
+
+
+input[type="button"].bad {background: #FFADAD !important;}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus, a:link {
+    outline: none;
+}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #ffffff;
+border-radius: 20px;  
+}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #FDFFB6;
+border-radius: 10px; 
+}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #FDFFB6;
+color: #646464 !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #CAFFBF;
+color: #646464 !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#9a8ee3 !important;
+}
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #646464;
+}
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #FFC6FF;
+color: #a09d9d;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #FFC6FF;
+color: #a09d9d;
+}
+
+
+#fra_chatContainer label {
+color: #A0C4FF;
+}
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+.s-chat-message_claim {
+background: #ffffff;
+border-bottom: 1px none #ffffff;
+color: #FFADAD;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #A0C4FF !important;
+        color: 	#ffffff !important;
+	border: none !important;
+}
+
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: linear-gradient(90deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF) !important;
+border: solid #ffffffd9 !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+
+/* Lion Info Panel Headers */
+
+
+.table .top, .table th {
+background-color: #ffffff00;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: 'Abril Fatface', display;
+}
+
+
+.table .bottom {
+text-align: center;
+background-color: #ffffff00;
+color: #ffffff;
+border-radius: 10px;
+font-family: 'Abril Fatface', display;
+}
+
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #646464;
+border-bottom: 10px solid #ffffff;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #646464;
+  text-shadow: 0px 0px 5px;
+  text-decoration: none;
+-webkit-animation:rainbow 5s infinite;
+-ms-animation:rainbow 5s infinite;
+-o-animation:rainbow 5s infinite;
+animation:rainbow 5s infinite;
+}
+
+@-webkit-keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}@-ms-keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}@-o-keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}@keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}
+
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #646464;
+text-decoration: none;
+}
+
+
+.table .bottom a:hover {
+color: #858585;
+text-decoration: none;
+}
+
+
+/* Color inside lion info panel box */
+
+
+.inner-table .left {
+background: #ffffffbf !important;
+color: #646464 !important;
+text-align: center;
+border-radius: 10px !important;
+font-family: "Nunito", sans-serif;
+font-size: 12px;
+}
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF) ;
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+
+/* Feed All Play All */
+
+
+
+.feature {
+background: linear-gradient(90deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF)  !important;
+color: 	#646464 !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: linear-gradient(90deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF) ;
+border-radius: 20px;
+border: 1px solid #ffffff00 !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/rainbowfeather.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/rainbowfeather.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/rainbowfeather.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/rainbowfeather.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/rainbowfeather.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+input,
+select,
+textarea {
+background: #ffffffbf !important;
+border: none !important;
+border-radius: 20px !important;
+color: #646464 !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #989797 !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #989797 !important;
+border-bottom: 1px solid #989797;
+}
+
+
+/* Links */
+
+
+a:link, a:visited, a:active {
+color: #646464;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #646464;
+  text-shadow: 0px 0px 5px;
+  text-decoration: none;
+-webkit-animation:rainbow 5s infinite;
+-ms-animation:rainbow 5s infinite;
+-o-animation:rainbow 5s infinite;
+animation:rainbow 5s infinite;
+}
+
+@-webkit-keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}@-ms-keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}@-o-keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}@keyframes rainbow{0%{color:red;text-shadow:0 0 5px red}10%{color:#ff8000;text-shadow:0 0 5px #ff8000}20%{color:#ff0;text-shadow:0 0 5px #ff0}30%{color:#80ff00;text-shadow:0 0 5px #80ff00}40%{color:#0f0;text-shadow:0 0 5px #0f0}50%{color:#00ff80;text-shadow:0 0 5px #00ff80}60%{color:#0ff;text-shadow:0 0 5px #0ff}70%{color:#0080ff;text-shadow:0 0 5px #0080ff}80%{color:#00f;text-shadow:0 0 5px #00f}90%{color:#8000ff;text-shadow:0 0 5px #8000ff}100%{color:#ff0080;text-shadow:0 0 5px #ff0080}}
+
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-track {
+background: #ffffff;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background: linear-gradient(180deg, #FFADAD, #FFD6A5, #CAFFBF, #9BF6FF, #BDB2FF);
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+
+
+table#player img {
+opacity: 0;
+}
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+/* Logo Replacer */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/8c51x83L/di1iybs-d4d92b17-36e6-468d-a8b2-cfa31ca130e8.png');
+height: 60px;
+margin-top: 35px;
+}
+
+
+/* Cave + Mounds Pics */
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://i.postimg.cc/G2s0DcWc/nnnn.jpg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://i.postimg.cc/hGYWhJ37/pride-banner.jpg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://i.postimg.cc/52GnCwbd/Untitled-Project-(1).jpg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://i.postimg.cc/t42HQv3k/deeennn.jpg') !important;
+    height: 220px;
+}
+
+
+
+
+.mound-grid img {
+background: url("https://static.lioden.com/images/items/Decoration/rainbowstones.png");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-size: 100% !important;
+border-radius: 12px;
+}
+
+
+.breadcrumb::after {
+content: "CSS by doge fruit (#45943)";
+color: #929292e8;
+position: absolute;
+font-size: 12px;
+right: 3%;
+z-index: 100;
+}
+
+
+/* pagedoll */
+.container.main::after {
+content: "";
+background-image: url('https://static.lioden.com/images/explorenew/all/dragprideday.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 350px;
+width: 650px;
+right: -220px;
+bottom: 2rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #caffbfde;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: #caffbfde;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #caffbfde;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #caffbfde;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+#block::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+ }
+
+
+#block::-webkit-scrollbar-track {
+background: transparent; 
+}
+
+
+#block::-webkit-scrollbar-thumb {
+background: transparent; 
+}
+
+
+#block::-webkit-scrollbar-thumb:hover {
+background: transparent; 
+}
+
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #caffbfde;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #caffbfde;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+#sidescrollers::-webkit-scrollbar {
+width: 0; 
+background: transparent; 
+}
+
+
+/* Boxes show on mobile */
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
