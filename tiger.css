@@ -1,0 +1,890 @@
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.bunny.net/css?family=aladin:400');
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital@0;1&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://images.pexels.com/photos/9623001/pexels-photo-9623001.jpeg') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Teachers", sans-serif !important;
+font-weight: 600;
+color: #4A3D2D !important;
+}
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #c1b39487;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: none;
+}
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+
+.col-md-3 .panel {
+    color: #4A3D2D;
+}
+
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #c1b394db, #d0cabae3);
+border-style: none;
+color: #372C21;
+border-radius: 20px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #645133;
+text-decoration: none;
+}
+.topbar a:hover {
+color: #917D5C;
+}
+
+.navbar {
+background: linear-gradient(180deg, #C1B394, #D0CABA);
+border-radius: 20px;
+font-family: 'Aladin', handwriting;
+}
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #645133 !important;
+}
+
+
+.navbar li a:hover {
+background: #D0CABA !important;
+color: #917D5C !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 20px;
+}
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+.breadcrumb {
+background: #6451339c !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+.breadcrumb .active {
+color: #D0CABA;
+}
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+/* Bookmark / Switch Acc Button */
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #ca9c52;
+	border: 0px solid #ffffff;
+    background: #645133;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #ca9c52;
+	border: 0px solid #ffffff;
+    background: #8E7957;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+/* Alerts (adjust later) */
+
+
+.alert-danger {
+text-align: left;
+background-color: #ca9c52e3;
+border-color: #ffffff00;
+color: #645133;
+border-radius: 20px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #dad179e3;
+border-color: #ffffff00;
+color: #645133;
+border-radius: 20px !important;
+}
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+h1 {
+color: #372C21;
+font-size: 40px;
+text-align: center;
+font-family: 'Aladin', handwriting !important;
+text-decoration: none;
+}
+
+
+h2 {
+color: #372C21;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Aladin', handwriting !important;
+}
+
+
+h3 {
+color: #372C21 !important;
+font-size: 18px !important;
+font-family: 'Aladin', handwriting !important;
+}
+
+
+ /* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+
+.panel {
+background: linear-gradient(90deg, #C1B394, #D0CABA) !important;
+border: 1px solid #918261d1 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+
+/* Bar Background */
+.progress {
+background: #e4e0d7;
+border-radius: 10px !important;
+}
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #ca9c52, #9F895B);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #ca9c52, #9F895B);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #ca9c52, #9F895B);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #ca9c52, #9F895B);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #ca9c52, #9F895B);
+border-radius: 25px !important;
+}
+
+
+/* Bar Text */
+.progress div {
+color: #4A3D2D !important;
+}
+
+
+/* Comments Box (wip / rarely use) */
+
+
+#commentBox {
+background: linear-gradient(90deg, #C1B394, #D0CABA) !important;
+border-radius: 12px !important;
+border-color: #918261d1 !important;
+}
+
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #4A3D2D;}
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+
+input#comment {background: linear-gradient(90deg, #C1B394, #D0CABA) !important;
+color: #4A3D2D !important;}
+
+
+small.text-muted {color: #917D5C;}
+small.text-muted a {color: #ffffff;}
+
+
+
+input[type="button"].bad {background: #ca9c52 !important;}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #ffffffe0;
+border-radius: 20px;  
+}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #b1915eeb;
+border-radius: 10px; 
+}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #c1b394e3;
+color: #4A3D2D !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #d0cabae8;
+color: #4A3D2D !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#645133 !important;
+}
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #4A3D2D;
+}
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #B1915E;
+color: #645133;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #B1915E;
+color: #645133;
+}
+
+
+#fra_chatContainer label {
+color: #B1915E;
+}
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+.s-chat-message_claim {
+background: #f7ce8d;
+border-bottom: 1px none #ffffff;
+color: #4A3D2D;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #9F895B !important;
+        color: 	#ece9e2 !important;
+	border: none !important;
+}
+
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: linear-gradient(180deg, #C1B394, #D0CABA) !important;
+border: solid #918261d1 !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 15px;
+}
+
+
+/* Lion Info Panel Headers */
+
+
+.table .top, .table th {
+background-color: #645133;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: "Teachers", sans-serif;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #af9763;
+border-bottom: 1px none #ca9c52 !important;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #ca9c52;
+}
+
+
+.table .bottom {
+text-align: center;
+background-color: #645133;
+color: #D0CABA;
+border-radius: 10px;
+font-family: "Teachers", sans-serif;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #af9763;
+text-decoration: none;
+}
+
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #ca9c52;
+}
+
+/* Color inside lion info panel box */
+
+
+.inner-table .left {
+background: #9f895bcf !important;
+color: #4A3D2D !important;
+text-align: center;
+border-radius: 12px !important;
+font-family: "Teachers", sans-serif;
+font-size: 13px;
+}
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #C1B394, #D0CABA);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+
+/* Feed All Play All */
+
+
+
+.feature {
+background: linear-gradient(180deg, #C1B394, #D0CABA) !important;
+color: 	#645133 !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #C1B394, #D0CABA);
+border-radius: 20px;
+border: 1px solid #918261d1 !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://static.lioden.com/images/items/Other/tigerseye.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://static.lioden.com/images/items/Other/tigerseye.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://static.lioden.com/images/items/Other/tigerseye.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://static.lioden.com/images/items/Other/tigerseye.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://static.lioden.com/images/items/Other/tigerseye.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+input,
+select,
+textarea {
+background: #d0cabae8 !important;
+border: none !important;
+border-radius: 15px !important;
+color: #645133 !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #D0CABA !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #D0CABA !important;
+border-bottom: 1px solid #c4b79d;
+}
+
+
+/* Links */
+
+
+a:link, a:visited, a:active {
+color: #261e17;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #4A3D2D;
+text-decoration: none;
+font-weight: bold;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus, a:link {
+    outline: none;
+}
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-track {
+background: #D0CABA;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background: #645133e3;
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+
+
+table#player img {
+opacity: 0;
+}
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+/* Logo Replacer */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/Ls1gSCH4/dc8unzg-df0610e8-b20e-4d3e-a31a-cba278ee5e82.gif');
+height: 180px;
+}
+
+
+/* Cave + Mounds Pics */
+
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://images.pexels.com/photos/13746030/pexels-photo-13746030.jpeg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://images.pexels.com/photos/162332/tiger-wildlife-animal-zoo-162332.jpeg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://images.pexels.com/photos/32522597/pexels-photo-32522597.jpeg') !important;
+    height: 220px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://images.pexels.com/photos/36530920/pexels-photo-36530920.jpeg') !important;
+    height: 220px;
+}
+
+
+
+
+.mound-grid img {
+background: url("https://static.lioden.com/images/items/Other/lionsclaw.png");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-size: cover !important;
+border-radius: 12px;
+}
+
+
+.breadcrumb::after {
+content: "CSS by doge fruit (#45943)";
+color: #d0cabae6;
+position: absolute;
+font-size: 10px;
+right: 3%;
+z-index: 100;
+}
+
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://i.postimg.cc/02GqTpRR/dc8unka-4dcbd2f1-3a42-4cea-9f91-82c42a20f201.gif');
+background-size: cover;
+position: fixed;
+display: block;
+height:250px;
+width: 350px;
+right: 0px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #ddb97fed;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: #ddb97fed;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #ddb97fed;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #ddb97fed;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #ddb97fed;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #ddb97fed;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+/* Boxes show on mobile */
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
