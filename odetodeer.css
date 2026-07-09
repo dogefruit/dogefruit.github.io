@@ -1,0 +1,930 @@
+/* FONT */
+
+
+@import url(https://fonts.bunny.net/css?family=asap:400|chonburi:400);
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://img1.wallspic.com/crops/1/6/9/8/3/138961/138961-atmosphere-elk-deer-sky-reindeer-3840x2160.jpg') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Asap', sans-serif !important;
+font-weight: 500;
+color: #473630 !important;
+}
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #8458335e;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: none;
+}
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+
+.col-md-3 .panel {
+    color: #473630;
+}
+
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #845833, #d6863ca6);
+border-style: none;
+color: #473630;
+border-radius: 20px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #473630;
+text-decoration: none;
+font-family: 'Asap', sans-serif !important;
+font-weight: 500;
+}
+.topbar a:hover {
+color: #FEEDA9;
+}
+
+.navbar {
+background: linear-gradient(180deg, #845833, #d6863ca6);
+border-radius: 20px;
+font-family: 'Chonburi', display;
+}
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #473630 !important;
+}
+
+
+.navbar li a:hover {
+background: #E8B04A !important;
+color: #846960 !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 20px;
+}
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+.breadcrumb {
+background: #3e5168cf !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+.breadcrumb .active {
+color: #FEEDA9;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+/* Bookmark / Switch Acc Button */
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #3E5168;
+	border: 0px solid #ffffff;
+    background: #E8B04A;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #597380;
+	border: 0px solid #ffffff;
+    background: #FBD076;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+
+/* Alerts (adjust later) */
+
+
+.alert-danger {
+text-align: left;
+background-color: #fbd076ed;
+border-color: #ffffff00;
+color: #845833;
+border-radius: 20px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #c1d3c8ed;
+border-color: #ffffff00;
+color: #3E5168;
+border-radius: 20px !important;
+}
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+h1 {
+color: #FEEDA9;
+font-size: 40px;
+text-align: center;
+font-family: 'Chonburi', display !important;
+text-decoration: none;
+}
+
+
+h2 {
+color: #FEEDA9;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Chonburi', display !important;
+}
+
+
+h3 {
+color: #FEEDA9 !important;
+font-size: 18px !important;
+font-family: 'Chonburi', display !important;
+}
+
+
+ /* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+
+.panel {
+background: linear-gradient(90deg,  #845833, #d6863ca6) !important;
+border: 1px solid #8458338c !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+
+/* Bar Background */
+.progress {
+background: #FEEDA9;
+border-radius: 10px !important;
+}
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #597380, #C1D3C8);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #597380, #C1D3C8);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #597380, #C1D3C8);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #597380, #C1D3C8);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #597380, #C1D3C8);
+border-radius: 25px !important;
+}
+
+
+/* Bar Text */
+.progress div {
+color: #222E50 !important;
+}
+
+
+/* Comments Box (wip / rarely use) */
+
+
+#commentBox {
+background: linear-gradient(90deg, #845833, #d6863ca6) !important;
+border-radius: 12px !important;
+border-color: #8458338c !important;
+}
+
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #473630;}
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+
+input#comment {background: linear-gradient(90deg, #845833, #d6863ca6) !important;
+color: #473630 !important;}
+
+
+small.text-muted {color: #E8B04A;}
+small.text-muted a {color: #C1D3C8;}
+
+
+
+input[type="button"].bad {background: #FEEDA9 !important;}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #c1d3c8e0;
+border-radius: 20px;  
+}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #FBD076;
+border-radius: 10px; 
+}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #6c92a4eb;
+color: #222E50 !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #fbd076e8;
+color: #845833 !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#473630 !important;
+}
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #473630;
+}
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #C1D3C8;
+color: #473630;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #C1D3C8;
+color: #473630;
+}
+
+
+#fra_chatContainer label {
+color: #C1D3C8;
+}
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+.s-chat-message_claim {
+background: #fffbed;
+border-bottom: 1px none #ffffff;
+color: #3E5168;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #845833 !important;
+        color: 	#C1D3C8 !important;
+	border: none !important;
+}
+
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: linear-gradient(90deg, #845833, #d6863ca6) !important;
+border: solid #8458338c !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background-color: #6c4829;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: 'Chonburi', display;
+}
+
+.table .bottom {
+text-align: center;
+background-color: #6c4829;
+border-radius: 10px;
+font-family: 'Chonburi', display;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #FBD076;
+border-bottom: 1px none #ffffff00 !important;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #FEEDA9;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #FBD076;
+text-decoration: none;
+}
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #FEEDA9;
+}
+
+
+/* Color inside lion info panel box */
+
+
+.inner-table .left {
+background: #3e5168d9 !important;
+color: #FBD076 !important;
+text-align: center;
+border-radius: 12px !important;
+font-family: 'Chonburi', display !important;
+font-size: 12px;
+}
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #845833, #d6863ced);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/Njt7nYyY/layingbbydeer.png') !important;
+position: absolute !important;
+top: 6% !important;
+left: 70% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(1);
+height: 90px;
+}
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.postimg.cc/CxvB4Vk8/sittingbbydeer.png");
+position: absolute;
+left: 50%;
+top: 45px !important;
+z-index: 1;
+transform: scaleX(1);
+height: 90px;
+}
+
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #845833, #d6863ced) !important;
+color: 	#473630 !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #845833, #d6863ced);
+border-radius: 20px;
+border: 1px solid #8458338c !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/driedferns.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/driedferns.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/driedferns.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/driedferns.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://static.lioden.com/images/items/Amusement/driedferns.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+input,
+select,
+textarea {
+background: #c1d3c8e8 !important;
+border: none !important;
+border-radius: 15px !important;
+color: #473630 !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #FEEDA9 !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #c5ddf7 !important;
+border-bottom: 1px solid #bddbfb;
+}
+
+
+/* Links */
+
+
+a:link, a:visited, a:active {
+color: #473630;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #fff6d2;
+text-decoration: none;
+font-weight: bold;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus, a:link {
+    outline: none;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-track {
+background: #c1d3c8e0;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background: #FBD076;
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+
+
+table#player img {
+opacity: 0;
+}
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+
+/* Logo Replacer */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/3rkfJvZR/deer-head.png');
+height: 160px;
+margin-top: -40px;
+}
+
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://images.stockcake.com/public/c/7/5/c758d175-e470-4202-bd4e-3e6ca3c922a7_large/deer-at-sunrise-stockcake.jpg') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://images.stockcake.com/public/e/7/d/e7d962c5-fb04-4c87-af44-1f2ae12e442e_large/deer-at-dawn-stockcake.jpg') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://img.magnific.com/free-photo/silhouette-deer-with-horns-orange-sunset_181624-57825.jpg?semt=ais_hybrid&w=740&q=80') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://w0.peakpx.com/wallpaper/488/74/HD-wallpaper-deer-with-background-of-tree-and-sunrise-animals.jpg') !important;
+ 	max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.mound-grid img {
+background: url("https://i.postimg.cc/0ND0mkh1/sleepypied-(2).png");
+width: 0;
+height: 0;
+padding-top: 70px;
+padding-right: 95px;
+background-size: contain;
+border-radius: 12px;
+}
+
+
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #feeda9b5;
+position: absolute;
+font-size: 10px;
+right: 20%;
+z-index: 100;
+}
+
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://i.postimg.cc/bwCwT1cx/fullbody-deer.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 300px;
+width: 225px;
+right: 120px;
+bottom: 1rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #93a8a3ed;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: #93a8a3ed;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #93a8a3ed;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #93a8a3ed;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #93a8a3ed;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #93a8a3ed;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+/* Boxes show on mobile */
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
