@@ -1,0 +1,929 @@
+/* FONT */
+
+
+@import url(https://fonts.bunny.net/css?family=asap:400|chonburi:400);
+
+/* BACKGROUND */
+
+
+body {
+background: url('https://i.postimg.cc/265C1PRk/692.jpg') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Asap', sans-serif !important;
+font-weight: 500;
+color: #CCE9FF !important;
+}
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: #435d749e;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: none;
+}
+
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+
+.col-md-3 .panel {
+    color: #CCE9FF;
+}
+
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #202C37, #435d74db);
+border-style: none;
+color: #95B3D6;
+border-radius: 20px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #CCE9FF;
+text-decoration: none;
+font-family: 'Asap', sans-serif !important;
+font-weight: 500;
+}
+.topbar a:hover {
+color: #EFF7FF;
+}
+
+.navbar {
+background: linear-gradient(180deg, #202C37, #435d74db);
+border-radius: 20px;
+font-family: 'Chonburi', display;
+}
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #95B3D6 !important;
+}
+
+
+.navbar li a:hover {
+background: #8BA3BC !important;
+color: #2B3A4D !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 20px;
+}
+
+
+/* Home & Den Banner, Left Side Panel */
+
+
+.breadcrumb {
+background: #8ba3bcbd !important;
+border-style: none;
+border-radius: 20px;
+}
+
+
+.breadcrumb .active {
+color: #202C37;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+/* Bookmark / Switch Acc Button */
+
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #A7C0D8;
+	border: 0px solid #ffffff;
+    background: #202C37;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #CCE9FF;
+	border: 0px solid #ffffff;
+    background: #2B3A4D;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+
+/* Alerts (adjust later) */
+
+
+.alert-danger {
+text-align: left;
+background-color: #5a88bbeb;
+border-color: #ffffff00;
+color: #2B3A4D;
+border-radius: 20px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #95b3d6f2;
+border-color: #ffffff00;
+color: #2B3A4D;
+border-radius: 20px !important;
+}
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+
+h1 {
+color: #121b23;
+font-size: 40px;
+text-align: center;
+font-family: 'Chonburi', display !important;
+text-decoration: none;
+}
+
+
+h2 {
+color: #CCE9FF;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Chonburi', display !important;
+}
+
+
+h3 {
+color: #CCE9FF !important;
+font-size: 18px !important;
+font-family: 'Chonburi', display !important;
+}
+
+
+ /* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+
+.panel {
+background: linear-gradient(90deg,  #202C37, #435d74db) !important;
+border: 1px solid #2b3a4da8 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+
+/* Bar Background */
+.progress {
+background: #121b23;
+border-radius: 10px !important;
+}
+
+
+/* Individual Bar Colors */
+
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #435D74, #8BA3BC);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #435D74, #8BA3BC);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #435D74, #8BA3BC);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #435D74, #8BA3BC);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #435D74, #8BA3BC);
+border-radius: 25px !important;
+}
+
+
+/* Bar Text */
+.progress div {
+color: #EFF7FF !important;
+}
+
+
+/* Comments Box (wip / rarely use) */
+
+
+#commentBox {
+background: linear-gradient(90deg, #202C37, #435d74db) !important;
+border-radius: 12px !important;
+border-color: #2b3a4da8 !important;
+height: 250px !important;	
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #CCE9FF;}
+
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+
+input#comment {background: linear-gradient(90deg, #202C37, #435d74db) !important;
+color: #CCE9FF !important;}
+
+
+small.text-muted {color: #8BA3BC;}
+small.text-muted a {color: #aeb8c3;}
+
+
+
+input[type="button"].bad {background: #5a88bb !important;}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #eff7ffe6;
+border-radius: 20px;  
+}
+
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #95B3D6;
+border-radius: 10px; 
+}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #8ba3bceb;
+color: #CCE9FF !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #5a6c80eb;
+color: #CCE9FF !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#202C37 !important;
+}
+
+
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #ffffff !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #5A6C80;
+}
+
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #8BA3BC;
+color: #5A6C80;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #A7C0D8;
+color: #5A6C80;
+}
+
+
+#fra_chatContainer label {
+color: #5A6C80;
+}
+
+
+.s-chat-popout {
+background: #ffffff;
+}
+
+
+.s-chat-message_claim {
+background: #202C37;
+border-bottom: 1px none #ffffff;
+color: #EFF7FF;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #95B3D6 !important;
+        color: 	#2B3A4D !important;
+	border: none !important;
+}
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: linear-gradient(90deg, #202C37, #435d74db) !important;
+border: solid #2b3a4da8 !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background-color: #121b23;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: 'Chonburi', display;
+}
+
+.table .bottom {
+text-align: center;
+background-color: #121b23;
+border-radius: 10px;
+font-family: 'Chonburi', display;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #CCE9FF;
+border-bottom: 1px none #ffffff00 !important;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #EFF7FF;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #CCE9FF;
+text-decoration: none;
+}
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #EFF7FF;
+}
+
+
+/* Color inside lion info panel box */
+
+
+.inner-table .left {
+background: #5a6c80c7 !important;
+color: #CCE9FF !important;
+text-align: center;
+border-radius: 12px !important;
+font-family: 'Chonburi', display !important;
+font-size: 12px;
+}
+
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg,  #202C37, #435d74db);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/2SWkgVZv/png-wolf-by-itsdura-d3cle9i-pre.png') !important;
+position: absolute !important;
+top: 20% !important;
+left: 60% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(1);
+height: 160px;
+}
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.postimg.cc/15H2XPZz/precut-wolf-2-png-stock-ressource-by-voodoocabaret-d9aybgz-fullview.png");
+position: absolute;
+left: 45%;
+top: -72px !important;
+z-index: 1;
+transform: scaleX(-1);
+height: 140px;
+}
+
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg,  #202C37, #435d74db) !important;
+color: 	#CCE9FF !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: linear-gradient(180deg,  #202C37, #435d74db);
+border-radius: 20px;
+border: 1px solid #2b3a4da8 !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://i.postimg.cc/vHyPQx1H/ssss.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://i.postimg.cc/NGHVGwp7/stampwolf33.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://i.postimg.cc/kgcLrFfG/stampwolf.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://i.postimg.cc/L4gdqP6J/wolfstamp2.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://i.postimg.cc/HWFg32Pf/wolfstamp.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+
+/* Block of color behind Territory Description, etc*/
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+input,
+select,
+textarea {
+background: #5a6c80e0 !important;
+border: none !important;
+border-radius: 15px !important;
+color: #CCE9FF !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #ffffff !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #ffffff !important;
+border-bottom: 1px solid #ffffff;
+}
+
+
+/* Links */
+
+
+a:link, a:visited, a:active {
+color: #CCE9FF;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #EFF7FF;
+text-decoration: none;
+font-weight: bold;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus, a:link {
+    outline: none;
+}
+
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-track {
+background: #eff7ffe6;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background: #95B3D6;
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+
+
+table#player img {
+opacity: 0;
+}
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/bJC24M2y/white-wolf-png-by-rebelliousbitch-dg37k66-414w-2x.png');
+height: 150px;
+margin-top: -30px;
+}
+
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://images.unsplash.com/photo-1604608678051-64d46d8d0ffe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://images.unsplash.com/photo-1517993037474-692208825419?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://images5.alphacoders.com/882/882077.jpg') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://img.magnific.com/free-photo/eurasian-wolf-white-winter-habitat-beautiful-winter-forest_475641-702.jpg?semt=ais_hybrid&w=740&q=80') !important;
+ 	max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.mound-grid img {
+background: url("https://static.lioden.com/images/explorenew/winter/wolfday.png");
+width: 0;
+height: 0;
+padding-top: 65px;
+padding-right: 100px;
+background-size: 140%;
+border-radius: 12px;
+}
+
+
+
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #e1f0fceb;
+position: absolute;
+font-size: 10px;
+right: 20%;
+z-index: 100;
+}
+
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://i.postimg.cc/bvFm96N4/whitewolf.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 300px;
+width: 340px;
+right: 0px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+}
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #687685e0;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: #687685e0;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #687685e0;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #687685e0;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #687685e0;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #687685e0;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+/* Boxes show on mobile */
+
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
