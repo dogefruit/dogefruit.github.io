@@ -1,0 +1,878 @@
+/* FONT */
+
+@import url(https://fonts.bunny.net/css?family=assistant:300);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+/* BACKGROUND */
+
+body {
+background: url('https://images.unsplash.com/photo-1529697216570-f48ef8f6b2dd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Assistant', sans-serif !important;
+color: #7a676e !important;
+}
+
+
+/* Right Side Panel Background */
+
+.container.main {
+background: #eddedd8a;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: none;
+animation: pulse-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    box-shadow: 0 0 5px #e9ae9b, 0 0 10px #ffffff; 
+  }
+  to {
+    box-shadow: 0 0 10px #e9ae9b, 0 0 10px #ffffff, 0 0 20px #ffffff; 
+  }
+}
+
+/* Left Side Panel Background */
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+.col-md-3 .panel {
+    color: #7a676e;
+}
+
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #C6A8AC, #dbc2c3c7);
+border-style: none;
+color: #7a676e;
+border-radius: 20px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #9a635c;
+text-decoration: none;
+font-family: "Playfair Display SC", serif !important;
+}
+.topbar a:hover {
+color: #b47f79;
+}
+
+.navbar {
+background: linear-gradient(180deg, #C6A8AC, #dbc2c3c7);
+border-radius: 20px;
+font-family: "Playfair Display SC", serif;
+}
+
+/* Navigation Bar Text & Background */
+
+.navbar li a {
+color: #9a635c !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+transform: scale(1.2);
+color: #B59DA6 !important;
+transition: all 0.3s ease-in-out 0.1s;
+border-radius: 10px;
+text-shadow: 0 0 1px #EEE8E9,0 0 11px #EEE8E9;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: #d6aca7bf !important;
+border-style: none;
+border-radius: 20px;
+}
+
+.breadcrumb .active {
+color: #7a676e;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+
+/* Bookmark / Switch Acc Button */
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #7a676e;
+	border: 0px solid #ffffff;
+    background: #C6A8AC;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #b47f79;
+	border: 0px solid #ffffff;
+    background: #d5b7bb;
+	text-shadow: 0 0 1px #EEE8E9,0 0 11px #EEE8E9;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+/* Alerts (adjust later) */
+.alert-danger {
+text-align: left;
+background-color: #f5bca9e0;
+border-color: #ffffff00;
+color: #ffffff;
+border-radius: 20px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #f8f6f6e6;
+border-color: #ffffff00;
+color: #c7998a;
+border-radius: 20px !important;
+}
+
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+color: #9a635c;
+font-size: 40px;
+text-align: center;
+font-family: "Playfair Display SC", serif !important;
+text-decoration: none;
+font-weight: 900;
+    animation: glow 1.5s infinite alternate;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #e9ae9b, 0 0 10px #e9ae9b, 0 0 20px #e9ae9b, 0 0 40px #e9ae9b;
+    }
+    100% {
+        text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff;
+    }
+}
+
+h2 {
+color: #9a635c;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-weight: 900;
+font-family: "Playfair Display SC", serif !important;
+}
+
+h3 {
+color: #9a635c !important;
+font-size: 18px !important;
+font-family: "Playfair Display SC", serif !important;
+font-weight: 900;
+}
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+.panel {
+background: linear-gradient(180deg, #C6A8AC, #dbc2c3c7) !important;
+border: 1px solid #c6a8acde !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+/* Bar Background */
+.progress {
+background: #EEE8E9;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #F5BCA9, #FBE1D3);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #F5BCA9, #FBE1D3);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #F5BCA9, #FBE1D3);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #F5BCA9, #FBE1D3);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #F5BCA9, #FBE1D3);
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #7a676e !important;
+}
+
+/* Comments Box (wip / rarely use) */
+
+#commentBox {
+background: linear-gradient(90deg, #C6A8AC, #dbc2c3c7) !important;
+border-radius: 12px !important;
+border-color: #c6a8acde !important;
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #7a676e;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+input#comment {background: linear-gradient(90deg, #C6A8AC, #dbc2c3c7) !important;
+color: #7a676e !important;}
+
+small.text-muted {color: #9a635c;}
+small.text-muted a {color: #EDDEDD;}
+
+input[type="button"].bad {background: #FBE1D3 !important;}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #EEE8E9;
+border-radius: 20px;  
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #B59DA6;
+border-radius: 10px; 
+}
+
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #fbe1d3de;
+color: #7a676e !important;
+}
+
+
+.s-chat-message:nth-child(odd) {
+background: #e1dce2e0;
+color: #7a676e !important;
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#9a635c !important;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #9a635c;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #DBC2C3;
+color: #9a635c;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #DBC2C3;
+color: #9a635c;
+}
+
+.s-chat-message_claim {
+background: #B59DA6;
+border-bottom: 1px none #ffffff;
+color: #664350;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #B59DA6 !important;
+        color: 	#664350 !important;
+	border: none !important;
+}
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: linear-gradient(90deg, #C6A8AC, #dbc2c3c7) !important;
+border: solid #c6a8acde !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background-color: #B59DA6;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: "Playfair Display SC", serif;
+font-weight: 900;
+}
+
+.table .bottom {
+text-align: center;
+background-color: #B59DA6;
+border-radius: 10px;
+font-family: "Playfair Display SC", serif;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #7a676e;
+border-bottom: 1px none #ffffff00 !important;
+animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #e9ae9b, 0 0 10px #e9ae9b, 0 0 20px #e9ae9b, 0 0 40px #e9ae9b;
+    }
+    100% {
+        text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff;
+    }
+}
+
+.table .top a:hover, .table th a:hover {
+color: #6a575e;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #7a676e;
+text-decoration: none;
+}
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #6a575e;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: #eddeddcf !important;
+color: #7a676e !important;
+text-align: center;
+border-radius: 12px !important;
+font-family: 'Assistant', sans-serif !important;
+font-size: 13px;
+}
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #C6A8AC, #dbc2c3c7);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/kG4zBjmD/4.png') !important;
+position: absolute !important;
+top: 40% !important;
+left: 70% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(-1);
+height: 90px;
+}
+
+
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.postimg.cc/qvjmCs18/fullmon.png");
+position: absolute;
+left: 80%;
+top: -10px !important;
+z-index: 1;
+transform: scaleX(1);
+height: 50px;
+}
+
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #C6A8AC, #dbc2c3c7) !important;
+color: 	#664350 !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+
+/* Dynasty, Beetle Book, etc */
+
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #C6A8AC, #dbc2c3c7);
+border-radius: 20px;
+border: 1px solid #c6a8acde !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://static.lioden.com/images/items/Other/angelicblessing.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://static.lioden.com/images/items/Other/angelicblessing.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://static.lioden.com/images/items/Other/angelicblessing.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://static.lioden.com/images/items/Other/angelicblessing.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://static.lioden.com/images/items/Other/angelicblessing.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+/* Block of color behind Territory Description, etc*/
+
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+
+input,
+select,
+textarea {
+background: #eee8e9ed !important;
+border: 1px solid #c6a8ac8c !important;
+border-radius: 15px !important;
+color: #7a676e !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #7a676e !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #7a676e !important;
+border-bottom: 1px solid #B59DA6;
+}
+
+
+/* Links */
+
+
+a:link, a:visited, a:active {
+color: #664350;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #978089;
+text-decoration: none;
+font-weight: bold;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus, a:link {
+    outline: none;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-track {
+background: #EEE8E9;
+border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background: #B59DA6;
+border-radius: 10px;
+}
+
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+
+
+table#player img {
+opacity: 0;
+}
+
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/gjRPsSxS/clods.png');
+height: 100px;
+margin-top: -10px;
+}
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://i.pinimg.com/vwebp/736x/0d/65/77/0d65778e29ea1f021ab3fb65f804a4fd.webp') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://i.pinimg.com/736x/9f/46/af/9f46af64def0aeb4739b06ae6a3fa025.jpg') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://i.postimg.cc/Y9KRgdwr/Rococo-painting-detail.webp') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://i.postimg.cc/yxnyMBgb/96c4e3efbc7d7def637637e41c51bdc5.webp') !important;
+ 	max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.mound-grid img {
+background: url("https://i.postimg.cc/htN1W2vG/rose.png");
+width: 0;
+height: 0;
+padding-top: 60px;
+padding-right: 75px;
+background-size: cover;
+border-radius: 12px;
+}
+
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #ffffffe8;
+position: absolute;
+font-size: 10px;
+right: 20%;
+z-index: 100;
+}
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://i.postimg.cc/SR5fSddZ/3.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 550px;
+width: 300px;
+right: -1px;
+bottom: 1rem;
+z-index: 100;
+pointer-events:none;
+transform: translate(5%, 5%) scale(.5)
+}
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #fbe1d3e0;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.block {
+    background: #fbe1d3e0;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #fbe1d3e0;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #fbe1d3e0;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #fbe1d3e0;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #fbe1d3e0;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* Boxes show on mobile */
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
