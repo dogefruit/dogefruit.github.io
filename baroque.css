@@ -1,0 +1,833 @@
+/* FONT */
+
+@import url('https://fonts.bunny.net/css?family=berkshire-swash:400|cormorant:500');
+
+
+/* BACKGROUND */
+
+body {
+background: url('https://i.redd.it/wk19wuvx4j131.jpg') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Cormorant', serif !important;
+font-weight: 500;
+color: #f0e2bf !important;
+}
+
+
+/* Right Side Panel Background */
+
+
+.container.main {
+background: linear-gradient(160deg, #895F52, #a47554bd);
+border-radius: 20px !important;
+box-shadow: 1px 1px 5px 5px #B38E5E;
+}
+
+/* Left Side Panel Background */
+
+
+.col-md-9 {
+background: #ffffff00;
+border-radius: 20px !important;
+}
+
+.col-md-3 .panel {
+    color: #f0e2bf;
+	text-shadow: 1px 1px 2px #1B1722 !important;
+}
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #895F52, #a47554bd);
+color: #f0e2bf;
+border-radius: 20px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #ffd353 !important;
+font-family: 'Cormorant', serif !important;
+}
+.topbar a:hover {
+color: #1B1722 !important;
+text-shadow: 0 0 5px #ffeaaf, 0 0 10px #ffeaaf, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+.navbar {
+background: linear-gradient(180deg, #895F52, #a47554);
+border-radius: 15px;
+box-shadow: 1px 2px 5px #B38E5E;
+}
+
+
+/* Navigation Bar Text & Background */
+
+
+.navbar li a {
+color: #ffd353 !important;
+font-family: 'Berkshire Swash', handwriting;
+text-shadow: 2px 2px 2px #3d3d3d !important;
+}
+
+
+.navbar li a:hover {
+background:  linear-gradient(180deg, #B38E5E, #D8C79B) !important;
+transform: scale(1.2);
+transition: all 0.5s ease-in-out 0.2s;
+color: #1B1722 !important;
+border-radius: 20px;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: linear-gradient(180deg, #B38E5E, #a47554c7) !important;
+border-radius: 20px;
+box-shadow: 1px 2px 5px #B38E5E;
+}
+
+.breadcrumb .active {
+color: #4A2C2E;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+/* Buttons for Switch Acc, Bug Box, Bookmark */
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+color: #ffd353;
+border: 1px solid #ffffff00;
+background: #4A2C2E;
+text-shadow: 1px 1px 0px #1B1722;
+font-weight: bold;
+font-size: 13px;
+padding: 3px 12px;
+margin: 2px 0;
+border-radius: 10px;
+}
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+color: #1B1722;
+border: 1px solid #ffffff00;
+background: #B38E5E;
+text-shadow: 1px 1px 0px #f0e2bf;
+font-weight: bold;
+font-size: 13px;
+padding: 3px 12px;
+margin: 2px 0;
+border-radius: 10px;
+}
+
+/* Alerts (adjust later) */
+
+.alert-danger {
+text-align: center;
+background-color: #9e3c1eba;
+border-color: #ffffff00;
+color: #f9c1b0;
+border-radius: 15px !important;
+font-size: 15px;
+}
+.alert-success {
+text-align: center;
+background-color: #ffba5fc9;
+border-color: #ffffff00;
+color: #804e0c;
+border-radius: 15px !important;
+font-size: 15px;
+}
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+color: #ffd353;
+font-size: 40px;
+text-align: center;
+font-family: 'Berkshire Swash', handwriting !important;
+animation:float 5s ease-in-out infinite;
+text-shadow: 5px 5px 5px #3d3d3d;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+}
+
+h2 {
+color: #ffd353;
+font-size: 25px;
+text-align: center;
+font-family: 'Berkshire Swash', handwriting !important;
+text-shadow: 5px 5px 5px #3d3d3d;
+}
+
+
+h3 {
+color: #ffd353 !important;
+font-size: 18px !important;
+font-family: 'Berkshire Swash', handwriting !important;
+text-shadow: 5px 5px 5px #3d3d3d;
+}
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+.panel {
+background-color: #ffffff00 !important;
+background-image: url("https://images.unsplash.com/photo-1583119912267-cc97c911e416?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8") !important;
+border: 1px solid #4a2c2e8a !important;
+border-radius: 10% !important;
+background-size: 100% !important;
+background-repeat: no-repeat !important;
+box-shadow: 1px 2px 5px #3d3d3d !important;
+background-attachment: fixed;
+}
+
+/* Bar Background */
+.progress {
+background: #d8c79bc7;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #ffd353, #c48a3f);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #ffd353, #c48a3f);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #ffd353, #c48a3f);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #ffd353, #c48a3f);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #ffd353, #c48a3f);
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #1B1722 !important;
+}
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/sfkGTTqF/clouds.gif') !important;
+position: absolute !important;
+top: 10% !important;
+left: 60% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(1);
+height: 90px;
+}
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.postimg.cc/D0rvjP40/flowers.png");
+position: absolute;
+left: 25%;
+top: -1px !important;
+z-index: 1;
+transform: scaleX(1);
+height: 40px;
+}
+
+/* Comments Box (wip / rarely use) */
+
+#commentBox {
+background: url('https://images.unsplash.com/photo-1565472459197-82ba571cc915?q=80&w=1181&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')!important;
+background-size: cover !important;
+border-radius: 15px !important;
+border: 1px solid #4a2c2e8a !important;
+box-shadow: 1px 2px 5px #3d3d3d !important;
+height: 200px !important;
+}
+
+#commentBox::before {
+    content: "Testing";
+	background: linear-gradient(180deg, #4A2C2E, #6a48458f) !important;
+    color: #ffd353;
+    font-size: 20px;
+    text-shadow: 1px 2px 5px #1B1722 !important;
+    font-family:'Berkshire Swash', handwriting;
+    position: sticky;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    display: block;
+    padding-top: 1px;
+    top: 0px;
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #f0e2bf;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 20px;
+}
+
+input#comment {background: #6a4845db !important;
+color: #f0e2bf !important;}
+
+small.text-muted {color: #ffd353;}
+small.text-muted a {color: #ffffff;}
+
+
+input[type="button"].bad {background: #834C3B !important;}
+
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #BFA67A;
+border-radius: 20px;  
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #A47554;
+border-radius: 10px; 
+}
+
+/* Chat CSS overrides */
+
+
+.s-chat-message:nth-child(even) {
+background: #bfa67ae0;
+color: #674630 !important;
+}
+
+.s-chat-message:nth-child(odd) {
+background: #b38e5ee3;
+color: #674630 !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#eaddbc !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #6A4845;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #A47554;
+color: #3d2927;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #A47554;
+color: #3d2927;
+}
+
+.s-chat-message_claim {
+background: #6A4845;
+border-bottom: 1px solid #4A2C2E;
+color: #eaddbc;
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: linear-gradient(180deg, #4A2C2E, #6a48458f) !important;
+    color: 	#ffd353 !important;
+    border: 0px solid #ffffff !important;
+    text-shadow: 1px 2px 5px #1B1722 !important; 
+}
+
+/* Lion Info Table Panel */
+
+
+.table {
+background-image: url(https://images.unsplash.com/photo-1581593439309-14b03e56b40d?q=80&w=1070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); !important;
+background-attachment: fixed;
+border: solid #4a2c2ebf !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 10px;
+font-size: 15px;
+box-shadow: 5px 8px 10px #3d3d3d !important;
+}
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background: linear-gradient(180deg, #4A2C2E, #6a4845);
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: 'Berkshire Swash', handwriting;
+}
+
+.table .bottom {
+text-align: center;
+background: linear-gradient(180deg, #4A2C2E, #6a4845);
+border-radius: 10px;
+font-family: 'Berkshire Swash', handwriting;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #ffd353 !important;
+text-shadow: 5px 5px 5px #3d3d3d;
+border-bottom: 1px none #ffffff00 !important;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #1B1722 !important;
+transition: all 0.5s ease-in-out 0.1s !important;
+text-shadow: 0 0 5px #ffeaaf, 0 0 5px #ffeaaf, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #ffd353 !important;
+text-shadow: 5px 5px 5px #3d3d3d;
+text-decoration: none;
+}
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #1B1722 !important;
+transition: all 0.5s ease-in-out 0.1s !important;
+text-shadow: 0 0 5px #ffeaaf, 0 0 5px #ffeaaf, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: linear-gradient(180deg, #4A2C2E, #6a4845e0)!important;
+color: #ffd353 !important;
+text-align: center;
+border-radius: 24px 0 !important;
+}
+
+.inner-table .right {
+background: #a47554f0 !important;
+border-radius: 24px 0 !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+.right_odd {
+background: none !important;
+}
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(180deg, #4A2C2E, #6a4845);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 20px !important;
+box-shadow: 5px 8px 10px #3d3d3d !important;
+}
+
+.cave-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+.mound-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #4A2C2E, #6a4845) !important;
+color: 	#f0e2bf !important;
+border-style: none !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+border-color: none !important;
+}
+
+/* PMs # thingy */
+.badge {
+background: #9e3c1ee8;
+}
+
+/* Dynasty, Beetle Book, etc */
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #4A2C2E, #6a4845);
+border-radius: 20px;
+border: 1px solid #4a2c2ebf !important;
+box-shadow: 5px 5px 8px #3d3d3d !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://i.postimg.cc/3W5jgytd/222.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://i.postimg.cc/x1G53RDn/65.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://i.postimg.cc/qqgDmCXf/88.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://i.postimg.cc/448rzXvP/stamps.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://i.postimg.cc/Sx93FC0X/99.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+/* Block of color behind Territory Description, etc*/
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #895f52f5 !important;
+border: #ffffff00 !important;
+border-radius: 10px !important;
+color: #f0e2bf !important;
+box-shadow: #ffffff00 !important;
+text-shadow: #ffffff00 !important
+}
+
+/* Footer all the way at bottom. For the Terms of Service, Copyright, etc at bottom of page */
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+text-shadow: 1px 1px 2px #f0e2bf;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #ffd353;
+border-bottom: 1px solid #f0e2bf;
+}
+
+/* Links before and after you hover on them. Style with text decorations */
+
+a:link, a:visited, a:active {
+color: #ffd353;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #1B1722 !important;
+transition: all 0.5s ease-in-out 0.1s !important;
+text-shadow: 0 0 5px #ffeaaf, 0 0 5px #ffeaaf, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+background: #BFA67A;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: #A47554;
+border-radius: 10px;
+}
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+
+table#player img {
+opacity: 0;
+}
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 30px; 
+	margin-left: 1px;
+    margin-right: -2px;
+}
+
+.lion-image-block[data-image-type="headshot"] {
+	width: 300px;
+	height: 220px;
+}
+
+.lion-image-block[data-image-type="headshot"]
+{
+	padding-bottom: 50%;
+}
+
+.lion-image-block img[data-fixed="true"] {
+	top: 0;
+	left: 0;
+}
+
+.lion-image-block img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.postimg.cc/FRK1B9YG/angel.png');
+}
+
+/* Cave + Mounds Pics */
+
+.cave-grid img,.mound-grid img {
+  filter: opacity(50%) !important;
+  filter: saturate(40%) !important;
+  transition: all .3s ease;
+}
+
+.cave-grid img:hover,.mound-grid img:hover {
+  filter: opacity(1) !important;
+  filter: saturate(1) !important;
+}
+
+div.cave-grid > img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://64.media.tumblr.com/2bf951bf2343f4f1846def6a1ed126f1/a9e41b28c3db944e-c8/s540x810/ea1248c69be93d38de09be3f7a74bf286c14ebba.jpg') !important;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://mozartcultures.com/en/wp-content/uploads/2021/03/saint-girolamo.jpg') !important;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://finearttutorials.com/wp-content/uploads/2023/09/Baroque-Paintings-1024x768.png') !important;
+}
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://c4.wallpaperflare.com/wallpaper/680/142/574/bartolomeo-cavarozzi-classic-art-artwork-angel-crown-hd-wallpaper-preview.jpg') !important;
+}
+
+.mound-grid img {
+background: url("https://media.mutualart.com/Images/2023_11/22/16/162529074/french-school--19th-century-possibly-six-E1UPD-570.Jpeg");
+background-size: cover;
+width: 0;
+height: 0;
+padding-top: 80px;
+padding-right: 130px;
+}
+.mound-grid img {
+  border-radius: 20%;
+}
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://sdl-stickershop.line.naver.jp/products/0/0/1/1041458/android/stickers/1738366.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 250px;
+width: 250px;
+right: 10px;
+bottom: 0rem;
+z-index: 1;
+pointer-events:none;
+}
+
+.breadcrumb::after {
+content: "Nothing in the world belongs to me but my love, mine, all mine, all mine";
+color: #ebdfc0;
+position: absolute;
+font-size: 12px;
+right: 13%;
+z-index: 100;
+}
+
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background: linear-gradient(180deg, #4A2C2E, #6a4845e0);
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background: linear-gradient(180deg, #4A2C2E, #6a4845e0);
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(180deg, #4A2C2E, #6a4845e0);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(180deg, #4A2C2E, #6a4845e0);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* Boxes show on mobile */
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
