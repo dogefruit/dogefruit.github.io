@@ -150,6 +150,8 @@ font-size: 13px;
 padding: 3px 12px;
 margin: 2px 0;
 border-radius: 10px;
+transform: scale(1.1);
+transition: transform .3s;
 }
 
 /* Alerts (adjust later) */
@@ -578,7 +580,7 @@ border-radius: 0px;
 input,
 select,
 textarea {
-background: #895f52f5 !important;
+background: #654547f0 !important;
 border: #ffffff00 !important;
 border-radius: 10px !important;
 color: #f0e2bf !important;
@@ -609,6 +611,13 @@ a:hover {
 color: #1B1722 !important;
 transition: all 0.5s ease-in-out 0.1s !important;
 text-shadow: 0 0 5px #ffeaaf, 0 0 5px #ffeaaf, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus, a:link {
+    outline: none;
 }
 
 /* Scroll Bar Width, Backgound, Thumb */
@@ -810,6 +819,72 @@ border-radius: 10px !important;
   padding: 15px;
   overflow: auto;
 }
+
+/* Member Online/Offline Circle */
+
+.member-online {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4032be5e-09cd-4eed-9af0-cd852295f7fe/daxyo4c-818b456c-b3cc-4865-b6f1-e9b6e904901c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80MDMyYmU1ZS0wOWNkLTRlZWQtOWFmMC1jZDg1MjI5NWY3ZmUvZGF4eW80Yy04MThiNDU2Yy1iM2NjLTQ4NjUtYjZmMS1lOWI2ZTkwNDkwMWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BSmu81clywhBs9wmkpozN4brcH0dd2zwH885R37n6LM');
+background-size: contain;
+border-radius: 50%;
+height: 20px;
+width: 20px;
+display: inline-block;
+}
+.member-offline {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4032be5e-09cd-4eed-9af0-cd852295f7fe/daxynoy-fb71483b-7561-40cc-8a66-4dc60ea8eee4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80MDMyYmU1ZS0wOWNkLTRlZWQtOWFmMC1jZDg1MjI5NWY3ZmUvZGF4eW5veS1mYjcxNDgzYi03NTYxLTQwY2MtOGE2Ni00ZGM2MGVhOGVlZTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nDjJRKDOo6UNJEQSVg1bQQJo-qNkDJY21GaqXnd358k');
+background-size: contain;
+border-radius: 50%;
+height: 20px;
+width: 20px;
+display: inline-block;
+}
+
+/* Media Icons */
+
+img[src$="iconFB.png"] {
+content:url('https://i.postimg.cc/h4kVVTLL/icons8-facebook-50.png') !important;
+width: 40px !important;}
+
+img[src$="iconInsta.png"] {
+content:url('https://i.postimg.cc/RZM6TRNb/icons8-instagram-logo-50.png') !important;
+width: 40px !important; }
+
+img[src$="iconTwit.png"] {
+content:url('https://i.postimg.cc/RFnN0pDf/icons8-twitter-circled-50.png')!important;
+width: 40px !important; }
+
+/* Chatbox Emotes Codes */
+.emoteList {
+background: linear-gradient(180deg, #4A2C2E, #6a4845e0);
+box-shadow: 0 2px 4px rgb(0 0 0 / 32%);
+border: 1px solid #311c1ddb;
+border-radius: 15px;
+display: none;
+padding: 6px;
+position: absolute;
+text-align:center;
+top: 32px;
+width: 184px;
+min-height: 120px;
+}
+
+.emoteInput {
+background-image: url(https://gabestash.neocities.org/favicons/monochrome/mono333.gif) !important;
+margin-right: 2px !important;
+}
+.emoteInput:hover {
+background-image: url(https://gabestash.neocities.org/favicons/monochrome/mono333.gif) !important;
+}
+
+/* Other changed images n things */
+
+img[src$="bugbox.png"] {
+content:url('https://gabestash.neocities.org/favicons/monochrome/mono21.gif')!important;
+width: auto !important; }
+
+img[src$="solitude_01.png"] {
+content:url('https://www.befunky.com/images/wp/wp-2022-08-GoldenHourFeatured-2.jpg?auto=avif,webp&format=jpg&width=1136&crop=16:9')!important;
+min-width: 650px !important; }
 
 /* Boxes show on mobile */
 
