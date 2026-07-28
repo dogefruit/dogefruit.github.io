@@ -1,0 +1,888 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lavishly+Yours&display=swap');
+
+/* BACKGROUND */
+
+body {
+background: url('https://media.discordapp.net/attachments/1530784207658291250/1531417893114482768/wp8860412-aesthetic-goth-desktop-wallpapers.jpg?ex=6a69238e&is=6a67d20e&hm=d49da4f3a330721c18be77b4635f7b458d9192e438c3cf84bac70aaef24912c5&=&format=webp&width=1367&height=769') center center fixed;
+background-size: 25%;
+background-repeat: repeat;
+font-family: "Lavishly Yours", cursive !important;
+font-size: 18px !important;
+color: #ffffff !important;
+}
+
+/* Right Side Panel Background */
+
+.container.main {
+background: linear-gradient(to left, #000000ad, #3d0000c9, #3d0000c9, #3d0000c9, #000000ad);
+border-style: none !important;
+border-radius: 15px !important;
+animation: pulse-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    box-shadow: 0 0 5px #3D0000, 0 0 10px #780000; 
+  }
+  to {
+    box-shadow: 0 0 10px #3D0000, 0 0 10px #780000, 0 0 20px #b40101; 
+  }
+}
+
+/* Left Side Panel Background */
+
+.col-md-9 {
+background: #ffffff00;
+border-radius: 10px !important;
+}
+
+.col-md-3 .panel {
+    color: #a00000;
+}
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #290000, #660000);
+border-style: none;
+color: #ffffff;
+border-radius: 15px;
+animation: pulse-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    box-shadow: 0 0 5px #3D0000, 0 0 10px #780000; 
+  }
+  to {
+    box-shadow: 0 0 10px #3D0000, 0 0 10px #780000, 0 0 20px #b40101; 
+  }
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #ffffff !important;
+font-family: "Clicker Script", cursive !important;
+}
+.topbar a:hover {
+color: #000000 !important;
+text-shadow: 0 0 5px #ff0101, 0 0 10px #ff0101, 0 0 20px #ff0101, 0 0 30px #ffffff;
+}
+
+.navbar {
+background: linear-gradient(180deg, #290000, #660000);
+background-image: url("https://cdn.discordapp.com/attachments/1530784207658291250/1530812798416846969/collage_i_made_.jpe?ex=6a699304&is=6a684184&hm=ba26c8308de6cfd7238cb12209df501257adffac367b924cedd13478309755e9&");
+border-radius: 15px;
+font-family: "Clicker Script", cursive;
+}
+
+/* Navigation Bar Text & Background */
+
+.navbar li a {
+color: #000000 !important;
+text-shadow: 2px 2px 2px #ff0101 !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+color: #ffffff !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: #ffeaea 3px 3px 15px;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: linear-gradient(180deg, #290000e8, #660000ed) !important;
+border-radius: 20px;
+}
+
+.breadcrumb .active {
+color: #ff0101;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+/* Buttons for Switch Acc, Bug Box, Bookmark */
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+color: #000000;
+border: 1px solid #ffffff00;
+background: #780000;
+text-shadow: 1px 1px 0px #ff0101;
+font-weight: bold;
+font-size: 13px;
+padding: 3px 12px;
+margin: 2px 0;
+border-radius: 10px;
+}
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+color: #ff0101;
+border: 1px solid #ffffff00;
+background: #000000;
+text-shadow: 1px 1px 0px #fff3f3;
+font-weight: bold;
+font-size: 13px;
+padding: 3px 12px;
+margin: 2px 0;
+border-radius: 10px;
+transform: scale(1.1);
+transition: transform .3s;
+}
+
+img[src$="bugbox.png"] {
+content:url('https://gabestash.neocities.org/favicons/monochrome/mono168.gif')!important;
+width: auto !important; }
+
+/* Alerts (adjust later) */
+
+.alert-danger {
+text-align: center;
+background-color: #ff0101e0;
+border-color: #ffffff00;
+color: #710000;
+border-radius: 15px !important;
+font-size: 18px;
+border: 2px solid #710000;
+}
+.alert-success {
+text-align: center;
+background-color: #000000de;
+border-color: #ffffff00;
+color: #bebebe;
+border-radius: 15px !important;
+font-size: 18px;
+border: 2px solid #1a1a1a;
+}
+
+img[src$="hungry.png"] {
+content:url('https://gabestash.neocities.org/favicons/monochrome/mono117.gif')!important;
+width: auto !important; }
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+background-image: url("https://cdn.discordapp.com/attachments/1530784207658291250/1530786530967420958/Laptop_wallper.jpe?ex=6a697a8d&is=6a68290d&hm=ea881cd8d17aee4f74af5619feb9ad87f0a122fbba6ae35e70b313bf84b03fd2&");
+background-size: cover;
+border-radius: 15px;
+border: 3px solid #3D0000;
+color: #000000;
+font-size: 40px;
+text-align: center;
+font-family: "Clicker Script", cursive !important;
+animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff0101, 0 0 10px #ff0101, 0 0 20px #ff3939, 0 0 40px #ff7171;
+    }
+    100% {
+        text-shadow: 0 0 10px #E40B0B, 0 0 10px #E40B0B, 0 0 20px #E40B0B, 0 0 40px #ff0101;
+    }
+}
+
+h2 {
+color: #ff0101;
+font-size: 20px;
+text-align: center;
+}
+
+h3 {
+color: #ff0000 !important;
+font-size: 18px !important;
+text-shadow: #696969 1px 1px 3px;
+}
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 10px !important;
+}
+
+.panel {
+background-color: #ff1501 !important;
+background-image: url("https://cdn.discordapp.com/attachments/1530784207658291250/1530813211916374026/1126885138035053564.jpe?ex=6a699366&is=6a6841e6&hm=4e986a0d8fd6d20234e1b8b33cad786b5ff385a16175b19f8ac16b478fdd0955&") !important;
+border: 1px solid #3d0000eb !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+/* Bar Background */
+.progress {
+background: #737373;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background-image: linear-gradient(to right, #3D0000 , #780000);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background-image: linear-gradient(to right, #3D0000 , #780000);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background-image: linear-gradient(to right, #3D0000 , #780000);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background-image: linear-gradient(to right, #3D0000 , #780000);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background-image: linear-gradient(to right, #3D0000 , #780000);
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #ffffff !important;
+font-size: 12px !important;
+}
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.postimg.cc/h4Y0FwTH/bloodyknife.png') !important;
+position: absolute !important;
+top: 16% !important;
+left: -10% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(-1);
+height: 90px;
+}
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://images-ext-1.discordapp.net/external/qvk0czdZirbkCkTU5kGmMGBqQuEEpT1yt1v_nVydfTo/%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAzIiwicGF0aCI6Ii9mLzY1MmI3Nzc0LTI1ZWYtNGRiMS1iMTIxLTM5MGIzMTI3NTQzNS9kYmw5bWRyLWViNTNkNGFmLWE4NzctNDQ1NS05ZjMxLWQ1OTM5NmNlMDVjMS5wbmciLCJ3aWR0aCI6Ijw9OTYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.bbSM-rv4EqRstWs5Y4eCl4yjYcA4UjzvFzaIwW989Uw/https/images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/652b7774-25ef-4db1-b121-390b31275435/dbl9mdr-eb53d4af-a877-4455-9f31-d59396ce05c1.png/v1/fill/w_96%2Ch_103/roe_skull__free_to_use__by_akumiirako_dbl9mdr-fullview.png?format=webp&quality=lossless");
+position: absolute;
+left: 75%;
+top: -55px !important;
+z-index: 1;
+transform: scaleX(1);
+}
+
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("https://images-ext-1.discordapp.net/external/q63pbRKFyDIuagNpEFdqZG2Wtc5uwEMBvluwhecEaiM/%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ0IiwicGF0aCI6Ii9mL2YwZWM5ZmM0LWY5YTYtNDg5Yi1iNjI1LWE4M2M2ZTczZjE3Yy9kYnVpeXc4LTRjZGRjZjIxLTg4NzUtNDU3Yy04NTdhLThiZWVjMmZjNTkyZi5wbmciLCJ3aWR0aCI6Ijw9NDQxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DfvIZllbJZfHkhTqmB7iqgJ2n2c98EkRDnEJLB1U4Rc/https/images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f0ec9fc4-f9a6-489b-b625-a83c6e73f17c/dbuiyw8-4cddcf21-8875-457c-857a-8beec2fc592f.png/v1/fill/w_441%2Ch_144/f2u_guitar_page_decor_by_takoyama_san_dbuiyw8-fullview.png?format=webp&quality=lossless");
+position: absolute;
+left: 35%;
+top: 80px !important;
+z-index: 1;
+height: 70px;
+}
+
+/* Comments Box (wip / rarely use) */
+
+#commentBox {
+background: url('https://cdn.discordapp.com/attachments/1530784207658291250/1530812798081175602/779826491774879998.jpe?ex=6a699304&is=6a684184&hm=13f4d6394169b7871007630bad59bb3fc1e1031d90aed760baf3690795076ea7&')!important;
+background-size: cover !important;
+border-radius: 15px !important;
+border: 1px solid #4a2c2e8a !important;
+box-shadow: 1px 2px 5px #171717 !important;
+height: 250px !important;
+}
+
+div.comment:nth-child(even) {background: linear-gradient(180deg, #290000db, #660000d1) !important;
+border-bottom: 0px;
+font-weight: normal;
+color: #ffffff;}
+
+div.comment:nth-child(odd) {background: linear-gradient(180deg, #290000db, #660000d1) !important;
+border-bottom: 0px;
+font-weight: normal;
+color: #ffffff;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 20px;
+}
+
+input#comment {background: linear-gradient(180deg, #290000db, #660000d1) !important;
+color: #ffffff !important;}
+
+small.text-muted {color: #ff5f5f;}
+small.text-muted a {color: #ffffff;}
+
+
+input[type="button"].bad {background: #000000f2 !important;}
+
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #ff5f5feb;
+border-radius: 20px;  
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #000000;
+border-radius: 10px; 
+}
+
+#commentBox::before {
+    content: url("https://media.discordapp.net/attachments/1530784207658291250/1531058426547933234/giphy.png?ex=6a69cf06&is=6a687d86&hm=b3fea286d9a9d000db8f47035c407a8d8eb99496ebd3e901a10ac6b89cddd3c6&=&format=webp&quality=lossless");
+    background: url('https://cdn.discordapp.com/attachments/1530784207658291250/1530813454561054800/3.jpe?ex=6a6993a0&is=6a684220&hm=a02df46a0ea5661f6233a671da695f23c7dd0cc2b0658c30acaacd09bbab39c3&') !important;
+    background-size: 20% !important;
+    background-attachment: fixed !important;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 1px 2px 5px #1B1722 !important;
+    font-family:'Berkshire Swash', handwriting;
+    position: sticky;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    display: block;
+    padding-top: 1px;
+    top: 0px;
+}
+
+/* Chat CSS overrides */
+
+.s-chat-message:nth-child(even) {
+background: linear-gradient(180deg, #290000db, #660000d1);
+color: #ffffff !important;
+}
+
+.s-chat-message:nth-child(odd) {
+background: linear-gradient(180deg, #290000db, #660000d1);
+color: #ffffff !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#ff0901 !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #ff0800;
+}
+
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #780000;
+color: #000000;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #780000;
+color: #000000;
+}
+
+.s-chat-message_claim {
+background: #000000;
+border-bottom: 1px none #ffffff;
+color: #ff0000;
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #000000!important;
+        color: 	#ff0101 !important;
+	border: none !important;
+}
+
+/* Lion Info Table Panel */
+
+.table {
+background: #ffffffe6;
+background-image: url(https://media.discordapp.net/attachments/1530784207658291250/1530813209282609203/492722015508679865.gif?ex=6a699366&is=6a6841e6&hm=23e823504be8ef0fdb1def7da53e9d914926a9f0f4ed0c4b93565de703e04aaf&=); !important;
+background-attachment: fixed;
+background-size: 80%;
+border: solid #290000 !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 15px;
+box-shadow: 1px 2px 5px #b40101 !important;
+}
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background: linear-gradient(100deg, #290000, #660000);
+padding: 8px 20px;
+background-attachment: fixed;
+font-size: 15px;
+font-weight: normal;
+border-radius: 15px;
+}
+
+.table .bottom {
+text-align: center;
+background: linear-gradient(100deg, #290000, #660000);
+color: #ffffff;
+background-attachment: fixed;
+border-radius: 15px;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #ff0000 !important;
+text-shadow: 2px 2px 8px #ff0101;
+border-bottom: 1px none #ffffff00 !important;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #000000 !important;
+transition: all 0.5s ease-in-out 0.1s !important;
+text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #ff0000 !important;
+text-shadow: 5px 5px 5px #3d3d3d;
+text-decoration: none;
+text-shadow: 2px 2px 8px #ff0101;
+}
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #000000 !important;
+transition: all 0.5s ease-in-out 0.1s !important;
+text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: radial-gradient(#290000, #660000) !important;
+color: #ffffff !important;
+text-align: center;
+border-radius: 15px !important;
+}
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+color: #ff0000 !important;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+/* CUSTOM KING TITLES
+Codes made by Pandora #144118 */
+#about > tbody > tr:nth-child(1) > td > div::after {
+content: url("https://media.discordapp.net/attachments/1530784207658291250/1531058134456471592/vampirebabe.png?ex=6a69cec0&is=6a687d40&hm=4431a406b051a746d8b993d473c99961a87162da20f3325a3a6c8512dc615fd6&=&format=webp&quality=lossless");    
+}
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: radial-gradient(#290000, #660000);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 20px !important;
+box-shadow: 5px 5px 8px #b40101 !important;
+}
+
+.cave-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+.mound-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+/* Feed All Play All */
+
+.feature {
+background: radial-gradient(#290000, #660000)!important;
+color: 	#ffffff !important;
+border-width: 0px; !important;
+border-radius: 10px !important;
+font-size: 15px !important;
+}
+
+/* Dynasty, Beetle Book, etc */
+
+.feature,
+div.left {
+background: radial-gradient(#290000, #660000);
+border-radius: 20px;
+border: 1px solid #290000 !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://media.discordapp.net/attachments/1530784207658291250/1531058133928120471/vampiressupportme.png?ex=6a69cec0&is=6a687d40&hm=d481d3281a78c2f9837259ce1b0b0f9e5ba722b47dbf4f4660c06e420ec6c3b6&=&format=webp&quality=lossless') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://media.discordapp.net/attachments/1530784207658291250/1531056965663592508/ilovebats.png?ex=6a69cdaa&is=6a687c2a&hm=76bb1499631bc89d8d1d53d14b3cf6039529694ae7f0ce0cdf1438f31b806fc2&=&format=webp&quality=lossless') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://media.discordapp.net/attachments/1530784207658291250/1531058133546307594/gore.png?ex=6a69cec0&is=6a687d40&hm=4faaeccfc00618648b77c22d8d121ccb274d7414d5363fc7e0f3a27eff15fd1b&=&format=webp&quality=lossless') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bac63e87-0fce-45ee-959c-590b0a9dc8cd/d1i3u8a-64c1b0b4-4ac5-4f8b-92ae-bbdf5ee8c7ef.jpg/v1/fill/w_102,h_60,q_75,strp/bats_stamp_by_morbidpumpkin_d1i3u8a-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAiLCJwYXRoIjoiL2YvYmFjNjNlODctMGZjZS00NWVlLTk1OWMtNTkwYjBhOWRjOGNkL2QxaTN1OGEtNjRjMWIwYjQtNGFjNS00ZjhiLTkyYWUtYmJkZjVlZThjN2VmLmpwZyIsIndpZHRoIjoiPD0xMDIifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HIICP1ppN4-kOPxK3qx-ZZsV-vBZ0xAWd4WKD7ADlqM') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bea6f488-6dc3-4037-93ad-fa0bb326b691/d1qdbrd-6b6d2539-a408-4158-ab10-59094d0e378e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9iZWE2ZjQ4OC02ZGMzLTQwMzctOTNhZC1mYTBiYjMyNmI2OTEvZDFxZGJyZC02YjZkMjUzOS1hNDA4LTQxNTgtYWIxMC01OTA5NGQwZTM3OGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZrITbC9vT6AkPDIdVDX_COfsntW0ZLxuJ_9f9ndaSrE') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+/* Block of color behind Territory Description, etc*/
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #ffffff91 !important;
+border: none !important;
+border-radius: 15px !important;
+color: #780000 !important;
+box-shadow: 1px 1px 2px #ff0101c7;
+text-shadow: none !important
+}
+
+/* Footer all the way at bottom. For the Terms of Service, Copyright, etc at bottom of page */
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+text-shadow: 1px 1px 2px #ff0101;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #ff0000;
+border-bottom: 1px solid #ff0101;
+}
+
+/* Links */
+
+a:link, a:visited, a:active {
+color: #aa0000;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #ff2e2e !important;
+transition: all 0.5s ease-in-out 0.1s !important;
+text-shadow: 1px 1px 2px #ffffffde;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #440000eb;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #000000;
+border-radius: 10px;
+}
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+table#player img {
+opacity: 0;
+}
+.table#player hr {
+border-top-color: #00000000;
+}
+/* Shape of Lion + User Avatar */
+
+div#lion_image {
+	border-radius: 5% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+/*Border around Lion mage*/
+div#lion_image::after {
+content: "";
+background: url('https://media.discordapp.net/attachments/1530784207658291250/1531063128111054910/61f2f2c6f2c409c0ca2814f24c00efe5d23076b2.png?ex=6a69d367&is=6a6881e7&hm=c752127f304c9d5337ee98cb2b385d87982030baaa7ef34f7eefa0805cb45b36&=&format=webp&quality=lossless') no-repeat;
+position: absolute;
+transform: translate(-125px, -225px);
+width: 245px;
+height: 245px;
+background-size: cover;
+}
+
+/* Chatbox Emotes Codes */
+.emoteList {
+background: linear-gradient(180deg, #290000, #660000);
+box-shadow: 0 2px 4px rgb(0 0 0 / 32%);
+border: 1px solid #290000;
+border-radius: 15px;
+display: none;
+padding: 6px;
+position: absolute;
+text-align:center;
+top: 32px;
+width: 184px;
+min-height: 120px;
+}
+
+.emoteInput {
+background-image: url(https://gabestash.neocities.org/favicons/red/red45.gif) !important;
+margin-top: -10px !important;
+}
+.emoteInput:hover {
+background-image: url(https://gabestash.neocities.org/favicons/red/red46.gif) !important;
+}
+
+/* Logo Replacer */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://images-ext-1.discordapp.net/external/53zxfOOPtsIBbUuSPZV728Hu9FzOK4NVwXWnsofj9fg/%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY4IiwicGF0aCI6Ii9mL2RlMDRiNjdjLWQ3MDYtNDQwMi04YzJmLWFhMWQ3OTlkZDlkMC9kZGRudXAyLWZkMDFmMTYxLWE2OTMtNDg1My1iYjJiLTgwZTQ1NDAxYTBhYi5wbmciLCJ3aWR0aCI6Ijw9MzYwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.oVsOBLiabEvvC-j5nkfKXtkNpyQVZx-QOkK7-ogKJpM/https/images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/de04b67c-d706-4402-8c2f-aa1d799dd9d0/dddnup2-fd01f161-a693-4853-bb2b-80e45401a0ab.png/v1/fill/w_360%2Ch_168/____by_unknown_artist99_dddnup2-fullview.png?format=webp&quality=lossless');
+height: 100px;
+margin-top: 18px;
+margin-left: -40px;
+}
+
+/* Cave + Mounds Pics */
+
+.cave-grid img,.mound-grid img {
+  filter: grayscale(50%) !important;
+  filter: saturate(0%) !important;
+  transition: all .3s ease;
+}
+
+.cave-grid img:hover,.mound-grid img:hover {
+  filter: grayscale(1) !important;
+  filter: saturate(1) !important;
+}
+
+div.cave-grid > img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://cdn.discordapp.com/attachments/1530784207658291250/1530813210800816208/download.jpe?ex=6a699366&is=6a6841e6&hm=c8a70ae3d2a3ec08b1c5495238d4d9fec314a54da008e4f639c0aa3c7612e2f6&') !important;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://cdn.discordapp.com/attachments/1530784207658291250/1530813209911492608/837810336939282083.jpe?ex=6a699366&is=6a6841e6&hm=257919211e23a97d43a85fdb1e28d5a14daf1ae42be9de8b1f0afcb3f3158bbc&') !important;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://cdn.discordapp.com/attachments/1530784207658291250/1530786530967420958/Laptop_wallper.jpe?ex=6a6a234d&is=6a68d1cd&hm=274ff68c745db9b16f771868d18c23fbee192976121bfb963dd1b13d5dcb047f&') !important;
+}
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://cdn.discordapp.com/attachments/1530784207658291250/1530813210398294016/Castle___My_edit_.jpe?ex=6a699366&is=6a6841e6&hm=8bdc83d223333193479f0d6d8dcd35a534752e5ea60fa96cae65ad50ea43e297&') !important;
+}
+
+.mound-grid img {
+background: url("https://cdn.discordapp.com/attachments/1530784207658291250/1530812798664441957/Inanition.jpe?ex=6a699304&is=6a684184&hm=fb752f5efe140e79a0a1a1825c1508a45ddc23d1159704f2b7e146e2e336f6dc&");
+background-size: cover;
+width: 0;
+height: 0;
+padding-top: 80px;
+padding-right: 130px;
+}
+.mound-grid img {
+  border-radius: 20%;
+}
+
+/* pagedoll */
+.container.main::after {
+background-image: url('png');
+background-size: cover;
+position: fixed;
+display: block;
+height:250px;
+width:250px;
+right: -50px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+}
+
+.breadcrumb::after {
+content: "Edits doge fruit (#45943)";
+color: #ffffffd1;
+position: absolute;
+font-size: 10px;
+right: 3%;
+z-index: 100;
+}
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffffeb;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #890101eb;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #890101eb;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #890101eb;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* Boxes show on mobile */
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
