@@ -216,8 +216,9 @@ animation: glow 1.5s infinite alternate;
 }
 
 h2 {
-color: #ff0101;
-font-size: 20px;
+color: #290000;
+font-size: 35px;
+font-weight: bold;
 text-align: center;
 }
 
@@ -784,25 +785,58 @@ padding-right: 130px;
 
 /* pagedoll */
 .container.main::after {
-background-image: url('png');
+background-image: url('https://i.postimg.cc/zvVYCKzy/Untitled-design-removebg-preview.png');
 background-size: cover;
 position: fixed;
 display: block;
 height:250px;
-width:250px;
-right: -50px;
+width: 250px;
+right: -10px;
 bottom: 0rem;
 z-index: 100;
 pointer-events:none;
 }
 
+/* Dark Heartagram - https://www.cursors-4u.com/cursor/spe47 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/dark-heartagram-632f2f7d-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+img[src$="icon-time-day.png"] {
+content:url('https://gabestash.neocities.org/favicons/red/red197.webp')!important;
+width: 35px !important;
+height: 35px !important;}
+
+img[src$="icon-time-night.png"] {
+content:url('https://gabestash.neocities.org/favicons/red/red315.GIF')!important;
+width: 35px !important;
+height: 35px !important;}
+
 .breadcrumb::after {
 content: "Edits doge fruit (#45943)";
 color: #ffffffd1;
 position: absolute;
-font-size: 10px;
-right: 3%;
+font-size: 13px;
+right: 18%;
 z-index: 100;
+}
+
+.invisbox {
+    float: left;
+    color: rgb(255 255 255 / 0%);
+    position: absolute;
+    padding-top: 0px;
+    margin-top: -95px;
+    height: 50px;
+    width: 90%;
+    background: rgba(243, 206, 212, 0);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: none;
+    border-radius: 5px;
+    overflow: visible;
 }
 
 .BOX {
@@ -827,7 +861,7 @@ border-radius: 10px !important;
 width: 510px;
 height: 56px;
 overflow:hidden;
-background-color: #890101eb;
+background: linear-gradient(180deg, #520000, #9f0101);
 transition: width 5.5s, height 5.5s;
 border-radius: 10px !important;
 }
@@ -840,19 +874,17 @@ border-radius: 10px !important;
 	display: flex;
 }
 
-
 .scroll1{
   border: 0px;
   width: 350px;
   height: 200px;
   text-align: center;
   margin: 10px;
-  background: #890101eb;
+  background: linear-gradient(180deg, #520000, #9f0101);
   border-radius: 15px;
   padding: 15px;
   overflow: auto;
 }
-
 
 .scroll2{
   border: 0px;
@@ -860,11 +892,46 @@ border-radius: 10px !important;
   height: 200px;
   text-align: center;
   margin: 10px;
-  background: #890101eb;
+  background: linear-gradient(180deg, #520000, #9f0101);
   border-radius: 15px;
   padding: 15px;
   overflow: auto;
 }
+
+/* Icon codes below by kat and pandora */
+
+/* MEMBER ONLINE */
+.member-online {
+    background: #ffffff00;
+    content:url('https://gabestash.neocities.org/favicons/red/red224.webp')!important;
+	border-radius: 0px;
+    width:25px!important;
+    height:25px;
+	margin:-1px;
+	margin-left: 10px; }
+	
+/* MEMBER OFFLINE */
+.member-offline {
+    background: #ffffff00f;
+    content:url('https://file.garden/Ze88s1ucmRDZDhMX/pixels/622.gif')!important;
+	border-radius: 0px;
+    width:40px!important;
+    height:40px;
+	margin:-1px;
+	margin-left:10px;
+	filter: saturate(0%); }
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://gabestash.neocities.org/favicons/red/red244.webp')!important;
+    width:20px!important; }
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://file.garden/Ze88s1ucmRDZDhMX/pixels/870.gif')!important;
+    width:20px!important; }
+
+
 
 /* Boxes show on mobile */
 
