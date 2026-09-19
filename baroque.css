@@ -652,11 +652,12 @@ border-top-color: #00000000;
 /* Shape of Lion + User Avatar */
 
 div#lion_image {
-	border-radius: 10% !important;
+content: url('https://stickershop.line-scdn.net/stickershop/v1/product/17277117/LINEStorePC/main.png?v=1') !important;
+	border-radius: 30% !important;
 	overflow: hidden;
-	margin-top: 30px; 
-	margin-left: 1px;
-    margin-right: -2px;
+	margin-top: 15px; 
+	margin-left: 12px;
+
 }
 
 .lion-image-block[data-image-type="headshot"] {
