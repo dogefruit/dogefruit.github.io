@@ -466,9 +466,8 @@ border-radius: 10px !important;
 
 /* Adds little icons on energ / achievements / etc boxes */
 
-
 .col-xs-6 h3 .floatright {
-content: url('https://i.postimg.cc/W3V3hBhS/standingbear.png') !important;
+content: url('https://i.8upload.com/image/8fbb5a73471cf365/standingbear.png') !important;
 position: absolute !important;
 top: 15% !important;
 left: 70% !important;
@@ -479,9 +478,8 @@ height: 200px;
 }
 
 
-
 div.col-xs-5> a:nth-child(1) > h3 > div {
-content: url("https://i.postimg.cc/qvn4ymfj/beeer.png");
+content: url("https://i.8upload.com/image/2d33a694f15c0df6/grizbar.png");
 position: absolute;
 left: 70%;
 top: -55px !important;
@@ -489,7 +487,6 @@ z-index: 1;
 transform: scaleX(-1);
 height: 100px;
 }
-
 
 /* Feed All Play All */
 
@@ -517,7 +514,7 @@ div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
 width: 20%;}
 
 img[src$="den_beetlebook.png"] {
-background: url('https://i.postimg.cc/sXBcgHNf/23.png') !important;
+background: url('https://i.8upload.com/image/63a3a0906f4e71af/bearstamp5.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -527,7 +524,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_showcase.png"] {
-background: url('https://i.postimg.cc/NfRdXVfc/12.png') !important;
+background: url('https://i.8upload.com/image/93913a484ee657d1/bearstamp4.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -537,7 +534,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_achievements.png"] {
-background: url('https://i.postimg.cc/SsjZzxj5/stampbears.png') !important;
+background: url('https://i.8upload.com/image/d8db718bbf4d1a66/bearstamp3.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -547,7 +544,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestorsfem.png"] {
-background: url('https://i.postimg.cc/VsdTJDCn/bearstamp2.png') !important;
+background: url('https://i.8upload.com/image/1cbbd57440bfea9b/bearstamp2.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -557,7 +554,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestors.png"] {
-background: url('https://i.postimg.cc/HLd0ChTC/bearstamp.png') !important;
+background: url('https://i.8upload.com/image/cbcf83d054695d06/bearstamp.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -681,13 +678,11 @@ overflow: hidden;
 
 /* Logo Replacer */
 
-
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.postimg.cc/4NtX9J9p/sleepybear.png');
-height: 160px;
-margin-top: -20px;
+content: url('https://i.8upload.com/image/fcae0c34a7c51003/layingbear-1.png');
+margin-left: -30px;
+margin-top: -35px;
 }
-
 
 /* Cave + Mounds Pics */
 
@@ -757,7 +752,7 @@ z-index: 100;
 
 /* pagedoll */
 .container.main::after {
-background-image: url('https://i.postimg.cc/jjFR0Cfr/sittingbear.png');
+background-image: url('https://i.8upload.com/image/8b45a13cb1c23e94/sittingbear.png');
 background-size: cover;
 position: fixed;
 display: block;
