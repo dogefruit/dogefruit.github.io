@@ -634,8 +634,14 @@ border-radius: 20% !important;
 overflow: hidden;
 }
 
-/* Cave + Mounds Pics */
+/* LIODEN LOGO REPLACER */
 
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.8upload.com/image/68e421b1bdba6f70/the-pack-tpb-3-1.webp');
+height: 125px;
+}
+
+/* Cave + Mounds Pics */
 
 img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
     content: url('https://i.8upload.com/image/4e25d758a5b404dd/tpb-3-scourge-template.webp') !important;
