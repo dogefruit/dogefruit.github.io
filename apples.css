@@ -9,7 +9,7 @@
 
 
 body {
-background: url('https://i.postimg.cc/nhgpPWGQ/applkes.gif') center center fixed;
+background: url('https://i.8upload.com/image/534a163f328ab09d/applebg.gif') center center fixed;
 background-size: 5%;
 background-repeat: repeat;
 font-family: "Nunito", sans-serif !important;
@@ -275,7 +275,7 @@ color: #586c33 !important;
 
 
 .col-xs-6 h3 .floatright {
-content: url('https://i.postimg.cc/FFDrcvKX/apapapapap.png') !important;
+content: url('https://i.8upload.com/image/13c726a24a58377e/appleicon.png') !important;
 position: absolute !important;
 top: 26% !important;
 left: -1% !important;
@@ -288,7 +288,7 @@ height: 20px;
 
 
 div.col-xs-5> a:nth-child(1) > h3 > div {
-content: url("https://i.postimg.cc/FFDrcvKX/apapapapap.png");
+content: url("https://i.8upload.com/image/13c726a24a58377e/appleicon.png");
 position: absolute;
 left: 90%;
 top: 15px !important;
@@ -544,7 +544,7 @@ width: 20%;}
 
 
 img[src$="den_beetlebook.png"] {
-background: url('https://i.postimg.cc/J4BgnmyW/db14z2a-16259d3a-3e02-49d0-9714-0b38312f15e5.png') !important;
+background: url('https://i.8upload.com/image/c7f5ccc09d39a972/appledynasty.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -554,7 +554,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_showcase.png"] {
-background: url('https://i.postimg.cc/J4BgnmyW/db14z2a-16259d3a-3e02-49d0-9714-0b38312f15e5.png') !important;
+background: url('https://i.8upload.com/image/c7f5ccc09d39a972/appledynasty.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -564,7 +564,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_achievements.png"] {
-background: url('https://i.postimg.cc/J4BgnmyW/db14z2a-16259d3a-3e02-49d0-9714-0b38312f15e5.png') !important;
+background: url('https://i.8upload.com/image/c7f5ccc09d39a972/appledynasty.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -574,7 +574,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestorsfem.png"] {
-background: url('https://i.postimg.cc/J4BgnmyW/db14z2a-16259d3a-3e02-49d0-9714-0b38312f15e5.png') !important;
+background: url('https://i.8upload.com/image/c7f5ccc09d39a972/appledynasty.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -584,7 +584,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestors.png"] {
-background: url('https://i.postimg.cc/J4BgnmyW/db14z2a-16259d3a-3e02-49d0-9714-0b38312f15e5.png') !important;
+background: url('https://i.8upload.com/image/c7f5ccc09d39a972/appledynasty.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -704,12 +704,11 @@ overflow: hidden;
 
 /* Logo Replacer */
 
-
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.postimg.cc/XqTfjzp0/dca7q37-9fa4d3c5-cd1c-4cd5-965e-864297edd753.png');
-height: 95px;
+content: url('https://i.8upload.com/image/fb62bcabc63f4849/applelogo.png');
+margin-top: 30px; 
+margin-left: 30px;
 }
-
 
 /* Cave + Mounds Pics */
 
@@ -744,7 +743,7 @@ img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
 
 
 .mound-grid img {
-background: url("https://i.postimg.cc/vHhhcTB4/canva-watercolor-illustration-of-red-apple-with-leaf-MAGya-HELA14.webp");
+background: url("https://i.8upload.com/image/34547a147b3b2fc6/canvaaplle.webp");
 width: 0;
 height: 0;
 padding-top: 100px;
