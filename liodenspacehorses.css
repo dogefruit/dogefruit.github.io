@@ -738,7 +738,8 @@ overflow: hidden;
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 content: url('https://i.8upload.com/image/44e8c5245283a568/sleepingpegasus-1.png');
-height: 125px;
+margin-left: -117px; 
+margin-right: -90px;
 }
 
 
