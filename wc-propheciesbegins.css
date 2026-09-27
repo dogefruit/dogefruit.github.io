@@ -661,8 +661,7 @@ overflow: hidden
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.postimg.cc/GtfTVNC7/TPB-2-Event-Rusty.webp');
-height: 125px;
+content: url('https://i.8upload.com/image/cfe177ca6c7274a8/tpb-2-event-rusty-1.webp');
 }
 
 
@@ -670,7 +669,7 @@ height: 125px;
 
 
 img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
-    content: url('https://i.postimg.cc/ZKyW0wmg/TPB-1-Bluestar-Template.webp') !important;
+    content: url('https://i.8upload.com/image/c17372a09c553ba3/tpb-1-bluestar-template.webp') !important;
     height: 220px;
 }
 
@@ -678,7 +677,7 @@ img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
 
 
 img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
-    content: url('https://i.postimg.cc/vBcVhbRY/TPB-1-Tigerstar-Template.webp') !important;
+    content: url('https://i.8upload.com/image/a5852d09d128d02e/tpb-1-tigerstar-template.webp') !important;
     height: 220px;
 }
 
@@ -686,7 +685,7 @@ img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
 
 
 img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
-    content: url('https://i.postimg.cc/JzkY6CLb/TPB-1-Spottedleaf-Template.webp') !important;
+    content: url('https://i.8upload.com/image/875379258474f001/tpb-1-spottedleaf-template.webp') !important;
     height: 220px;
 }
 
@@ -694,13 +693,13 @@ img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
 
 
 img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
-    content: url('https://i.postimg.cc/0yzjhZWh/TPB-1-Template-(1).webp') !important;
+    content: url('https://i.8upload.com/image/975ff830962a7e50/tpb-1-template.webp') !important;
     height: 220px;
 }
 
 
 .mound-grid img {
-background: url("https://i.postimg.cc/KzxZc5Np/TPB-1-Ravenpaw-Template.webp");
+background: url("https://i.8upload.com/image/12c4f5ea7db5a95e/tpb-1-ravenpaw-template.webp");
 width: 0;
 height: 0;
 padding-top: 100px;
@@ -712,7 +711,7 @@ background-size: cover !important;
 /* pagedoll */
 .container.main::after {
 content: "";
-background-image: url('https://i.postimg.cc/NGyr3sKD/Spottedleaf-TPB-1.webp');
+background-image: url('https://i.8upload.com/image/8070f7e8eee8ffd0/spottedleaf-tpb-1.webp');
 background-size: cover;
 position: fixed;
 display: block;
@@ -727,7 +726,7 @@ pointer-events:none;
 
 .container.main::before {
 content: "";
-background-image: url('https://i.postimg.cc/7LDWRtX0/TPB-2-Event-Fire-Gray-Raven.webp');
+background-image: url('https://i.8upload.com/image/46be94a9545a4fb0/tpb-2-event-firegrayraven.webp');
 background-size: cover;
 position: fixed;
 display: block;
