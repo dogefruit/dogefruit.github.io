@@ -8,7 +8,7 @@
 
 
 body {
-background: url('https://i.postimg.cc/GtLnGGch/spacebgg.jpg') center center fixed;
+background: url('https://i.8upload.com/image/a126e5f3fd6e1ed2/spacebg.jpg') center center fixed;
 background-size: cover;
 background-repeat: no-repeat;
 font-family: "Quicksand", sans-serif !important;
@@ -737,7 +737,7 @@ overflow: hidden;
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.postimg.cc/yNMpTvxv/sleepingpegasus.png');
+content: url('https://i.8upload.com/image/4245b0bce2c346e9/sleepingpegasus.png');
 }
 
 
@@ -746,26 +746,26 @@ content: url('https://i.postimg.cc/yNMpTvxv/sleepingpegasus.png');
 
 
 img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
-    content: url('https://i.postimg.cc/P5x6nNR2/1.png') !important;
+    content: url('https://i.8upload.com/image/574b138e2e14ecdb/1.png') !important;
 }
 
 
 img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
-    content: url('https://i.postimg.cc/ZRBRGP8R/11.png') !important;
+    content: url('https://i.8upload.com/image/b2a1bedafe2311ba/11.png') !important;
 }
 
 
 img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
-    content: url('https://i.postimg.cc/g2g2rtst/14.png') !important;
+    content: url('https://i.8upload.com/image/112d61ac61688d6f/14.png') !important;
 }
 
 
 img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
-   content: url('https://i.postimg.cc/WbMDp7Qj/13.png') !important;
+   content: url('https://i.8upload.com/image/c6f7da6463374f68/13.png') !important;
 }
 
 .mound-grid img {
-background: url("https://i.postimg.cc/ZnzTXGYc/26.png");
+background: url("https://i.8upload.com/image/546c3899d1ea17b0/26.png");
 background-size: cover;
 width: 0;
 height: 0;
