@@ -266,7 +266,7 @@ color: #143601 !important;
 
 
 .col-xs-6 h3 .floatright {
-content: url('https://i.postimg.cc/yN2ZTVsX/di0ezuv-ac1593db-7c5c-4bac-aa46-344e771dafc1.png') !important;
+content: url('https://i.8upload.com/image/0f4c0dd00e95e5b1/monsteraleaf.png') !important;
 position: absolute !important;
 top: 35% !important;
 left: -10% !important;
@@ -279,7 +279,7 @@ height: auto;
 
 
 div.col-xs-5> a:nth-child(1) > h3 > div {
-content: url("https://i.postimg.cc/Jz1cy4zk/di0f183-5ddb3956-380d-41f2-9547-46c4f3cf2935.png");
+content: url("https://i.8upload.com/image/f8be2a1bf3ad73d3/piedleaf.png");
 position: absolute;
 left: 80%;
 top: -10px !important;
@@ -509,7 +509,7 @@ width: 20%;}
 
 
 img[src$="den_beetlebook.png"] {
-background: url('https://i.postimg.cc/qBjdZrmX/dg460ml-af4e6cd2-1d6b-4dcb-93f2-88adc426c816.png') !important;
+background: url('https://i.8upload.com/image/1df44f1e810996fb/harmany.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -519,7 +519,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_showcase.png"] {
-background: url('https://i.postimg.cc/qBjdZrmX/dg460ml-af4e6cd2-1d6b-4dcb-93f2-88adc426c816.png') !important;
+background: url('https://i.8upload.com/image/1df44f1e810996fb/harmany.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -529,7 +529,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_achievements.png"] {
-background: url('https://i.postimg.cc/qBjdZrmX/dg460ml-af4e6cd2-1d6b-4dcb-93f2-88adc426c816.png') !important;
+background: url('https://i.8upload.com/image/1df44f1e810996fb/harmany.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -539,7 +539,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestorsfem.png"] {
-background: url('https://i.postimg.cc/qBjdZrmX/dg460ml-af4e6cd2-1d6b-4dcb-93f2-88adc426c816.png') !important;
+background: url('https://i.8upload.com/image/1df44f1e810996fb/harmany.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -549,7 +549,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestors.png"] {
-background: url('https://i.postimg.cc/qBjdZrmX/dg460ml-af4e6cd2-1d6b-4dcb-93f2-88adc426c816.png') !important;
+background: url('https://i.8upload.com/image/1df44f1e810996fb/harmany.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -669,12 +669,11 @@ overflow: hidden;
 
 /* Logo Replacer */
 
-
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.postimg.cc/L5wTJhVD/ddnrjvw-8d9928b1-28c6-40be-a1b8-07eb899a9780.png');
-height: 90px;
+content: url('https://i.8upload.com/image/7698c85a4415a9d7/shyloleaf.png');
+margin-left: 25px; 
+margin-top: 30px;
 }
-
 
 /* Cave + Mounds Pics */
 
