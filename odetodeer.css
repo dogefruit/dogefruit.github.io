@@ -482,7 +482,7 @@ border-radius: 10px !important;
 
 
 .col-xs-6 h3 .floatright {
-content: url('https://i.postimg.cc/Njt7nYyY/layingbbydeer.png') !important;
+content: url('https://i.8upload.com/image/5cbbc2b184487863/layingbbydeer.png') !important;
 position: absolute !important;
 top: 6% !important;
 left: 70% !important;
@@ -495,7 +495,7 @@ height: 90px;
 
 
 div.col-xs-5> a:nth-child(1) > h3 > div {
-content: url("https://i.postimg.cc/CxvB4Vk8/sittingbbydeer.png");
+content: url("https://i.8upload.com/image/3f708d320f9b4214/sittingbbydeer.png");
 position: absolute;
 left: 50%;
 top: 45px !important;
@@ -532,7 +532,7 @@ width: 20%;}
 
 
 img[src$="den_beetlebook.png"] {
-background: url('https://i.postimg.cc/sxgvcJ62/deer.png') !important;
+background: url('https://i.8upload.com/image/35178232fef22067/stammmp.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -542,7 +542,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_showcase.png"] {
-background: url('https://i.postimg.cc/rwBRkxmh/fawnn.png') !important;
+background: url('https://i.8upload.com/image/a1e8cdf618f0b270/deerstamp2.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -552,7 +552,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_achievements.png"] {
-background: url('https://i.postimg.cc/xj5mzXxX/bbydeer.png') !important;
+background: url('https://i.8upload.com/image/5dd4a4ae8cd75e79/deerstamp3.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -562,7 +562,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestorsfem.png"] {
-background: url('https://i.postimg.cc/TwqDQ1TF/ddddeeeet.png') !important;
+background: url('https://i.8upload.com/image/f2547a005dc49b6f/deerstamp5.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -572,7 +572,7 @@ background-position: center !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestors.png"] {
-background: url('https://i.postimg.cc/5N9w7BYH/deeer.png') !important;
+background: url('https://i.8upload.com/image/672345c5a3cdc232/deerstamp.png') !important;
 width: 0;
 height: 0;
 padding-top: 80px !important;
@@ -699,11 +699,10 @@ overflow: hidden;
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.postimg.cc/3rkfJvZR/deer-head.png');
+content: url('https://i.8upload.com/image/0bc72bfa6864eec0/deerhead.png');
 height: 160px;
-margin-top: -40px;
+margin-top: -20px;
 }
-
 
 /* Cave + Mounds Pics */
 
@@ -757,10 +756,10 @@ img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
 }
 
 .mound-grid img {
-background: url("https://i.postimg.cc/0ND0mkh1/sleepypied-(2).png");
+background: url("https://i.8upload.com/image/bca6c196cf04962c/sleepypied-1.png");
 width: 0;
 height: 0;
-padding-top: 70px;
+padding-top: 75px;
 padding-right: 95px;
 background-size: contain;
 border-radius: 12px;
@@ -779,7 +778,7 @@ z-index: 100;
 
 /* pagedoll */
 .container.main::after {
-background-image: url('https://i.postimg.cc/bwCwT1cx/fullbody-deer.png');
+background-image: url('https://i.8upload.com/image/6e5bade7640cfa73/fullbodydeer.png');
 background-size: cover;
 position: fixed;
 display: block;
