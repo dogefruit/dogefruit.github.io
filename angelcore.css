@@ -466,7 +466,7 @@ height: 90px;
 
 
 div.col-xs-5> a:nth-child(1) > h3 > div {
-content: url("https://i.postimg.cc/qvjmCs18/fullmon.png");
+content: url("https://i.8upload.com/image/91b5d92a155d9212/goldmoon.png");
 position: absolute;
 left: 80%;
 top: -10px !important;
@@ -667,9 +667,8 @@ overflow: hidden;
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.postimg.cc/gjRPsSxS/clods.png');
-height: 100px;
-margin-top: -10px;
+content: url('https://i.8upload.com/image/40f1c93ec0def7fc/clouds.png');
+margin-top: 10px;
 }
 
 /* Cave + Mounds Pics */
@@ -699,7 +698,7 @@ img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
 	margin-bottom: 15px;
 }
 img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
-    content: url('https://i.postimg.cc/Y9KRgdwr/Rococo-painting-detail.webp') !important;
+    content: url('https://i.8upload.com/image/5c2d7a2443cd2a63/rococo-painting-detail.webp') !important;
     max-width: 260px;
 	overflow: hidden;
 	padding: 0 0 5px 0;
@@ -715,7 +714,7 @@ img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
 	margin-bottom: 15px;
 }
 .mound-grid img {
-background: url("https://i.postimg.cc/htN1W2vG/rose.png");
+background: url("https://i.8upload.com/image/0dd1207fb49a80d6/rosersoe.png");
 width: 0;
 height: 0;
 padding-top: 60px;
