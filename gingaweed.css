@@ -1,0 +1,788 @@
+/* FONT */
+
+@import url(https://fonts.bunny.net/css?family=cabin:400);
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+/* BACKGROUND */
+
+body {
+background: url('https://wallpapercave.com/wp/wp7326115.png') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Cabin', sans-serif !important;
+color: #3A3A3A !important;
+}
+
+
+/* Right Side Panel Background */
+
+.container.main {
+background: linear-gradient(90deg, #5d768de6, #a3cbe982, #5d768de6);
+border-radius: 20px !important;
+box-shadow:  0 0 3px #090909,0 0 5px #090909;
+}
+
+/* Left Side Panel Background */
+
+.col-md-9 {
+background: #ffffff00;
+border-radius: 20px !important;
+}
+
+.col-md-3 .panel {
+    color: #3A3A3A;
+}
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #2E4966, #A3CBE9);
+border: 1px solid #1d2f42;
+color: #090909;
+border-radius: 20px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #ffffff;
+text-decoration: none;
+font-family: "Poetsen One", sans-serif;
+font-weight: 400;
+}
+.topbar a:hover {
+color: #090909;
+transition: all 0.3s ease-in-out 0.1s;
+}
+
+.navbar {
+background: linear-gradient(180deg, #2E4966, #A3CBE9);
+border: 1px solid #1d2f42;
+border-radius: 20px;
+font-family: "Poetsen One", sans-serif;
+font-weight: 400;
+}
+
+/* Navigation Bar Text & Background */
+
+.navbar li a {
+color: #090909 !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+transform: scale(1.2);
+color: #E5EEEF !important;
+transition: all 0.3s ease-in-out 0.1s;
+border-radius: 10px;
+text-shadow: 0 0 2px #090909,0 0 3px #090909;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: #2e49669c !important;
+border: 1px solid #1d2f4296;
+border-radius: 20px;
+}
+
+.breadcrumb .active {
+color: #E5EEEF;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+/* Bookmark / Switch Acc Button */
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #E5EEEF;
+	border: 1px solid #1d2f42;
+    background: #2E4966;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #2E4966;
+	border: 1px solid #1d2f42;
+    background: #A3CBE9;
+	text-shadow: 0 0 1px #ffffff,0 0 2px #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+/* Alerts (adjust later) */
+.alert-danger {
+text-align: left;
+background-color: #8a8a8ae3;
+border-color: #ffffff00;
+color: #373737;
+border-radius: 20px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #E5EEEF;
+border-color: #ffffff00;
+color: #41658c;
+border-radius: 20px !important;
+}
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+color: #E5EEEF;
+font-size: 35px;
+text-align: center;
+font-family: "Poetsen One", sans-serif;
+font-weight: 400;
+text-shadow: 0 0 3px #090909,0 0 5px #090909;
+}
+
+h2 {
+color: #E5EEEF;
+font-size: 25px;
+text-align: center;
+font-family: "Poetsen One", sans-serif;
+font-weight: 400;
+text-shadow: 0 0 1px #090909,0 0 2px #090909;
+}
+
+h3 {
+color: #E5EEEF !important;
+font-size: 18px !important;
+font-family: "Poetsen One", sans-serif;
+font-weight: 400;
+text-shadow: 0 0 1px #090909,0 0 2px #090909;
+}
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+.panel {
+background: linear-gradient(180deg, #2E4966, #A3CBE9) !important;
+border: 1px solid #1d2f42 !important;
+box-shadow: 1px 1px #ffffff00 !important;
+border-radius: 10px !important;
+}
+
+/* Bar Background */
+.progress {
+background: #E5EEEF;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background: #003e81;
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: #61acf2;
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: #003e81;
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: #61acf2;
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: #003e81;
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #090909 !important;
+}
+
+#commentBox {
+background: linear-gradient(90deg, #A3CBE9, #e5eeefb8) !important;
+border-radius: 12px !important;
+border: 1px solid #1d2f42c9 !important;
+box-shadow: 1px 2px 2px #3A3A3A !important;
+height: 220px !important;
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #090909;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+input#comment {background: linear-gradient(90deg, #A3CBE9, #e5eeefb8) !important;
+border-color: #1d2f42c9 !important;
+box-shadow: 1px 2px 2px #3A3A3A !important;
+}
+
+small.text-muted {color: #3A3A3A;}
+small.text-muted a {color: #2E4966;}
+
+input[type="button"].bad {background: #5D768D !important;}
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #E5EEEF;
+border-radius: 20px;  
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+background: linear-gradient(180deg, #2E4966, #8A8A8A);
+border-radius: 10px; 
+}
+
+/* Chat CSS overrides */
+
+.s-chat-message:nth-child(even) {
+background: linear-gradient(180deg, #A3CBE9, #e5eeefb8);
+color: #3A3A3A !important;
+}
+
+.s-chat-message:nth-child(odd) {
+background: linear-gradient(180deg, #A3CBE9, #e5eeefb8);
+color: #3A3A3A !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#8A8A8A !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #3A3A3A;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #E5EEEF;
+color: #8A8A8A;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #E5EEEF;
+color: #8A8A8A;
+}
+
+.s-chat-message_claim {
+background: #ffffff;
+border-bottom: 1px solid #ffffff00;
+color: #277bd6;
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #8A8A8A !important;
+        color: 	#E5EEEF !important;
+	border: 1px solid #ffffff00 !important;
+}
+
+/* Lion Info Table Panel */
+
+
+.table {
+background: linear-gradient(180deg, #A3CBE9, #e5eeef) !important;
+border: solid #1d2f42c9 !important;
+border-width: 2px !important;
+border-collapse: separate;
+border-radius: 10px;
+box-shadow: 1px 2px 2px #3A3A3A !important;
+}
+
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background: linear-gradient(180deg, #2E4966, #5D768D);
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: "Poetsen One", sans-serif;
+font-weight: 400;
+}
+
+.table .bottom {
+text-align: center;
+background: linear-gradient(180deg, #2E4966, #5D768D);
+border-radius: 10px;
+font-family: "Poetsen One", sans-serif;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #090909;
+border-bottom: 1px none #ffffff00 !important;
+}
+
+.table .top a:hover, .table th a:hover {
+color: #ffffff;
+transition: all 0.3s ease-in-out 0.2s;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #090909;
+text-decoration: none;
+}
+
+.table .bottom a:hover {
+text-decoration: none;
+color: #ffffff;
+transition: all 0.3s ease-in-out 0.2s;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: #5d768dde !important;
+color: #ffffff !important;
+text-align: center;
+border-radius: 12px !important;
+font-family: "Poetsen One", sans-serif !important;
+font-size: 13px;
+}
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+
+.right_odd {
+background: none !important;
+}
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(180deg, #A3CBE9, #e5eeef);
+border: solid #1d2f42c9 !important;
+border-width: 1px !important;
+border-radius: 10px !important;
+box-shadow: 1px 2px 2px #3A3A3A !important;
+}
+
+.cave-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+.mound-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #A3CBE9, #e5eeef) !important;
+border-color: #1d2f42c9 !important;
+border-style: solid !important;
+border-width: 1px; !important;
+border-radius: 10px !important;
+}
+
+/* Dynasty, Beetle Book, etc */
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #A3CBE9, #e5eeef);
+border: 1px solid #1d2f42c9;
+border-radius: 20px !important;
+box-shadow: 1px 2px 2px #3A3A3A !important;
+}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+
+img[src$="den_beetlebook.png"] {
+background: url('https://i.8upload.com/image/1bff8833e0d95d22/jeorome.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: 50% !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://i.8upload.com/image/f92efa2070a2f058/kyo.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: 50% !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://i.8upload.com/image/326b4264d650abaa/gb.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 50% !important;
+background-position: 50% !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://i.8upload.com/image/3e954bd341688285/orion.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 60% !important;
+background-position: 50% !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://i.8upload.com/image/9eb8f44543658399/gin.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 60% !important;
+background-position: 50% !important;
+background-repeat: no-repeat !important;
+}
+
+/* Block of color behind Territory Description, etc*/
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #ffffff !important;
+border: none !important;
+border-radius: 10px !important;
+color: #2E4966 !important;
+box-shadow: none !important;
+text-shadow: none !important;
+}
+
+/* Footer all the way at bottom. For the Terms of Service, Copyright, etc at bottom of page */
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #ffffff !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #ffffff !important;
+border-bottom: 1px solid #3A3A3A;
+}
+
+/* Links */
+
+a:link, a:visited, a:active {
+color: #090909;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #0a396a;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #E5EEEF;
+}
+::-webkit-scrollbar-thumb {
+background: linear-gradient(180deg, #2E4966, #8A8A8A);
+border-radius: 10px;
+}
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+table#player img {
+opacity: 1;
+}
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+
+}
+
+table#player img {
+border-radius: 10% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://iili.io/nGyZEVj.gif');
+}
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 130px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://64.media.tumblr.com/tumblr_mebrfhK2WM1rdwbfyo1_500.gif') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://media.tenor.com/wlTtw7NGgMUAAAAM/are-dog.gif') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://i.makeagif.com/media/8-14-2014/GULiJd.gif') !important;
+    max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://64.media.tumblr.com/55c1750d615479e93f3cc2795ae01d99/tumblr_osbn2tpkbq1wtval0o1_640.gif') !important;
+ 	max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.mound-grid img {
+background: url("https://wiki.silverfang.net/wp-content/uploads/2021/09/1-32.png");
+width: 0;
+height: 0;
+padding-top: 60px;
+padding-right: 95px;
+background-size: cover;
+border-radius: 12px;
+}
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://i.8upload.com/image/32fb40a292230b53/ginga.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 350px;
+width: 250px;
+right: 0px;
+bottom: 1rem;
+z-index: 100;
+pointer-events:none;
+}
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffffb3;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #a3cbe9eb;
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.block {
+    background: #a3cbe9eb;
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: #a3cbe9eb;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: #a3cbe9eb;
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #a3cbe9eb;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: #a3cbe9eb;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* Boxes show on mobile */
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
