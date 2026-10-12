@@ -203,6 +203,7 @@ border-radius: 0px !important;
 background: url(https://i.pinimg.com/736x/7e/58/43/7e5843a525f6b649e321bf00ff219994.jpg) !important;
 background-attachment: fixed !important;
 background-repeat: repeat !important;
+background-size: cover !important;
 border: 1px solid #8551ce9e !important;
 box-shadow: 1px 1px #ffffff00 !important;
 border-radius: 10px !important;
@@ -354,6 +355,7 @@ color: #FB1CCF;
 .table {
 background-image: url(https://wallpapercave.com/wp/wp11488582.jpg) !important;
 background-attachment: fixed;
+background-size: cover;
 border: solid #8551ce9e !important;
 border-width: 1px !important;
 border-collapse: separate;
