@@ -1,0 +1,828 @@
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Russo+One&display=swap');
+
+/* BACKGROUND */
+
+body {
+background: url('https://i.8upload.com/image/cd8ebb9001cad7e3/patternwabe.png') center center fixed;
+background-size: 40%;
+background-repeat: repeat;
+font-family: "Barlow", sans-serif !important;
+color: #646467 !important;
+}
+
+/* Right Side Panel Background */
+
+.container.main {
+background: linear-gradient(90deg, #FCB7F5, #FFFDF6, #FFFDF6, #FCB7F5);
+border-style: none !important;
+border-radius: 10px !important;
+box-shadow: none;
+}
+
+/* Left Side Panel Background */
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 10px !important;
+}
+
+.col-md-3 .panel {
+    color: #3c3c3d;
+}
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #9B5CF2, #FCB7F5);
+border: 1px solid #8551CE;
+color: #FFFDC2;
+border-radius: 10px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #9AF7FF;
+text-decoration: none;
+}
+.topbar a:hover {
+color: #FFFDF6;
+}
+
+.navbar {
+background: linear-gradient(180deg, #9B5CF2, #FCB7F5);
+border-radius: 10px;
+font-family: "Russo One", sans-serif;
+border: 1px solid #8551CE;
+}
+
+/* Navigation Bar Text & Background */
+
+.navbar li a {
+color: #8551CE !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+color: #EADFFF !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: 0 0 2px #FFFDF6,0 0 5px #FB1CCF;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: #aad0f9cc !important;
+border-style: none;
+border-radius: 20px;
+}
+
+.breadcrumb .active {
+color: #FB1CCF;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+/* Bookmark / Switch Acc Button */
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #9AF7FF;
+	border: 0px solid #ffffff;
+    background: #8551CE;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #FFFDF6;
+	border: 0px solid #ffffff;
+    background: #9B5CF2;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+/* Alerts (adjust later) */
+
+.alert-danger {
+text-align: left;
+background: linear-gradient(90deg, #646467, #64646782);
+border-color: #ffffff00;
+color: #202020;
+border-radius: 20px !important;
+}
+.alert-success {
+text-align: left;
+background: linear-gradient(90deg, #FB1CCF, #fb1ccf87);
+border-color: #ffffff00;
+color: #811a6d;
+border-radius: 20px !important;
+}
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+color: #8551CE;
+font-size: 40px;
+text-align: center;
+font-family: "Russo One", sans-serif !important;
+animation: glow 1.5s infinite alternate;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #FB1CCF, 0 0 10px #FB1CCF, 0 0 20px #FB1CCF, 0 0 20px #FB1CCF;
+    }
+    100% {
+        text-shadow: 0 0 10px #9AF7FF, 0 0 10px #9AF7FF, 0 0 20px #9AF7FF, 0 0 20px #9AF7FF;
+    }
+}
+
+h2 {
+color: #8551CE;
+font-size: 25px;
+text-align: center;
+text-decoration: none;
+font-family: "Russo One", sans-serif !important;
+}
+
+h3 {
+color: #8551CE !important;
+font-size: 18px !important;
+font-family: "Russo One", sans-serif !important;
+}
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+.panel {
+background: url(https://i.pinimg.com/736x/7e/58/43/7e5843a525f6b649e321bf00ff219994.jpg) !important;
+background-attachment: fixed !important;
+background-repeat: repeat !important;
+border: 1px solid #8551ce9e !important;
+box-shadow: 1px 1px #ffffff00 !important;
+border-radius: 10px !important;
+}
+
+/* Bar Background */
+.progress {
+background: #FFFDF6;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #FB1CCF, #9B5CF2);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #FB1CCF, #9B5CF2);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #FB1CCF, #9B5CF2);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #FB1CCF, #9B5CF2);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #FB1CCF, #9B5CF2);
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #3a3a3b !important;
+}
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.8upload.com/image/792a53b47717ea1c/vcr.png') !important;
+position: absolute !important;
+top: 15% !important;
+left: 80% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+transform: scaleX(1);
+height: 90px;
+}
+
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.8upload.com/image/702578efe9a03370/dft3ypc-a9563787-add3-4ea8-95ee-e4692eb45898.png");
+position: absolute;
+left: 80%;
+top: -45px !important;
+z-index: 1;
+transform: scaleX(-1);
+height: 90px;
+}
+
+/* Comments Box (wip / rarely use) */
+
+#commentBox {
+background: url("https://img.magnific.com/free-photo/gradient-holographic-texture-background_84443-23651.jpg?semt=ais_hybrid&w=740&q=80") !important;
+background-size: cover !important;
+border-radius: 10px !important;
+border-color: #8551ce9e !important;
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #646467;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+input#comment {background: linear-gradient(180deg, #9B5CF2, #FCB7F5) !important;
+color: #646467 !important;
+border-style: solid !important;
+border-width: 1px !important;
+border-color: #8551ce9e !important;
+}
+
+small.text-muted {color: #9B5CF2;}
+small.text-muted a {color: #1491c4;}
+
+input[type="button"].bad {background: #FB1CCF !important;}
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #FFFDF6;
+border-radius: 20px;  
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+background: linear-gradient(180deg, #FCB7F5, #9B5CF2, #9AF7FF);
+border-radius: 10px; 
+}
+
+/* Chat CSS overrides */
+
+.s-chat-message:nth-child(even) {
+background: linear-gradient(180deg, #9B5CF2, #FCB7F5);
+color: #6236a0 !important;
+}
+.s-chat-message:nth-child(odd) {
+background: linear-gradient(180deg, #9B5CF2, #FCB7F5);
+color: #6236a0 !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#646467 !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #FB1CCF;
+}
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #EADFFF;
+color: #8551CE;
+}
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #EADFFF;
+color: #8551CE;
+}
+
+.s-chat-message_claim {
+background: #FFFDC2;
+border-bottom: 1px solid #ffffff00;
+color: #FB1CCF;
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #8551CE !important;
+        color: 	#FFFDC2 !important;
+	border: 1px solid #ffffff00 !important;
+}
+
+/* Lion Info Table Panel */
+
+.table {
+background-image: url(https://wallpapercave.com/wp/wp11488582.jpg) !important;
+background-attachment: fixed;
+border: solid #8551ce9e !important;
+border-width: 1px !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+/* Lion Info Panel Headers */
+
+
+.table .top, .table th {
+background-color: #ffffff00;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: "Russo One", sans-serif;
+}
+.table .bottom {
+text-align: center;
+background-color: #ffffff00;
+color: #ECF39E;
+border-radius: 10px;
+font-family: "Russo One", sans-serif;
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #8551CE;
+border-bottom: 0px solid #ffffff;
+animation: glow 1.5s infinite alternate;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #FB1CCF, 0 0 10px #FB1CCF, 0 0 20px #FB1CCF, 0 0 20px #FB1CCF;
+    }
+    100% {
+        text-shadow: 0 0 10px #9AF7FF, 0 0 10px #9AF7FF, 0 0 20px #9AF7FF, 0 0 20px #9AF7FF;
+    }
+}
+.table .top a:hover, .table th a:hover {
+color: #5c3296;
+}
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #8551CE;
+text-decoration: none;
+}
+.table .bottom a:hover {
+color: #5c3296;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: #9b5cf2ad !important;
+color: #FFFDC2 !important;
+text-align: center;
+border-radius: 10px !important;
+font-family: "Barlow", sans-serif;
+font-size: 12px;
+}
+
+.inner-table .right {
+background: #ffffff00;
+border-radius: 0px !important;
+text-align: center;
+}
+td.right {
+border-radius: 0px !important;
+}
+.right_odd {
+background: none !important;
+}
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #9B5CF2, #FCB7F5);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+.cave-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+.mound-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #9B5CF2, #FCB7F5) !important;
+color: 	#FFFDF6 !important;
+border-style: none !important;
+border-radius: 10px !important;
+}
+
+/* Dynasty, Beetle Book, etc */
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #9B5CF2, #FCB7F5);
+border-radius: 20px;
+border: 1px solid #8551ce9e !important;
+}
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://i.8upload.com/image/b5e752225f17054a/conpyu.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://i.8upload.com/image/b5e752225f17054a/conpyu.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://i.8upload.com/image/b5e752225f17054a/conpyu.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://i.8upload.com/image/b5e752225f17054a/conpyu.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://i.8upload.com/image/b5e752225f17054a/conpyu.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+/* Block of color behind Territory Description, etc*/
+
+.table .left {
+background: #ffffff00;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #EADFFF !important;
+border: 1px solid #ffffff00 !important;
+border-radius: 10px !important;
+color: #646467 !important;
+box-shadow: 1px 1px 1px #ffffff00; !important;
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #646467 !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #646467 !important;
+border-bottom: 1px solid #646467;
+}
+
+/* Links */
+
+a:link, a:visited, a:active {
+color: #5c3296;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+background: #FFFDF6;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: linear-gradient(180deg, #FCB7F5, #9B5CF2, #9AF7FF);
+border-radius: 10px;
+}
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+table#player img {
+opacity: 1;
+}
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+/*Border around Lion mage*/
+div#lion_image::after {
+content: "";
+background: url('https://shared.fastly.steamstatic.com/community_assets/images/items/774171/f9997653542df9f7814d0bb9f9d24b10c4b1a289.png') no-repeat;
+position: absolute;
+transform: translate(-125px, -225px);
+width: 245px;
+height: 245px;
+background-size: cover;
+}
+
+table#player img {
+border-radius: 10% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.8upload.com/image/052468af3431602f/coan.png');
+margin-top: 10px; 
+margin-left: 30px;
+}
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 140px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://img.magnific.com/premium-vector/linear-vintage-style-vaporwave-background_23-2148884808.jpg') !important;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://img.magnific.com/free-vector/linear-vintage-vaporwave-background_52683-59619.jpg?semt=ais_hybrid&w=740&q=80') !important;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://img.magnific.com/free-vector/linear-vintage-vaporwave-background_23-2148887266.jpg?semt=ais_hybrid&w=740&q=80') !important;
+}
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://img.magnific.com/free-vector/linear-vintage-vaporwave-background_23-2148888782.jpg?semt=ais_hybrid&w=740&q=80') !important;
+}
+
+.mound-grid img {
+background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25425fb2-bc94-4349-8d8a-6eabb4d6ccd2/dbvuhwt-3fec7b68-dd9c-49fb-b837-ab4d18a56606.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8yNTQyNWZiMi1iYzk0LTQzNDktOGQ4YS02ZWFiYjRkNmNjZDIvZGJ2dWh3dC0zZmVjN2I2OC1kZDljLTQ5ZmItYjgzNy1hYjRkMThhNTY2MDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DeGUp5YwJNc-gjcYld-K9dhlafsVG104OdrD0V3CSqo");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-size: 100% !important;
+border-radius: 12px;
+}
+
+.emoteList {
+background: linear-gradient(180deg, #AAD0F9, #EADFFF);
+box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+border: 1px solid #2d3132;
+border-radius: 10px;
+display: none;
+padding: 6px;
+position: absolute;
+text-align:center;
+top: 32px;
+width: 184px;
+min-height: 120px;
+}
+
+.emoteInput {
+background-image: url(https://gabestash.neocities.org/favicons/pink/pink59.gif) !important;
+}
+.emoteInput:hover {
+background-image: url(https://gabestash.neocities.org/favicons/pink/pink59.gif) !important;
+}
+
+/* Media Icons */
+
+img[src$="iconFB.png"] {
+content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3da813a-4e14-49bd-be7a-0f1454b0a9c2/da003ts-c73b0a9e-b9dd-4d44-bb17-b1a6ef6ad058.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lM2RhODEzYS00ZTE0LTQ5YmQtYmU3YS0wZjE0NTRiMGE5YzIvZGEwMDN0cy1jNzNiMGE5ZS1iOWRkLTRkNDQtYmIxNy1iMWE2ZWY2YWQwNTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NIgZ98XwFP04KrEQqqFEbmlM4RL7iBGNBk6r71eDssY')!important;
+width: 45px !important;
+margin-left: 15px;}
+img[src$="iconInsta.png"] {
+content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3da813a-4e14-49bd-be7a-0f1454b0a9c2/d9zo0jd-1cc35369-f654-436f-99eb-5077d20a4aab.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lM2RhODEzYS00ZTE0LTQ5YmQtYmU3YS0wZjE0NTRiMGE5YzIvZDl6bzBqZC0xY2MzNTM2OS1mNjU0LTQzNmYtOTllYi01MDc3ZDIwYTRhYWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.y35ICtL6JF0ZdGmT1N8exBW6Yyu7n9jU0X8Sqz9d3-s')!important;
+width: 45px !important;
+margin-left: 25px;}
+img[src$="iconTwit.png"] {
+content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3da813a-4e14-49bd-be7a-0f1454b0a9c2/da004az-053715d4-0135-4a49-8d5e-a50ccc789192.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lM2RhODEzYS00ZTE0LTQ5YmQtYmU3YS0wZjE0NTRiMGE5YzIvZGEwMDRhei0wNTM3MTVkNC0wMTM1LTRhNDktOGQ1ZS1hNTBjY2M3ODkxOTIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._vkHBtr4a-MLCICvDjQRbtXXDpWyLegqNtidAytWbyU')!important;
+width: 45px !important;
+margin-left: 25px;}
+
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #808080;
+position: absolute;
+font-size: 12px;
+right: 10%;
+z-index: 100;
+}
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: linear-gradient(180deg, #AAD0F9, #EADFFF);
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: linear-gradient(180deg, #AAD0F9, #EADFFF);
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: linear-gradient(180deg, #AAD0F9, #EADFFF);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: linear-gradient(180deg, #AAD0F9, #EADFFF);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(180deg, #AAD0F9, #EADFFF);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(180deg, #AAD0F9, #EADFFF);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* Boxes show on mobile */
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
