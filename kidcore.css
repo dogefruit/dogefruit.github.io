@@ -661,6 +661,20 @@ right: 10%;
 z-index: 100;
 }
 
+/* pagedoll */
+.container.main::after {
+background-image: url('https://64.media.tumblr.com/a1d48680bf02de7f3207f2af5eca1f61/dd980c77ab127d74-a1/s250x400/d4d85efa09163b2bf69a04b21b01130f6ef5c6d2.gifv');
+background-size: cover;
+position: fixed;
+display: block;
+height: 210px;
+width: 250px;
+right: 0px;
+bottom: 1rem;
+z-index: 100;
+pointer-events:none;
+}
+
 .BOX {
 display: flex;
 justify-content: center;
