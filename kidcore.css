@@ -1,0 +1,792 @@
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Schoolbell&display=swap');
+
+/* BACKGROUND */
+
+body {
+background: url('https://gabestash.neocities.org/backgrounds/multicolor/multi194.gif') center center fixed;
+background-size: 10%;
+background-repeat: repeat;
+font-family: "Schoolbell", cursive !important;
+color: #5a5a5a !important;
+}
+
+/* Right Side Panel Background */
+
+.container.main {
+background: linear-gradient(90deg, #f6a39894, #ebc689a8, #FFFDF6 20%, #FFFDF6 75%, #ebc689a8, #f6a39894);
+border-radius: 10px !important;
+box-shadow: 1px 1px #ffffff00;
+}
+
+/* Left Side Panel Background */
+
+.col-md-9 {
+background: #ffffff00;
+border-radius: 10px !important;
+}
+
+.col-md-3 .panel {
+    color: #5a5a5a;
+}
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+border: 2px dotted #9370DB;
+color: #f3eeca;
+border-radius: 10px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #7d67a9;
+text-decoration: none;
+}
+.topbar a:hover {
+color: #fffffd;
+}
+
+.navbar {
+background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+border-radius: 10px;
+font-family: "Permanent Marker", cursive;
+border: 2px dotted #9370DB;
+}
+
+/* Navigation Bar Text & Background */
+
+.navbar li a {
+color: #9370DB !important;
+}
+
+.navbar li a:hover {
+background: #ffffff00 !important;
+color: #fffffd !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: 0 0 2px #f7ab39,0 0 5px #fb594b;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4) !important;
+border: 0px solid #ffffff00;
+border-radius: 20px;
+}
+
+.breadcrumb .active {
+color: #5a5a5a;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+/* Bookmark / Switch Acc Button */
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #ece29c;
+	border: 0px solid #ffffff;
+    background: #995ab5;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #ece29c;
+	border: 0px solid #ffffff;
+    background: #4aa1f2;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+/* Alerts (adjust later) */
+
+.alert-danger {
+text-align: left;
+background: linear-gradient(90deg, #ff7142, #ffd24d);
+border-color: #ffffff00;
+color: #5a5a5a;
+border-radius: 15px !important;
+border: 2px dotted #e25a2d;
+}
+.alert-success {
+text-align: left;
+background: linear-gradient(90deg, #a1d76a, #4aa1f2);
+border-color: #ffffff00;
+color: #5a5a5a;
+border-radius: 15px !important;
+border: 2px dotted #659238;
+}
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+color: #9370DB;
+font-size: 40px;
+text-align: center;
+font-family: "Permanent Marker", cursive !important;
+}
+
+h2 {
+color: #9370DB;
+font-size: 25px;
+text-align: center;
+text-decoration: none;
+font-family: "Permanent Marker", cursive !important;
+}
+
+h3 {
+color: #9370DB !important;
+font-size: 18px !important;
+font-family: "Permanent Marker", cursive !important;
+}
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+.panel {
+background: linear-gradient(180deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4) !important;
+background-attachment: fixed !important;
+background-repeat: repeat !important;
+border: 2px dotted #9370db !important;
+box-shadow: 1px 1px #ffffff00 !important;
+border-radius: 10px !important;
+}
+
+/* Bar Background */
+.progress {
+background: #fffffd;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #5a5a5a !important;
+}
+
+/* Adds little icons on energ / achievements / etc boxes */
+
+.col-xs-6 h3 .floatright {
+content: url('https://i.8upload.com/image/95822ec3307c3291/playground.png') !important;
+position: absolute !important;
+top: -35% !important;
+left: 55% !important;
+z-index: 1 !important;
+margin-bottom: -40px;
+}
+div.col-xs-5> a:nth-child(1) > h3 > div {
+content: url("https://i.8upload.com/image/8b613c378bdd5a4f/swings.png");
+position: absolute;
+left: 60%;
+top: -20px !important;
+z-index: 1;
+transform: scaleX(1);
+}
+div.col-xs-5> a:nth-child(3) > h3 > div {
+content: url("https://i.8upload.com/image/4e91c070c4f385c4/worm-on-string.png");
+position: absolute;
+left: 60%;
+top: 90px !important;
+z-index: 1;
+}
+
+/* Comments Box (wip / rarely use) */
+
+#commentBox {
+background: linear-gradient(180deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4) !important;
+background-size: cover !important;
+border-radius: 10px !important;
+border: 2px dotted #9370db !important;
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #5a5a5a;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+input#comment {background: linear-gradient(180deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4) !important;
+color: #5a5a5a !important;
+border: 2px dotted #9370db !important;
+}
+
+small.text-muted {color: #9370db;}
+small.text-muted a {color: #ffffff;}
+
+input[type="button"].bad {background: #995ab5 !important;}
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #ffffff;
+border-radius: 20px;  
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+background: linear-gradient(180deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+border-radius: 10px; 
+}
+
+/* Chat CSS overrides */
+
+.s-chat-message:nth-child(even) {
+background: linear-gradient(180deg, #ebc689, #ece29c);
+color: #5a5a5a !important;
+}
+.s-chat-message:nth-child(odd) {
+background: linear-gradient(180deg, #a0c591, #86b7f4);
+color: #5a5a5a !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#995ab5 !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #ff7142;
+}
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #ece29c;
+color: #85b751;
+}
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #ece29c;
+color: #85b751;
+}
+
+.s-chat-message_claim {
+background: #995ab5;
+border-bottom: 1px solid #ffffff00;
+color: #ffffff;
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: linear-gradient(80deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5) !important;
+        color: 	#5a5a5a !important;
+	border: 1px solid #ffffff00 !important;
+}
+
+/* Lion Info Table Panel */
+
+.table {
+background-image: linear-gradient(180deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4) !important;
+background-attachment: fixed;
+background-size: cover;
+border: 2px dotted #9370db;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background-image: url(https://images.unsplash.com/photo-1698638324843-97c196f4ac19?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+background-size: cover;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: "Permanent Marker", cursive;
+}
+.table .bottom {
+text-align: center;
+background-size: cover;
+background-image: url(https://images.unsplash.com/photo-1698638324843-97c196f4ac19?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+border-radius: 10px;
+font-family: "Permanent Marker", cursive;
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #000000;
+border-bottom: 0px solid #ffffff;}
+.table .top a:hover, .table th a:hover {
+color: #ffffff;
+}
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #000000;
+text-decoration: none;
+}
+.table .bottom a:hover {
+color: #ffffff;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: #9370db87 !important;
+color: #ffffff !important;
+text-align: center;
+border-radius: 10px !important;
+font-family: "Schoolbell", cursive;
+font-size: 14px;
+}
+
+.inner-table .right {
+background: #ffffff00;
+border-radius: 0px !important;
+text-align: center;
+}
+td.right {
+border-radius: 0px !important;
+}
+.right_odd {
+background: none !important;
+}
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+border: 2px dotted #9370db87;
+border-radius: 10px !important;
+}
+
+.cave-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+.mound-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4) !important;
+color: 	#5a5a5a !important;
+border-radius: 10px !important;
+}
+
+/* Dynasty, Beetle Book, etc */
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+border-radius: 20px;
+border: 2px dotted #9370db !important;}
+
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://64.media.tumblr.com/691e9228fc5701e1d54997ad2d18634b/444d2a999465065a-b7/s75x75_c1/7b60455505afe82930761669d9af9cfc3924e9e7.gifv') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://64.media.tumblr.com/acd5ce39349735fc92683f03cc73eb28/444d2a999465065a-9f/s75x75_c1/b140a3606b736bd95f8c11d97ca81b1c9278d1e9.gifv') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://64.media.tumblr.com/953e9c5f69be9588c4049e657395d3be/444d2a999465065a-31/s75x75_c1/8f54c0103990b101b9b14a2961ebf10dd3af0784.gifv') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://64.media.tumblr.com/6a8681b64be30ddefe0a87934bd38363/444d2a999465065a-dd/s75x75_c1/120f9684881ad6440a849fc5487a562de891eb7d.gifv') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://64.media.tumblr.com/dbed2f6942ca2bd110d62dddd7e44207/444d2a999465065a-2e/s75x75_c1/64938141cbffe78c6d946357d8d8e27bf6c36d4e.gifv') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 35% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+/* Block of color behind Territory Description, etc*/
+
+.table .left {
+background: #ffffff00;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #fffdf2b0 !important;
+border: 1px solid #ffffff00 !important;
+border-radius: 10px !important;
+color: #5a5a5a !important;
+box-shadow: 1px 1px 1px #ffffff00; !important;
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #5a5a5a !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #5a5a5a !important;
+border-bottom: 1px solid #5a5a5a;
+}
+
+/* Links */
+
+a:link, a:visited, a:active {
+color: #343434;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #5a5a5a;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+background: #ffffff;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: linear-gradient(180deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+border-radius: 10px;
+}
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+table#player img {
+opacity: 1;
+}
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+div#lion_image {
+	border-radius: 0% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+/*Border around Lion mage*/
+div#lion_image::after {
+content: "";
+background: url('https://shared.fastly.steamstatic.com/community_assets/images/items/105600/2d876cff5940a8724340a5798c1c8e48880c675f.png') no-repeat;
+position: absolute;
+transform: translate(-125px, -225px);
+width: 245px;
+height: 245px;
+background-size: cover;
+}
+
+table#player img {
+border-radius: 10% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.8upload.com/image/bcd0c1b69a04e44e/kidrainbow.gif');
+margin-top: -18px; 
+margin-left: -40px;
+}
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 140px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://i.pinimg.com/736x/56/4a/68/564a685fd216f1aef1dc6164ecef6709.jpg') !important;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://i.pinimg.com/1200x/77/21/87/77218796d881b398bd47006d9420685a.jpg') !important;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://i.pinimg.com/1200x/93/c8/d8/93c8d81baa7c9d6344a1cfaf8788fa18.jpg') !important;
+}
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://i.pinimg.com/736x/f5/6e/3d/f56e3d5e4f2d715657c1500003ad3d3f.jpg') !important;
+}
+
+.mound-grid img {
+background: url("https://i.8upload.com/image/7e969fbbbbb5eef5/crayons.png");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-size: 100% !important;
+border-radius: 12px;
+}
+
+.emoteList {
+background: linear-gradient(180deg, #ff7142, #ffd24d, #a1d76a, #4aa1f2, #995ab5);
+box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+border: 2px dotted #9370db;
+border-radius: 10px;
+display: none;
+padding: 6px;
+position: absolute;
+text-align:center;
+top: 32px;
+width: 184px;
+min-height: 120px;
+}
+
+.emoteInput {
+background-image: url(https://gabestash.neocities.org/favicons/multicolor/multi63.webp) !important;
+}
+.emoteInput:hover {
+background-image: url(https://gabestash.neocities.org/favicons/multicolor/multi34.gif) !important;
+}
+
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #5a5a5a;
+position: absolute;
+font-size: 12px;
+right: 10%;
+z-index: 100;
+}
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(90deg, #f6a398, #ebc689, #ece29c, #a0c591, #86b7f4);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* Boxes show on mobile */
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
