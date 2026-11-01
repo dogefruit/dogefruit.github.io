@@ -658,6 +658,15 @@ z-index: 100;
 pointer-events:none;
 }
 
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #23190D;
+position: absolute;
+font-size: 12px;
+right: 10%;
+z-index: 100;
+}
+
 .BOX {
 display: flex;
 justify-content: center;
