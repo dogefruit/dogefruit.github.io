@@ -1,0 +1,763 @@
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+/* BACKGROUND */
+
+body {
+background: url('https://cdn.wallpapersafari.com/43/93/K2sadp.jpg') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Actor", sans-serif !important;
+    color: #2E1717 !important;
+}
+
+/* Right Side Panel Background */
+
+.container.main {
+background: #a0785e7a;
+border-style: none !important;
+border-radius: 10px !important;
+box-shadow: none;
+}
+
+/* Left Side Panel Background */
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 10px !important;
+}
+
+.col-md-3 .panel {
+    color: #2E1717;
+}
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #F65F05, #CB6A31);
+border: 1px solid #ac5521;
+color: #F1DA97;
+border-radius: 12px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #F1DA97;
+text-decoration: none;
+font-family: "Actor", sans-serif;
+}
+.topbar a:hover {
+color: #eeeeee;
+transition: all 0.3s ease-in-out 0.1s;
+}
+
+.navbar {
+background: linear-gradient(180deg, #F65F05, #CB6A31);
+border-radius: 10px;
+border: 1px solid #ac5521;
+font-family: "Actor", sans-serif;
+}
+
+/* Navigation Bar Text & Background */
+
+.navbar li a {
+color: #9d3e04 !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+color: #F1DA97 !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: 0 0 2px #2E1717,0 0 3px #2E1717;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: #cb6a31c9 !important;
+border-style: none;
+border-radius: 20px;
+}
+
+.breadcrumb .active {
+color: #F1DA97;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+/* Bookmark / Switch Acc Button */
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #F1DA97;
+	border: 0px solid #ffffff;
+    background: #F65F05;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #F1DA97;
+	border: 0px solid #ffffff;
+    background: #FD8645;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+
+/* Alerts (adjust later) */
+
+.alert-danger {
+text-align: left;
+background-color: #fa4005d6;
+border-color: #ffffff00;
+color: #812204;
+border-radius: 10px !important;
+}
+
+.alert-success {
+text-align: left;
+background-color: #f1da97e6;
+border-color: #ffffff00;
+color: #9c7604;
+border-radius: 10px !important;
+}
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+color: #b02c02;
+font-size: 35px;
+text-align: center;
+font-family: "Actor", sans-serif !important;
+text-decoration: none;
+}
+
+h2 {
+color: #b02c02;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: "Actor", sans-serif !important;
+}
+
+h3 {
+color: #2E1717 !important;
+font-size: 18px !important;
+font-family: "Actor", sans-serif !important;
+}
+
+/* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+.panel {
+background: linear-gradient(180deg, #F65F05, #CB6A31) !important;
+border: 1px solid #ac5521 !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+/* Bar Background */
+.progress {
+background: #eeeeee;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #FFEB3B, #F1DA97);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #FFEB3B, #F1DA97);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #FFEB3B, #F1DA97);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #FFEB3B, #F1DA97);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #FFEB3B, #F1DA97);
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #2E1717 !important;
+}
+
+/* Comments Box (wip / rarely use) */
+
+#commentBox {
+background: linear-gradient(100deg, #FD8645, #FFA35D) !important;
+border-radius: 10px !important;
+border: 1px solid #cc6a17 !important;
+height: 220px !important;
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #2E1717;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+input#comment {background: linear-gradient(180deg, #FD8645, #FFA35D) !important;
+color: #2E1717 !important;}
+
+small.text-muted {color: #ac5521;}
+small.text-muted a {color: #eeeeee;}
+
+input[type="button"].bad {background: #F1DA97 !important;}
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+
+#commentBox::-webkit-scrollbar-track {
+background: #F1DA97;
+border-radius: 20px;  
+}
+
+#commentBox::-webkit-scrollbar-thumb {
+background: #2E1717;
+border-radius: 10px; 
+}
+
+/* Chat CSS overrides */
+
+.s-chat-message:nth-child(even) {
+background: #FFA35D;
+color: #9c4b1c !important;
+}
+
+.s-chat-message:nth-child(odd) {
+background: #F1DA97;
+color: #9c4b1c !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#2E1717 !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #CB6A31;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #a0785e52;
+color: #FD8645;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #a0785e52;
+color: #FD8645;
+}
+
+.s-chat-message_claim {
+background: #eeeeee;
+border-bottom: 1px solid #ffffff00;
+color: #2E1717;
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #A0785E !important;
+        color: 	#eeeeee !important;
+	border: none !important;
+}
+
+/* Lion Info Table Panel */
+
+.table {
+background: linear-gradient(180deg, #FD8645, #FFA35D) !important;
+border: 1px solid #cc6a17 !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background-color: #CB6A31;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: "Actor", sans-serif;
+}
+
+.table .bottom {
+text-align: center;
+background-color: #CB6A31;
+border-radius: 10px;
+font-family: "Actor", sans-serif;
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #F1DA97;
+border-bottom: 0px solid #ffffff;
+}
+.table .top a:hover, .table th a:hover {
+color: #eeeeee;
+}
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #F1DA97;
+text-decoration: none;
+}
+.table .bottom a:hover {
+color: #eeeeee;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: #f65f05d1 !important;
+color: #eeeeee !important;
+text-align: center;
+border-radius: 10px !important;
+font-family: "Actor", sans-serif;
+font-size: 12px;
+}
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+
+td.right {
+border-radius: 0px !important;
+}
+.right_odd {
+background: none !important;
+}
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #FD8645, #FFA35D);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+.cave-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+.mound-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+/* Dynasty, Beetle Book, etc */
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #FD8645, #FFA35D) !important;
+color: #2E1717 !important;
+border-radius: 10px !important
+}
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #FD8645, #FFA35D);
+border-radius: 20px;
+border: 1px solid #cc6a17 !important;
+}
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgdd9h-f288d984-8a1e-4a20-9af9-a642900c9bd6.png/v1/fill/w_1280,h_1280/fire_type_symbol_tcg_by_jormxdos_dfgdd9h-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiIvZi9lOGRkYzRkYS0yM2RkLTQ1MDItYjY1Yi0zNzhjOWNmZTVlZmEvZGZnZGQ5aC1mMjg4ZDk4NC04YTFlLTRhMjAtOWFmOS1hNjQyOTAwYzliZDYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.EGD6gmAYJNPGa_IGAnxmegkOyVV0T_Dz3vr5cCydWXQ') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 38% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_showcase.png"] {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgdd9h-f288d984-8a1e-4a20-9af9-a642900c9bd6.png/v1/fill/w_1280,h_1280/fire_type_symbol_tcg_by_jormxdos_dfgdd9h-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiIvZi9lOGRkYzRkYS0yM2RkLTQ1MDItYjY1Yi0zNzhjOWNmZTVlZmEvZGZnZGQ5aC1mMjg4ZDk4NC04YTFlLTRhMjAtOWFmOS1hNjQyOTAwYzliZDYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.EGD6gmAYJNPGa_IGAnxmegkOyVV0T_Dz3vr5cCydWXQ') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 38% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_achievements.png"] {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgdd9h-f288d984-8a1e-4a20-9af9-a642900c9bd6.png/v1/fill/w_1280,h_1280/fire_type_symbol_tcg_by_jormxdos_dfgdd9h-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiIvZi9lOGRkYzRkYS0yM2RkLTQ1MDItYjY1Yi0zNzhjOWNmZTVlZmEvZGZnZGQ5aC1mMjg4ZDk4NC04YTFlLTRhMjAtOWFmOS1hNjQyOTAwYzliZDYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.EGD6gmAYJNPGa_IGAnxmegkOyVV0T_Dz3vr5cCydWXQ') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 38% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgdd9h-f288d984-8a1e-4a20-9af9-a642900c9bd6.png/v1/fill/w_1280,h_1280/fire_type_symbol_tcg_by_jormxdos_dfgdd9h-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiIvZi9lOGRkYzRkYS0yM2RkLTQ1MDItYjY1Yi0zNzhjOWNmZTVlZmEvZGZnZGQ5aC1mMjg4ZDk4NC04YTFlLTRhMjAtOWFmOS1hNjQyOTAwYzliZDYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.EGD6gmAYJNPGa_IGAnxmegkOyVV0T_Dz3vr5cCydWXQ') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 38% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+img[src$="den_ancestors.png"] {
+background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgdd9h-f288d984-8a1e-4a20-9af9-a642900c9bd6.png/v1/fill/w_1280,h_1280/fire_type_symbol_tcg_by_jormxdos_dfgdd9h-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiIvZi9lOGRkYzRkYS0yM2RkLTQ1MDItYjY1Yi0zNzhjOWNmZTVlZmEvZGZnZGQ5aC1mMjg4ZDk4NC04YTFlLTRhMjAtOWFmOS1hNjQyOTAwYzliZDYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.EGD6gmAYJNPGa_IGAnxmegkOyVV0T_Dz3vr5cCydWXQ') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 38% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+}
+
+/* Block of color behind Territory Description, etc*/
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #eeeeeef2 !important;
+border: none !important;
+border-radius: 10px !important;
+color: #2E1717 !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #ffffff !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #ffffff !important;
+border-bottom: 1px solid #F65F05;
+}
+
+/* Links */
+
+a:link, a:visited, a:active {
+color: #932921;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+background: #eeeeee;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: #F65F05;
+border-radius: 10px;
+}
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+table#player img {
+opacity: 1;
+}
+
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f4b028b-04bb-483b-a43f-c3dd3b534171/ddzkocm-57db4c12-5bac-4ace-aa79-a649c8194d9a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xZjRiMDI4Yi0wNGJiLTQ4M2ItYTQzZi1jM2RkM2I1MzQxNzEvZGR6a29jbS01N2RiNGMxMi01YmFjLTRhY2UtYWE3OS1hNjQ5YzgxOTRkOWEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.g8pTShJlg25L8z1e2v6l5ODT9axdmUmgMeblAOujUvw');
+}
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 140px;
+    width: 200px;
+    border-radius: 10px !important;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://comicvine.gamespot.com/a/uploads/original/9/96478/1712955-morrison_growlithe.png') !important;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://pbs.twimg.com/tweet_video_thumb/EbdBGnZWAAEE_5e.jpg') !important;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ017ik6SXWIAjjWj3IJX46dJEwl5UHTr4Mi5ylskCwSQ&s=10') !important;
+}
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+   content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxgMkcEpWUc9i71EDxlnphfTDOKI_LcTZHVz7MtBavUs7Fw3q2s-gN6U&s=10') !important;
+}
+
+.mound-grid img {
+background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dace91da-5c97-4c30-9602-afabbcd57695/d3k0hg1-5a39545f-8acf-44c7-9843-5c51c014cb5f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9kYWNlOTFkYS01Yzk3LTRjMzAtOTYwMi1hZmFiYmNkNTc2OTUvZDNrMGhnMS01YTM5NTQ1Zi04YWNmLTQ0YzctOTg0My01YzUxYzAxNGNiNWYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NYkAvIIO6qyqrkqd_5Y_z6Du519kCldnV-sQG1cVI4s");
+width: 0;
+height: 0;
+padding-top: 100px;
+padding-right: 100px;
+background-position: center;
+background-size: 150px !important;
+border-radius: 12px;
+}
+
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #ffffff;
+position: absolute;
+font-size: 10px;
+right: 15%;
+z-index: 100;
+}
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5d593771-5eab-464a-91a2-1e4af6b88b2f/dd52rxz-fa9b1b94-7529-4c31-b705-93c7ed5954c4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi81ZDU5Mzc3MS01ZWFiLTQ2NGEtOTFhMi0xZTRhZjZiODhiMmYvZGQ1MnJ4ei1mYTliMWI5NC03NTI5LTRjMzEtYjcwNS05M2M3ZWQ1OTU0YzQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3ZbOsD7cwvbBzerAsNyYPix1u_OriFTjxnYPJsRJWIo');
+background-size: cover;
+position: fixed;
+display: block;
+height:250px;
+width:250px;
+right: 0px;
+bottom: 0rem;
+z-index: 100;
+pointer-events:none;
+}
+
+.emoteList {
+background: linear-gradient(180deg, #F1DA97, #ffa43b);
+box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+border: 1px solid #cc6a17;
+border-radius: 10px;
+display: none;
+padding: 6px;
+position: absolute;
+text-align:center;
+top: 32px;
+width: 184px;
+min-height: 120px;
+}
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: linear-gradient(90deg, #F1DA97, #FFA35D);
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.block {
+    background: linear-gradient(90deg, #F1DA97, #FFA35D);
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: linear-gradient(90deg, #F1DA97, #FFA35D);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: linear-gradient(90deg, #F1DA97, #FFA35D);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(90deg, #F1DA97, #FFA35D);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(90deg, #F1DA97, #FFA35D);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* Boxes show on mobile */
+
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
