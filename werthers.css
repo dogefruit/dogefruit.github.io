@@ -1,0 +1,797 @@
+/* FONT */
+
+@import url(https://fonts.bunny.net/css?family=asap:400|chonburi:400);
+
+/* BACKGROUND */
+
+body {
+background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/30047159_S37jZwWo9KZnOYO.jpg') center center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Asap', sans-serif !important;
+font-weight: 500;
+color: #402A20 !important;
+}
+
+/* Right Side Panel Background */
+
+.container.main {
+background: #d69a6a6e;
+border-style: none !important;
+border-radius: 20px !important;
+box-shadow: none;
+}
+
+/* Left Side Panel Background */
+
+.col-md-9 {
+background: #ffffff00;
+border-right: none;
+border-radius: 20px !important;
+}
+
+.col-md-3 .panel {
+    color: #402A20;
+}
+
+/* Top + Navigation Bars */
+
+.topbar {
+background: linear-gradient(180deg, #C97550, #98664F);
+border: 1px solid #78503ddb !important;
+color: #FBCC9E;
+border-radius: 20px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+color: #402A20;
+text-decoration: none;
+font-family: 'Asap', sans-serif !important;
+font-weight: 500;
+}
+.topbar a:hover {
+color: #FDF8EC;
+}
+
+.navbar {
+background: linear-gradient(180deg, #C97550, #98664F);
+border-radius: 20px;
+border: 1px solid #78503ddb !important;
+font-family: 'Chonburi', display;
+}
+
+/* Navigation Bar Text & Background */
+
+.navbar li a {
+color: #402A20 !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+color: #FDF8EC !important;
+transition: transform .2s;
+transform: scale(1.2);
+border-radius: 10px;
+text-shadow: 0 0 1px #ffffff,0 0 2px #ffffff;
+}
+
+/* Home & Den Banner, Left Side Panel */
+
+.breadcrumb {
+background: #fbcc9edb !important;
+border-style: none;
+border-radius: 20px;
+}
+
+.breadcrumb .active {
+color: #78503D;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%
+}
+}
+
+/* Bookmark / Switch Acc Button */
+
+.select-control,
+a.button,
+button.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"]
+{
+	color: #FDF8EC;
+	border: 0px solid #ffffff;
+    background: #98664F;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+}
+.select-control:hover,
+a.button:hover,
+button.button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover 
+{
+	color: #78503D;
+	border: 0px solid #ffffff;
+    background: #FBCC9E;
+	text-shadow: 1px 1px 0px #ffffff00;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 3px 12px;
+	margin: 2px 0;
+	border-radius: 15px;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+/* Alerts (adjust later) */
+
+.alert-danger {
+text-align: left;
+background-color: #b24f40eb;
+border-color: #ffffff00;
+color: #652920;
+border-radius: 20px !important;
+}
+.alert-success {
+text-align: left;
+background-color: #cba64ae8;
+border-color: #ffffff00;
+color: #816316;
+border-radius: 20px !important;
+}
+
+/* Big Den Header + Second Den Header + Sidebar Headers */
+
+h1 {
+color: #402A20;
+font-size: 40px;
+text-align: center;
+font-family: 'Chonburi', display !important;
+text-decoration: none;
+}
+h2 {
+color: #402A20;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+font-family: 'Chonburi', display !important;
+}
+h3 {
+color: #FDF8EC !important;
+font-size: 18px !important;
+font-family: 'Chonburi', display !important;
+}
+
+ /* Top code for sidebar border / bottom for boxes within sidebar (energy / game time / etc) */
+
+.sidebar {
+border: 0px solid #ffffff !important;
+border-radius: 0px !important;
+}
+
+.panel {
+background: linear-gradient(180deg,  #C97550, #98664F) !important;
+border: 1px solid #78503ddb !important;
+box-shadow: none !important;
+border-radius: 10px !important;
+}
+
+/* Bar Background */
+.progress {
+background: #FDF8EC;
+border-radius: 10px !important;
+}
+
+/* Individual Bar Colors */
+
+.progress:nth-child(1) .progress-bar {
+background: linear-gradient(90deg, #cba64a, #FBCC9E);
+border-radius: 25px !important;
+}
+.progress:nth-child(2) .progress-bar {
+background: linear-gradient(90deg, #cba64a, #FBCC9E);
+border-radius: 25px !important;
+}
+.progress:nth-child(3) .progress-bar {
+background: linear-gradient(90deg, #cba64a, #FBCC9E);
+border-radius: 25px !important;
+}
+.progress:nth-child(4) .progress-bar {
+background: linear-gradient(90deg, #cba64a, #FBCC9E);
+border-radius: 25px !important;
+}
+.progress:nth-child(5) .progress-bar {
+background: linear-gradient(90deg, #cba64a, #FBCC9E);
+border-radius: 25px !important;
+}
+
+/* Bar Text */
+.progress div {
+color: #402A20 !important;
+}
+
+/* Comments Box (wip / rarely use) */
+
+#commentBox {
+background: linear-gradient(90deg, #cba64a, #FBCC9E) !important;
+border-radius: 12px !important;
+border: 1px solid #927630e3 !important;
+height: 220px !important;
+}
+
+div.comment {background: #ffffff00 !important;
+border-bottom: 0px;
+font-weight: bold;
+color: #402A20 ;}
+
+div#makeComment {background: #ffffff00 !important;
+border-radius: 10px;
+}
+
+input#comment {background: linear-gradient(90deg, #cba64a, #FBCC9E) !important;
+color: #402A20  !important;}
+
+small.text-muted {color: #995f45;}
+small.text-muted a {color: #FDF8EC;}
+
+input[type="button"].bad {background: #995f45 !important;}
+
+#commentBox::-webkit-scrollbar {
+width: 5px;
+height: 5px;  
+}
+#commentBox::-webkit-scrollbar-track {
+background: #FDF8EC;
+border-radius: 20px;  
+}
+#commentBox::-webkit-scrollbar-thumb {
+background: #78503D;
+border-radius: 10px; 
+}
+
+/* Chat CSS overrides */
+
+.s-chat-message:nth-child(even) {
+background: #cba64a;
+color: #735c24 !important;
+}
+.s-chat-message:nth-child(odd) {
+background: #FBCC9E;
+color: #9d7349 !important;
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: 	#78503D !important;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+color: #78503D;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher:hover {
+background: #FBCC9E;
+color: #78503D;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+background: #FBCC9E;
+color: #78503D;
+}
+
+.s-chat-message_claim {
+background: #78503D;
+border-bottom: 1px none #ffffff;
+color: #FDF8EC;
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #78503D !important;
+        color: 	#FDF8EC !important;
+	border: none !important;
+}
+
+/* Lion Info Table Panel */
+
+.table {
+background: linear-gradient(180deg, #c97550de, #f7d2afe3) !important;
+border: 1px solid #78503ddb !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+
+/* Lion Info Panel Headers */
+
+.table .top, .table th {
+background-color: #98664F;
+padding: 8px 20px;
+font-size: 15px;
+font-weight: normal;
+border-radius: 10px;
+font-family: 'Chonburi', display;
+}
+
+.table .bottom {
+text-align: center;
+background-color: #98664F;
+border-radius: 10px;
+font-family: 'Chonburi', display;
+}
+
+/* Code for Lead's Name Link on the Info Table */
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+color: #402A20;
+border-bottom: 1px none #ffffff00 !important;
+}
+.table .top a:hover, .table th a:hover {
+color: #FDF8EC;
+}
+
+/* Code for Link at bottom of Info Table, the number of muties in pride */
+
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+color: #402A20;
+text-decoration: none;
+}
+.table .bottom a:hover {
+text-decoration: none;
+color: #FDF8EC;
+}
+
+/* Color inside lion info panel box */
+
+.inner-table .left {
+background: #98664fdb !important;
+color: #FDF8EC !important;
+text-align: center;
+border-radius: 12px !important;
+font-family: 'Chonburi', display !important;
+font-size: 12px;
+}
+
+.inner-table .right {
+background: none;
+border-radius: 0px !important;
+text-align: center;
+}
+td.right {
+border-radius: 0px !important;
+}
+.right_odd {
+background: none !important;
+}
+
+/* Changes color behind Unsorted, Caves, etc */
+
+.cave-grid,
+.mound-grid {
+background: linear-gradient(90deg, #c97550, #f7d2af);
+border: solid !important;
+border-width: 0px !important;
+border-radius: 10px !important;
+}
+
+.cave-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+.mound-grid:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
+/* Feed All Play All */
+
+.feature {
+background: linear-gradient(180deg, #c97550, #f7d2af) !important;
+border-radius: 10px !important;
+}
+
+/* Dynasty, Beetle Book, etc */
+
+.feature,
+div.left {
+background: linear-gradient(180deg, #c97550, #f7d2af);
+border-radius: 20px;
+border: 1px solid #78503ddb !important;
+}
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+
+img[src$="den_beetlebook.png"] {
+background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/26076999_9el8oLpKRto3IpX.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 70% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+transform: scaleX(-1);
+}
+img[src$="den_showcase.png"] {
+background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/26076999_9el8oLpKRto3IpX.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 70% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+transform: scaleX(1);
+}
+img[src$="den_achievements.png"] {
+background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/26076999_9el8oLpKRto3IpX.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 70% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+transform: scaleX(-1);
+}
+img[src$="den_ancestorsfem.png"] {
+background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/26076999_9el8oLpKRto3IpX.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 70% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+transform: scaleX(1);
+}
+img[src$="den_ancestors.png"] {
+background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/26076999_9el8oLpKRto3IpX.png') !important;
+width: 0;
+height: 0;
+padding-top: 80px !important;
+padding-right: 30px;
+background-size: 70% !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+transform: scaleX(-1);
+}
+
+/* Block of color behind Territory Description, etc*/
+
+.table .left {
+background: none;
+border-radius: 0px;
+}
+
+input,
+select,
+textarea {
+background: #fdf8ece0 !important;
+border: none !important;
+border-radius: 15px !important;
+color: #402A20 !important;
+box-shadow: none !important;
+text-shadow: none !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+.footer {
+padding-top: 20px;
+margin-bottom: 30px;
+color: #ffffff !important;
+}
+.footer a:link, .footer a:visited, .footer a:active {
+color: #ffffff !important;
+border-bottom: 1px solid #ffffff;
+}
+
+/* Links */
+
+a:link, a:visited, a:active {
+color: #56392b;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #FDF8EC;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Scroll Bar Width, Backgound, Thumb */
+
+::-webkit-scrollbar {
+width: 10px;
+border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+background: #FDF8EC;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: #78503D;
+border-radius: 10px;
+}
+
+/* Lion Icon + Avatar Opacity */
+
+div#lion_image {
+opacity: 1;
+}
+table#player img {
+opacity: 1;
+}
+.table#player hr {
+border-top-color: #00000000;
+}
+
+/* Shape of Lion + User Avatar */
+
+div#lion_image {
+	border-radius: 10% !important;
+	overflow: hidden;
+	margin-top: 15px; 
+	margin-left: 12px;
+}
+
+table#player img {
+border-radius: 20% !important;
+overflow: hidden;
+}
+
+/* Logo Replacer */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.8upload.com/image/646a4d5796eb7eb1/30981444-ibmytfwftnrmdtt-removebg-preview.png');
+height: 150px;
+width: 135px;
+margin-top: -30px;
+}
+
+/* Cave + Mounds Pics */
+
+div.cave-grid > img {
+    height: 150px;
+    width: 260px !important;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://f2.toyhou.se/file/f2-toyhou-se/images/20589140_X7V4oFLhsdF56iX.png') !important;
+    max-width: 200px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://f2.toyhou.se/file/f2-toyhou-se/images/36551618_5ElXMJacTzhOJDZ.png') !important;
+    max-width: 200px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://i.8upload.com/image/fe07cbdbcb720c4f/69307566-erckm2ewoqaqdvm-removebg-preview.png') !important;
+    max-width: 200px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
+    content: url('https://f2.toyhou.se/file/f2-toyhou-se/images/20540768_ZzYkjgeSQjyae3l.png') !important;
+ 	max-width: 260px;
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.mound-grid img {
+background: url("https://f2.toyhou.se/file/f2-toyhou-se/images/34355124_amdsLvJrGf0cQje.png");
+width: 0;
+height: 0;
+padding-top: 56px;
+padding-right: 60px;
+background-size: contain;
+border-radius: 12px;
+margin-right: 1px;
+}
+
+.breadcrumb::after {
+content: "Edits by doge fruit (#45943)";
+color: #78503db0;
+position: absolute;
+font-size: 12px;
+right: 20%;
+z-index: 100;
+}
+
+/* pagedoll */
+.container.main::after {
+background-image: url('https://i.8upload.com/image/88222903b650f839/57682950-gatqqcotggzbfge-removebg-preview.png');
+background-size: cover;
+position: fixed;
+display: block;
+height: 300px;
+width: 310px;
+right: 0px;
+bottom: 0rem;
+z-index: 100;
+transform: scaleX(1);
+pointer-events:none;
+}
+
+.emoteList {
+background: linear-gradient(180deg, #cba64a, #FBCC9E);
+box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+border: 1px solid #7f6830db;
+border-radius: 10px;
+display: none;
+padding: 6px;
+position: absolute;
+text-align:center;
+top: 32px;
+width: 184px;
+min-height: 120px;
+}
+
+.BOX {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: #ffffff00;
+overflow: hidden;
+border-radius: 10px !important;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+border-radius: 10px !important;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: linear-gradient(180deg, #FBCC9E, #FDF8EC);
+transition: width 5.5s, height 5.5s;
+border-radius: 10px !important;
+}
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.block {
+    background: linear-gradient(180deg, #FBCC9E, #FDF8EC);
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block2 {
+    background: linear-gradient(180deg, #FBCC9E, #FDF8EC);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .block3 {
+    background: linear-gradient(180deg, #FBCC9E, #FDF8EC);
+    width: 250px;
+    height: 200px;
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    margin-left: -255px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+.sidescrollers {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.scroll1{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(180deg, #FBCC9E, #FDF8EC);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.scroll2{
+  border: 0px;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background: linear-gradient(180deg, #FBCC9E, #FDF8EC);
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+
+/* Boxes show on mobile */
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
