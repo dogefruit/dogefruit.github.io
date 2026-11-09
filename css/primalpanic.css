@@ -271,105 +271,103 @@ border-radius: 10px;
 /* Chat CSS overrides */
 
 .s-chat-message:nth-child(even) {
-background: #755d47d4;
-color: #23190D !important;
+background: #9c8632d6;
+color: #524616 !important;
 }
 
 .s-chat-message:nth-child(odd) {
-background: #b96e26d9;
-color: #f6d4a1 !important;
+background: #d6994ade;
+color: #6c4b1f !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: 	#F2F2F2 !important;
+	color: 	#DCD4C2 !important;
 }
 
 #fra_chatContainer .channelMenu .channelSwitcher {
-color: #6A3D14;
+color: #847043;
 }
-
 #fra_chatContainer .channelMenu .channelSwitcher:hover {
-background: #A5ACAA;
-color: #23190D;
+background: #DCD4C2;
+color: #b59a5c;
 }
-
 #fra_chatContainer .channelMenu .channelSwitcher.active {
-background: #A5ACAA;
-color: #23190D;
+background: #DCD4C2;
+color: #b59a5c;
 }
 
 .s-chat-message_claim {
-background: #F2F2F2;
+background: #DCD4C2;
 border-bottom: 1px solid #ffffff00;
-color: #6A3D14;
+color: #A97932;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: #6A3D14 !important;
-        color: 	#F2F2F2 !important;
+	background: #A97932 !important;
+        color: 	#DCD4C2 !important;
 	border: 1px solid #ffffff00 !important;
 }
 
 /* Lion Info Table Panel */
 
 .table {
-background: linear-gradient(180deg, #A78770, #F2BA67) !important;
-border: solid #6a3d149e !important;
+background: linear-gradient(180deg, #D2B059, #DCD4C2) !important;
+border: solid #A97932 !important;
 border-width: 2px !important;
 border-collapse: separate;
 border-radius: 10px;
-box-shadow: 1px 1px 2px #23190D!important;
+box-shadow: 1px 1px 2px #1F221B !important;
 }
 
 /* Lion Info Panel Headers */
 
 .table .top, .table th {
-background: linear-gradient(180deg, #6A3D14, #755D47);
+background: linear-gradient(180deg, #A97932, #C59541);
 padding: 8px 20px;
 font-size: 15px;
 font-weight: normal;
 border-radius: 10px;
-font-family: "Libre Bodoni", serif;
+font-family: 'Arima Madurai', display;
 }
 
 .table .bottom {
 text-align: center;
-background: linear-gradient(180deg, #6A3D14, #755D47);
+background: linear-gradient(180deg, #A97932, #C59541);
 border-radius: 10px;
-font-family: "Libre Bodoni", serif;
+font-family: 'Arima Madurai', display;
 }
 
 /* Code for Lead's Name Link on the Info Table */
 
 .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
-color: #F2F2F2;
+color: #6a5a36;
 border-bottom: 1px none #ffffff00 !important;
 }
 .table .top a:hover, .table th a:hover {
-color: #f6d4a1;
+color: #847043;
 transition: all 0.3s ease-in-out 0.2s;
 }
 
 /* Code for Link at bottom of Info Table, the number of muties in pride */
 
 .table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
-color: #F2F2F2;
+color: #6a5a36;
 text-decoration: none;
 }
 .table .bottom a:hover {
 text-decoration: none;
-color: #f6d4a1;
+color: #847043;
 transition: all 0.3s ease-in-out 0.2s;
 }
 
 /* Color inside lion info panel box */
 
 .inner-table .left {
-background: #b96e26c9 !important;
-color: #23190D !important;
+background: #9c8632ab !important;
+color: #6a5a36 !important;
 text-align: center;
 border-radius: 12px !important;
-font-family: "Libre Bodoni", serif !important;
+font-family: 'Arima Madurai', display !important;
 font-size: 13px;
 }
 
@@ -389,11 +387,11 @@ background: none !important;
 
 .cave-grid,
 .mound-grid {
-background: linear-gradient(90deg, #A78770, #F2BA67);
-border: solid #6A3D14 !important;
+background: linear-gradient(90deg, #D2B059, #DCD4C2);
+border: solid #A97932 !important;
 border-width: 1px !important;
 border-radius: 10px !important;
-box-shadow: 1px 1px 2px #23190D !important;
+box-shadow: 1px 1px 2px #1F221B !important;
 }
 
 .cave-grid:hover {
@@ -408,8 +406,8 @@ transition: transform .2s;
 /* Feed All Play All */
 
 .feature {
-background: linear-gradient(180deg, #A78770, #F2BA67) !important;
-border-color: #6A3D14 !important;
+background: linear-gradient(180deg, #D2B059, #DCD4C2) !important;
+border-color: #A97932 !important;
 border-style: solid !important;
 border-width: 1px !important;
 border-radius: 10px !important;
@@ -419,16 +417,16 @@ border-radius: 10px !important;
 
 .feature,
 div.left {
-background: linear-gradient(180deg, #A78770, #F2BA67);
-border: 1px solid #6A3D14;
+background: linear-gradient(180deg, #D2B059, #DCD4C2);
+border: 1px solid #A97932;
 border-radius: 20px !important;
-box-shadow: 1px 1px 2px #23190D !important;
+box-shadow: 1px 1px 2px #1F221B !important;
 }
 div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
 width: 20%;}
 
 img[src$="den_beetlebook.png"] {
-background: url('https://i.8upload.com/image/aa3f5f35c5c26c5a/leeef.png') !important;
+background: url('https://static.lioden.com/images/items/Other/mukombero.png') !important;
 width: 0;
 height: 0;
 padding-top: 60px !important;
@@ -438,7 +436,7 @@ background-position: 50% !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_showcase.png"] {
-background: url('https://i.8upload.com/image/aa3f5f35c5c26c5a/leeef.png') !important;
+background: url('https://static.lioden.com/images/items/Other/tailtufthair.png') !important;
 width: 0;
 height: 0;
 padding-top: 60px !important;
@@ -448,7 +446,7 @@ background-position: 50% !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_achievements.png"] {
-background: url('https://i.8upload.com/image/aa3f5f35c5c26c5a/leeef.png') !important;
+background: url('https://static.lioden.com/images/items/Other/lionstooth.png') !important;
 width: 0;
 height: 0;
 padding-top: 60px !important;
@@ -458,7 +456,7 @@ background-position: 50% !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestorsfem.png"] {
-background: url('https://i.8upload.com/image/aa3f5f35c5c26c5a/leeef.png') !important;
+background: url('https://static.lioden.com/images/items/Other/primaltooth.png') !important;
 width: 0;
 height: 0;
 padding-top: 60px !important;
@@ -468,7 +466,7 @@ background-position: 50% !important;
 background-repeat: no-repeat !important;
 }
 img[src$="den_ancestors.png"] {
-background: url('https://i.8upload.com/image/aa3f5f35c5c26c5a/leeef.png') !important;
+background: url('https://static.lioden.com/images/items/Other/lionsclaw.png') !important;
 width: 0;
 height: 0;
 padding-top: 60px !important;
@@ -487,10 +485,10 @@ border-radius: 0px;
 input,
 select,
 textarea {
-background: #f2f2f2d1 !important;
+background: #f3eee3 !important;
 border: none !important;
 border-radius: 10px !important;
-color: #6A3D14 !important;
+color: #805b25 !important;
 box-shadow: none !important;
 text-shadow: none !important;
 }
@@ -510,12 +508,12 @@ border-bottom: 1px solid #ffffff;
 /* Links */
 
 a:link, a:visited, a:active {
-color: #23190D;
+color: #1F221B;
 text-decoration: none;
 font-weight: bold;
 }
 a:hover {
-color: #F2F2F2;
+color: #564825;
 text-decoration: none;
 font-weight: bold;
 }
@@ -526,10 +524,10 @@ font-weight: bold;
 width: 10px;
 }
 ::-webkit-scrollbar-track {
-background: #F2F2F2;
+background: #DCD4C2;
 }
 ::-webkit-scrollbar-thumb {
-background: linear-gradient(180deg, #B96E26, #F2BA67);
+background: linear-gradient(180deg, #9C8632, #A97932);
 border-radius: 10px;
 }
 
@@ -562,13 +560,17 @@ overflow: hidden;
 /* Logo Replacer */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.8upload.com/image/bc75e22da339f7f9/headdeer.png');
+content: url('https://static.lioden.com/images/explorenew/shaman/ferusprimalday.png');
+height: 160px;
+width: 190px;
+margin-top: -30px;
+margin-right: -10px;
 }
 
 /* Cave + Mounds Pics */
 
 div.cave-grid > img {
-    height: 130px;
+    height: 145px;
     width: 200px;
     border-radius: 10px !important;
     margin-bottom: 3px;
@@ -576,7 +578,7 @@ div.cave-grid > img {
 }
 
 img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
-    content: url('https://bookbigsky.icnd-cdn.com/wp-content/uploads/2022/07/AdobeStock_162474191-1024x683.jpeg') !important;
+    content: url('https://i.8upload.com/image/4c7b661fa47842db/lioden-wardrobe-2.png') !important;
     max-width: 260px;
 	overflow: hidden;
 	padding: 0 0 5px 0;
@@ -584,7 +586,7 @@ img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
 	margin-bottom: 15px;
 }
 img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
-    content: url('https://store-images.s-microsoft.com/image/apps.9028.13840001127273308.bccb18ca-29da-427c-a19f-f2ab0e705675.6c69bc5c-68b8-4e23-a62a-30fdae6ddb63') !important;
+    content: url('https://i.8upload.com/image/d4f3acd83f0daa4f/lioden-wardrobe-1.png') !important;
     max-width: 260px;
 	overflow: hidden;
 	padding: 0 0 5px 0;
@@ -592,7 +594,7 @@ img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
 	margin-bottom: 15px;
 }
 img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
-    content: url('https://www.yellowstone.org/wp-content/uploads/2026/06/bull-bison-walking-sunset-may25-yf-ludin-matt-web.jpg') !important;
+    content: url('https://i.8upload.com/image/da79965c2026ffad/lioden-wardrobe-3.png') !important;
     max-width: 260px;
 	overflow: hidden;
 	padding: 0 0 5px 0;
@@ -600,7 +602,7 @@ img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
 	margin-bottom: 15px;
 }
 img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
-    content: url('https://h2.gifposter.com/bingImages/YellowstoneFalls_1920x1080.jpg') !important;
+    content: url('https://i.8upload.com/image/65633942ac306be3/lioden-wardrobe.png') !important;
  	max-width: 260px;
 	overflow: hidden;
 	padding: 0 0 5px 0;
@@ -608,41 +610,48 @@ img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
 	margin-bottom: 15px;
 }
 .mound-grid img {
-background: url("https://i.pinimg.com/736x/0a/1b/d7/0a1bd730c23bf2f2c63d86b7d0d65b34.jpg");
+background: url("https://static.lioden.com/images/explorenew/shaman/primalcubsday.png");
 width: 0;
 height: 0;
 padding-top: 70px;
 padding-right: 100px;
-background-size: cover;
+background-size: 260%;
+background-position: 50% !important;
+background-repeat: no-repeat;
 border-radius: 12px;
 }
 
 /* Adds little icons on energ / achievements / etc boxes */
 
 .col-xs-6 h3 .floatright {
-content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1afb7641-7462-47da-be5b-6cb05c72f51c/dblw4f4-98d933bc-20b8-43a0-b8c5-34cbdb7d7923.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xYWZiNzY0MS03NDYyLTQ3ZGEtYmU1Yi02Y2IwNWM3MmY1MWMvZGJsdzRmNC05OGQ5MzNiYy0yMGI4LTQzYTAtYjhjNS0zNGNiZGI3ZDc5MjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Oo4i50cC0lBTosHTd8B6xkaJ13zmtLhEZLp0AZKsQwY') !important;
+content: url('https://static.lioden.com/images/explorenew/shaman/femaleprimalday.png') !important;
 position: absolute !important;
-top: 10% !important;
-left: 70% !important;
+top: 5% !important;
+left: 30% !important;
 z-index: 1 !important;
+width: 270px;
+height: 175px;
+transform: scaleX(-1);
 margin-bottom: -40px;
 }
 div.col-xs-5> a:nth-child(1) > h3 > div {
-content: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1afb7641-7462-47da-be5b-6cb05c72f51c/dbm53my-25461457-62e4-4769-a27d-bba088a02993.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xYWZiNzY0MS03NDYyLTQ3ZGEtYmU1Yi02Y2IwNWM3MmY1MWMvZGJtNTNteS0yNTQ2MTQ1Ny02MmU0LTQ3NjktYTI3ZC1iYmEwODhhMDI5OTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.k4Q2uSjNy65rcOLlg-7KQrnXZFT1BOaQnriEiVmyOSQ");
+content: url("https://static.lioden.com/images/explorenew/shaman/smilusprimalday.png");
 position: absolute;
-left: 70%;
-top: 205px !important;
-z-index: 1;
+top: 15% !important;
+left: 30% !important;
+z-index: 1 !important;
+width: 270px;
+height: 175px;
 transform: scaleX(-1);
 }
 
 /* pagedoll */
 .container.main::after {
-background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31f17c88-f7ca-4165-a303-284e58572b9d/dbuf8gv-e5bf03a3-a6e8-4692-b5ba-277063f5271b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8zMWYxN2M4OC1mN2NhLTQxNjUtYTMwMy0yODRlNTg1NzJiOWQvZGJ1Zjhndi1lNWJmMDNhMy1hNmU4LTQ2OTItYjViYS0yNzcwNjNmNTI3MWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.McX7077lhoH6_z2rpK1Q-JP-fdm0T4QJW4pMyKB6X34');
+background-image: url('https://static.lioden.com/images/explorenew/shaman/felisprimalday.png');
 background-size: cover;
 position: fixed;
 display: block;
-height: 300px;
+height: 260px;
 width: 280px;
 right: 0px;
 bottom: 0rem;
@@ -652,17 +661,17 @@ pointer-events:none;
 
 .breadcrumb::after {
 content: "Edits by doge fruit (#45943)";
-color: #F2F2F2;
+color: #f1e9e9;
 position: absolute;
 font-size: 12px;
-right: 10%;
+right: 13%;
 z-index: 100;
 }
 
 .emoteList {
-background: linear-gradient(180deg, #B96E26, #F2BA67);
+background: linear-gradient(180deg, #D2B059, #DCD4C2);
 box-shadow: 0 1px 2px rgba(0,0,0,0.5);
-border: 1px solid #6A3D14;
+border: 1px solid #C59541;
 border-radius: 10px;
 display: none;
 padding: 6px;
@@ -695,7 +704,7 @@ border-radius: 10px !important;
 width: 510px;
 height: 56px;
 overflow:hidden;
-background-color: linear-gradient(180deg, #A78770, #F2BA67);
+background-color: linear-gradient(180deg, #f0df8b, #e6af4d);
 transition: width 5.5s, height 5.5s;
 border-radius: 10px !important;
 }
@@ -709,7 +718,7 @@ border-radius: 10px !important;
 }
 
 .block {
-    background: linear-gradient(180deg, #A78770, #F2BA67);
+    background: linear-gradient(180deg, #f0df8b, #e6af4d);
     width: 300px;
     height: 400px;
     border: 0px solid;
@@ -722,7 +731,7 @@ border-radius: 10px !important;
     padding: 10px;
   }
   .block2 {
-    background: linear-gradient(180deg, #A78770, #F2BA67);
+    background: linear-gradient(180deg, #f0df8b, #e6af4d);
     width: 250px;
     height: 200px;
     border: 0px solid;
@@ -735,7 +744,7 @@ border-radius: 10px !important;
     padding: 10px;
   }
   .block3 {
-    background: linear-gradient(180deg, #A78770, #F2BA67);
+    background: linear-gradient(180deg, #f0df8b, #e6af4d);
     width: 250px;
     height: 200px;
     border: 0px solid;
@@ -763,7 +772,7 @@ border-radius: 10px !important;
   height: 200px;
   text-align: center;
   margin: 10px;
-  background: linear-gradient(180deg, #A78770, #F2BA67);
+  background: linear-gradient(180deg, #f0df8b, #e6af4d);
   border-radius: 15px;
   padding: 15px;
   overflow: auto;
@@ -774,7 +783,7 @@ border-radius: 10px !important;
   height: 200px;
   text-align: center;
   margin: 10px;
-  background: linear-gradient(180deg, #A78770, #F2BA67);
+  background: linear-gradient(180deg, #f0df8b, #e6af4d);
   border-radius: 15px;
   padding: 15px;
   overflow: auto;
